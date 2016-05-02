@@ -28,92 +28,202 @@ body {
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script>
 
+/* Set margin and widths */
 var margin = {top: 20, right: 80, bottom: 30, left: 50},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
+/* Function to Set the date format */
 var parseDate = d3.time.format("%Y%m%d").parse;
 
-var x = d3.time.scale()
+/* Sets the range of scale to 0 - width of the chart */
+/* Range defines the area available to render the graph */
+/* Left to Right for x Axis */
+var xScale = d3.scale.linear()
     .range([0, width]);
 
-var y = d3.scale.linear()
+/* Sets the range of scale to height - 0 of the chart */
+/* Range defines the area available to render the graph */
+/* Top to Bottom for y Axis */
+var yScale = d3.scale.linear()
     .range([height, 0]);
 
+/* Sets the scale for colors */
 var color = d3.scale.category10();
 
+/* Creates axes */
+/* Scales for the axes are set to the scales created above */
+/* Orient sets the position of ticks & text w.r.t. axis path */
 var xAxis = d3.svg.axis()
-    .scale(x)
+    .scale(xScale)
     .orient("bottom");
 
+var xAxis_top = d3.svg.axis()
+    .scale(xScale)
+    .orient("top");
+
 var yAxis = d3.svg.axis()
-    .scale(y)
+    .scale(yScale)
     .orient("left");
 
+var yAxis_right = d3.svg.axis()
+    .scale(yScale)
+    .orient("right");
+
+/* Function to create the line for each data point */
+/* Interpolate specifies the shape of the line rendered */
+/* x and y for the datapoint are set according to the scales */
 var line = d3.svg.line()
     .interpolate("basis")
-    .x(function(d) { return x(d.date); })
-    .y(function(d) { return y(d.temperature); });
+    .x(function(d) { return xScale(d.week); })
+    .y(function(d) { return yScale(d.points); });
 
+/* Creates the SVG and bundles the grouped elements together based on margins */
+/* Selects the body tag from the html and appends SVG*/
+/* Sets the width and height of the SVG */
+/* Bundles the group elements based on margins */
 var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
-  .append("g")
+    .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.tsv("data.tsv", function(error, data) {
+/* Open data file and populate the chart*/
+d3.csv("data.csv", function(error, data) {
+  /* Throw error else continue */
   if (error) throw error;
 
-  color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
-
+  var teamName = data[0].team;
+  var teams = [];
+  var team = {};
+  var teamData = [];
+  /* Runs the parse date function to transform the data into desired format */
   data.forEach(function(d) {
-    d.date = parseDate(d.date);
+    if (d.team != teamName) {
+      team['values'] = teamData;
+      team['name'] = teamName;
+      teams.push(team);
+      team = {};
+      teamData = [];
+      teamName = d.team;
+    }
+    var dataPoint = {};
+    dataPoint['away_goals'] = d.away_goals;
+    dataPoint['away_team'] = d.away_team;
+    dataPoint['home_goals'] = d.home_goals;
+    dataPoint['home_team'] = d.home_team;
+    dataPoint['date2'] = d.date2;
+    dataPoint['points'] = +d.points;
+    dataPoint['week'] = +d.week;
+    teamData.push(dataPoint);
+    // d.date = parseDate(d.date);
   });
+  team['values'] = teamData;
+  team['name'] = teamName;
+  teams.push(team);
 
-  var cities = color.domain().map(function(name) {
-    return {
-      name: name,
-      values: data.map(function(d) {
-        return {date: d.date, temperature: +d[name]};
-      })
-    };
-  });
+  var teamNameList = d3.map(teams, function(d) { return d.name; }).keys();
+  console.log(teamNameList);
 
-  x.domain(d3.extent(data, function(d) { return d.date; }));
 
-  y.domain([
-    d3.min(cities, function(c) { return d3.min(c.values, function(v) { return v.temperature; }); }),
-    d3.max(cities, function(c) { return d3.max(c.values, function(v) { return v.temperature; }); })
+  /* Sets the domain for the color scale */
+  /* Assigns name of each category to a color */
+  color.domain(teamNameList);
+
+
+  /* Creates an array with each city having all the data. */
+  // var cities = color.domain().map(function(name) {
+  //   return {
+  //     name: name,
+  //     values: data.map(function(d) {
+  //       return {date: d.date, temperature: +d[name]};
+  //     })
+  //   };
+  // });
+
+  /* Defines the maximum and minimum values for the x scale */
+  xScale.domain([
+    d3.min(teams, function(c) { return d3.min(c.values, function(v) { return v.week; }); }),
+    d3.max(teams, function(c) { return d3.max(c.values, function(v) { return v.week; }); })
   ]);
 
+  /* Defines the maximum and minimum values for the y scale */
+  yScale.domain([
+    d3.min(teams, function(c) { return d3.min(c.values, function(v) { return v.points; }); }),
+    d3.max(teams, function(c) { return d3.max(c.values, function(v) { return v.points; }); })
+  ]);
+
+
+  /* Append the x axis to the svg */
+  /* attr "class" adds the class name to the axes element */
+  /* attr "transform" positions the axes element */
   svg.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis);
 
+  /* Append the y axis to the svg */
+  /* attr "class" adds the class name to the axes element */
+  /* Appends the text to the axes */
+  /* attr "rotate" rotates the text element */
+  /* attr "y" positions the text element absolutely away from the y axes */
+  /* attr "dy" positions the text element relatively away from the y axes */
+  /* attr "text-anchor" positions the text element. "end" positions it such
+     that the end of the text aligns with the start position for the text */
   svg.append("g")
       .attr("class", "y axis")
       .call(yAxis)
-    .append("text")
+      .append("text")
       .attr("transform", "rotate(-90)")
       .attr("y", 6)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
-      .text("Temperature (ºF)");
+      .text("Points");
 
-  var city = svg.selectAll(".city")
-      .data(cities)
-    .enter().append("g")
-      .attr("class", "city");
+  /* Creates svg groups for all the data points and adds class name "city" */
+  var team = svg.selectAll(".team")
+      .data(teams)
+      .enter().append("g")
+      .attr("class", "team");
 
-  city.append("path")
+  // team.selectAll(".team")
+  //     .enter().append("circle")
+  //     .attr("r", 5)
+  //     .attr("cx", function(d) { return d.week; })
+  //     .attr("cy", function(d) { return d.points; });
+
+  /* Plots the line for each data point */
+  team.append("path")
       .attr("class", "line")
       .attr("d", function(d) { return line(d.values); })
-      .style("stroke", function(d) { return color(d.name); });
+      .style("stroke", function(d) { return color(d.name); })
+      .style("stroke-width", 2)
+      .on("mouseover", function(d){
+                var that = this;
 
-  city.append("text")
+                d3.selectAll(".line")
+                  .transition().duration(100)
+                  .style("opacity", 0.1);
+
+                  d3.select(that)
+                    .transition().duration(100)
+                    .style("opacity", 1);
+              })
+      .on("mouseout", function(d){
+
+                d3.selectAll(".line")
+                  .transition().duration(100)
+                  .style("opacity", 1);
+
+              });
+
+  /* Adds the text towards the end */
+  /* datum gets the data point name and the value of the last data point */
+  /* transform positions the text based on the location of the data point */
+  /* x and dy are relative positions fo the text */
+  team.append("text")
       .datum(function(d) { return {name: d.name, value: d.values[d.values.length - 1]}; })
-      .attr("transform", function(d) { return "translate(" + x(d.value.date) + "," + y(d.value.temperature) + ")"; })
+      .attr("transform", function(d) { return "translate(" + xScale(d.value.week) + "," + yScale(d.value.points) + ")"; })
       .attr("x", 3)
       .attr("dy", ".35em")
       .text(function(d) { return d.name; });
