@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Network Graph</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div ng-app="mainApp" ng-controller="MainCtrl as chart">
+    <h2>How to use this visualization:</h2>
+    <ul type="disk">
+        <li>Select the season.</li>
+        <li>Double click on a team to view its relative performance in the season.</li>
+        <li>Click and drag any of the teams to view the data clearly.</li>
+        <li>Hover on lines/circles for more info.</li>
+    </ul>
+    <h3>Select Year:
+      <!--Binds options to radar.examples. Binds selected item to example selected. Fires change method with the selected example.-->
+      <select ng-options="example for example in chart.seasons_network" ng-model="chart.seasonSelected_network" ng-change="chart.selectSeason_network(chart.seasonSelected_network)"></select>
+    </h3>
+   
+
+  </div>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src = "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+  <script src="app.js"></script>
+  <script src="network.js"></script>
+</body>

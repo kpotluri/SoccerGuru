@@ -1,0 +1,761 @@
+,home_team,home_goals,away_team,away_goals,date2,team,week,points
+0,Liverpool,1,Arsenal,1,2010-08-15,Arsenal,1,1
+1,Arsenal,6,Blackpool,0,2010-08-21,Arsenal,2,4
+2,Blackburn,1,Arsenal,2,2010-08-28,Arsenal,3,7
+3,Arsenal,4,Bolton,1,2010-09-11,Arsenal,4,10
+4,Sunderland,1,Arsenal,1,2010-09-18,Arsenal,5,11
+5,Arsenal,2,West Brom,3,2010-09-25,Arsenal,6,11
+6,Chelsea,2,Arsenal,0,2010-10-03,Arsenal,7,11
+7,Arsenal,2,Birmingham,1,2010-10-16,Arsenal,8,14
+8,Man City,0,Arsenal,3,2010-10-24,Arsenal,9,17
+9,Arsenal,1,West Ham,0,2010-10-30,Arsenal,10,20
+10,Arsenal,0,Newcastle,1,2010-11-07,Arsenal,11,20
+11,Wolves,0,Arsenal,2,2010-11-10,Arsenal,12,23
+12,Everton,1,Arsenal,2,2010-11-14,Arsenal,13,26
+13,Arsenal,2,Spurs,3,2010-11-20,Arsenal,14,26
+14,Aston Villa,2,Arsenal,4,2010-11-27,Arsenal,15,29
+15,Arsenal,2,Fulham,1,2010-12-04,Arsenal,16,32
+16,Man Utd,1,Arsenal,0,2010-12-13,Arsenal,17,32
+17,Arsenal,3,Chelsea,1,2010-12-27,Arsenal,18,35
+18,Wigan,2,Arsenal,2,2010-12-29,Arsenal,19,36
+19,Birmingham,0,Arsenal,3,2011-01-01,Arsenal,20,39
+20,Arsenal,0,Man City,0,2011-01-05,Arsenal,21,40
+21,West Ham,0,Arsenal,3,2011-01-15,Arsenal,22,43
+22,Arsenal,3,Wigan,0,2011-01-22,Arsenal,23,46
+23,Arsenal,2,Everton,1,2011-02-01,Arsenal,24,49
+24,Newcastle,4,Arsenal,4,2011-02-05,Arsenal,25,50
+25,Arsenal,2,Wolves,0,2011-02-12,Arsenal,26,53
+26,Arsenal,1,Stoke,0,2011-02-23,Arsenal,27,56
+27,Arsenal,0,Sunderland,0,2011-03-05,Arsenal,28,57
+28,West Brom,2,Arsenal,2,2011-03-19,Arsenal,29,58
+29,Arsenal,0,Blackburn,0,2011-04-02,Arsenal,30,59
+30,Blackpool,1,Arsenal,3,2011-04-10,Arsenal,31,62
+31,Arsenal,1,Liverpool,1,2011-04-17,Arsenal,32,63
+32,Spurs,3,Arsenal,3,2011-04-20,Arsenal,33,64
+33,Bolton,2,Arsenal,1,2011-04-24,Arsenal,34,64
+34,Arsenal,1,Man Utd,0,2011-05-01,Arsenal,35,67
+35,Stoke,3,Arsenal,1,2011-05-08,Arsenal,36,67
+36,Arsenal,1,Aston Villa,2,2011-05-15,Arsenal,37,67
+37,Fulham,2,Arsenal,2,2011-05-22,Arsenal,38,68
+38,Aston Villa,3,West Ham,0,2010-08-14,Aston Villa,1,3
+39,Newcastle,6,Aston Villa,0,2010-08-22,Aston Villa,2,3
+40,Aston Villa,1,Everton,0,2010-08-29,Aston Villa,3,6
+41,Stoke,2,Aston Villa,1,2010-09-13,Aston Villa,4,6
+42,Aston Villa,1,Bolton,1,2010-09-18,Aston Villa,5,7
+43,Wolves,1,Aston Villa,2,2010-09-26,Aston Villa,6,10
+44,Spurs,2,Aston Villa,1,2010-10-02,Aston Villa,7,10
+45,Aston Villa,0,Chelsea,0,2010-10-16,Aston Villa,8,11
+46,Sunderland,1,Aston Villa,0,2010-10-23,Aston Villa,9,11
+47,Aston Villa,0,Birmingham,0,2010-10-31,Aston Villa,10,12
+48,Fulham,1,Aston Villa,1,2010-11-06,Aston Villa,11,13
+49,Aston Villa,3,Blackpool,2,2010-11-10,Aston Villa,12,16
+50,Aston Villa,2,Man Utd,2,2010-11-13,Aston Villa,13,17
+51,Blackburn,2,Aston Villa,0,2010-11-21,Aston Villa,14,17
+52,Aston Villa,2,Arsenal,4,2010-11-27,Aston Villa,15,17
+53,Liverpool,3,Aston Villa,0,2010-12-06,Aston Villa,16,17
+54,Aston Villa,2,West Brom,1,2010-12-11,Aston Villa,17,20
+55,Aston Villa,1,Spurs,2,2010-12-26,Aston Villa,18,20
+56,Man City,4,Aston Villa,0,2010-12-28,Aston Villa,19,20
+57,Chelsea,3,Aston Villa,3,2011-01-02,Aston Villa,20,21
+58,Aston Villa,0,Sunderland,1,2011-01-05,Aston Villa,21,21
+59,Birmingham,1,Aston Villa,1,2011-01-16,Aston Villa,22,22
+60,Aston Villa,1,Man City,0,2011-01-22,Aston Villa,23,25
+61,Wigan,1,Aston Villa,2,2011-01-25,Aston Villa,24,28
+62,Man Utd,3,Aston Villa,1,2011-02-01,Aston Villa,25,28
+63,Aston Villa,2,Fulham,2,2011-02-05,Aston Villa,26,29
+64,Blackpool,1,Aston Villa,1,2011-02-12,Aston Villa,27,30
+65,Aston Villa,4,Blackburn,1,2011-02-26,Aston Villa,28,33
+66,Bolton,3,Aston Villa,2,2011-03-05,Aston Villa,29,33
+67,Aston Villa,0,Wolves,1,2011-03-19,Aston Villa,30,33
+68,Everton,2,Aston Villa,2,2011-04-02,Aston Villa,31,34
+69,Aston Villa,1,Newcastle,0,2011-04-10,Aston Villa,32,37
+70,West Ham,1,Aston Villa,2,2011-04-16,Aston Villa,33,40
+71,Aston Villa,1,Stoke,1,2011-04-23,Aston Villa,34,41
+72,West Brom,2,Aston Villa,1,2011-04-30,Aston Villa,35,41
+73,Aston Villa,1,Wigan,1,2011-05-07,Aston Villa,36,42
+74,Arsenal,1,Aston Villa,2,2011-05-15,Aston Villa,37,45
+75,Aston Villa,1,Liverpool,0,2011-05-22,Aston Villa,38,48
+76,Sunderland,2,Birmingham,2,2010-08-14,Birmingham,1,1
+77,Birmingham,2,Blackburn,1,2010-08-21,Birmingham,2,4
+78,Bolton,2,Birmingham,2,2010-08-29,Birmingham,3,5
+79,Birmingham,0,Liverpool,0,2010-09-12,Birmingham,4,6
+80,West Brom,3,Birmingham,1,2010-09-18,Birmingham,5,6
+81,Birmingham,0,Wigan,0,2010-09-25,Birmingham,6,7
+82,Birmingham,0,Everton,2,2010-10-02,Birmingham,7,7
+83,Arsenal,2,Birmingham,1,2010-10-16,Birmingham,8,7
+84,Birmingham,2,Blackpool,0,2010-10-23,Birmingham,9,10
+85,Aston Villa,0,Birmingham,0,2010-10-31,Birmingham,10,11
+86,Birmingham,2,West Ham,2,2010-11-06,Birmingham,11,12
+87,Stoke,3,Birmingham,2,2010-11-09,Birmingham,12,12
+88,Man City,0,Birmingham,0,2010-11-13,Birmingham,13,13
+89,Birmingham,1,Chelsea,0,2010-11-20,Birmingham,14,16
+90,Fulham,1,Birmingham,1,2010-11-27,Birmingham,15,17
+91,Birmingham,1,Spurs,1,2010-12-04,Birmingham,16,18
+92,Wolves,1,Birmingham,0,2010-12-12,Birmingham,17,18
+93,Birmingham,1,Man Utd,1,2010-12-28,Birmingham,18,19
+94,Birmingham,0,Arsenal,3,2011-01-01,Birmingham,19,19
+95,Blackpool,1,Birmingham,2,2011-01-04,Birmingham,20,22
+96,Birmingham,1,Aston Villa,1,2011-01-16,Birmingham,21,23
+97,Man Utd,5,Birmingham,0,2011-01-22,Birmingham,22,23
+98,Birmingham,2,Man City,2,2011-02-02,Birmingham,23,24
+99,West Ham,0,Birmingham,1,2011-02-06,Birmingham,24,27
+100,Birmingham,1,Stoke,0,2011-02-12,Birmingham,25,30
+101,Birmingham,0,Newcastle,2,2011-02-15,Birmingham,26,30
+102,Birmingham,1,West Brom,3,2011-03-05,Birmingham,27,30
+103,Everton,1,Birmingham,1,2011-03-09,Birmingham,28,31
+104,Wigan,2,Birmingham,1,2011-03-19,Birmingham,29,31
+105,Birmingham,2,Bolton,1,2011-04-02,Birmingham,30,34
+106,Blackburn,1,Birmingham,1,2011-04-09,Birmingham,31,35
+107,Birmingham,2,Sunderland,0,2011-04-16,Birmingham,32,38
+108,Chelsea,3,Birmingham,1,2011-04-20,Birmingham,33,38
+109,Liverpool,5,Birmingham,0,2011-04-23,Birmingham,34,38
+110,Birmingham,1,Wolves,1,2011-05-01,Birmingham,35,39
+111,Newcastle,2,Birmingham,1,2011-05-07,Birmingham,36,39
+112,Birmingham,0,Fulham,2,2011-05-15,Birmingham,37,39
+113,Spurs,2,Birmingham,1,2011-05-22,Birmingham,38,39
+114,Blackburn,1,Everton,0,2010-08-14,Blackburn,1,3
+115,Birmingham,2,Blackburn,1,2010-08-21,Blackburn,2,3
+116,Blackburn,1,Arsenal,2,2010-08-28,Blackburn,3,3
+117,Man City,1,Blackburn,1,2010-09-11,Blackburn,4,4
+118,Blackburn,1,Fulham,1,2010-09-18,Blackburn,5,5
+119,Blackpool,1,Blackburn,2,2010-09-25,Blackburn,6,8
+120,Stoke,1,Blackburn,0,2010-10-02,Blackburn,7,8
+121,Blackburn,0,Sunderland,0,2010-10-18,Blackburn,8,9
+122,Liverpool,2,Blackburn,1,2010-10-24,Blackburn,9,9
+123,Blackburn,1,Chelsea,2,2010-10-30,Blackburn,10,9
+124,Blackburn,2,Wigan,1,2010-11-06,Blackburn,11,12
+125,Newcastle,1,Blackburn,2,2010-11-10,Blackburn,12,15
+126,Spurs,4,Blackburn,2,2010-11-13,Blackburn,13,15
+127,Blackburn,2,Aston Villa,0,2010-11-21,Blackburn,14,18
+128,Man Utd,7,Blackburn,1,2010-11-27,Blackburn,15,18
+129,Blackburn,3,Wolves,0,2010-12-04,Blackburn,16,21
+130,Bolton,2,Blackburn,1,2010-12-12,Blackburn,17,21
+131,Blackburn,1,West Ham,1,2010-12-18,Blackburn,18,22
+132,Blackburn,0,Stoke,2,2010-12-26,Blackburn,19,22
+133,West Brom,1,Blackburn,3,2010-12-28,Blackburn,20,25
+134,Sunderland,3,Blackburn,0,2011-01-01,Blackburn,21,25
+135,Blackburn,3,Liverpool,1,2011-01-05,Blackburn,22,28
+136,Chelsea,2,Blackburn,0,2011-01-15,Blackburn,23,28
+137,Blackburn,2,West Brom,0,2011-01-23,Blackburn,24,31
+138,Blackburn,0,Spurs,1,2011-02-02,Blackburn,25,31
+139,Wigan,4,Blackburn,3,2011-02-05,Blackburn,26,31
+140,Blackburn,0,Newcastle,0,2011-02-12,Blackburn,27,32
+141,Aston Villa,4,Blackburn,1,2011-02-26,Blackburn,28,32
+142,Fulham,3,Blackburn,2,2011-03-05,Blackburn,29,32
+143,Blackburn,2,Blackpool,2,2011-03-19,Blackburn,30,33
+144,Arsenal,0,Blackburn,0,2011-04-02,Blackburn,31,34
+145,Blackburn,1,Birmingham,1,2011-04-09,Blackburn,32,35
+146,Everton,2,Blackburn,0,2011-04-16,Blackburn,33,35
+147,Blackburn,0,Man City,1,2011-04-25,Blackburn,34,35
+148,Blackburn,1,Bolton,0,2011-04-30,Blackburn,35,38
+149,West Ham,1,Blackburn,1,2011-05-07,Blackburn,36,39
+150,Blackburn,1,Man Utd,1,2011-05-14,Blackburn,37,40
+151,Wolves,2,Blackburn,3,2011-05-22,Blackburn,38,43
+152,Wigan,0,Blackpool,4,2010-08-14,Blackpool,1,3
+153,Arsenal,6,Blackpool,0,2010-08-21,Blackpool,2,3
+154,Blackpool,2,Fulham,2,2010-08-28,Blackpool,3,4
+155,Newcastle,0,Blackpool,2,2010-09-11,Blackpool,4,7
+156,Chelsea,4,Blackpool,0,2010-09-19,Blackpool,5,7
+157,Blackpool,1,Blackburn,2,2010-09-25,Blackpool,6,7
+158,Liverpool,1,Blackpool,2,2010-10-03,Blackpool,7,10
+159,Blackpool,2,Man City,3,2010-10-17,Blackpool,8,10
+160,Birmingham,2,Blackpool,0,2010-10-23,Blackpool,9,10
+161,Blackpool,2,West Brom,1,2010-11-01,Blackpool,10,13
+162,Blackpool,2,Everton,2,2010-11-06,Blackpool,11,14
+163,Aston Villa,3,Blackpool,2,2010-11-10,Blackpool,12,14
+164,West Ham,0,Blackpool,0,2010-11-13,Blackpool,13,15
+165,Blackpool,2,Wolves,1,2010-11-20,Blackpool,14,18
+166,Bolton,2,Blackpool,2,2010-11-27,Blackpool,15,19
+167,Stoke,0,Blackpool,1,2010-12-11,Blackpool,16,22
+168,Sunderland,0,Blackpool,2,2010-12-28,Blackpool,17,25
+169,Man City,1,Blackpool,0,2011-01-01,Blackpool,18,25
+170,Blackpool,1,Birmingham,2,2011-01-04,Blackpool,19,25
+171,Blackpool,2,Liverpool,1,2011-01-12,Blackpool,20,28
+172,West Brom,3,Blackpool,2,2011-01-15,Blackpool,21,28
+173,Blackpool,1,Sunderland,2,2011-01-22,Blackpool,22,28
+174,Blackpool,2,Man Utd,3,2011-01-25,Blackpool,23,28
+175,Blackpool,1,West Ham,3,2011-02-02,Blackpool,24,28
+176,Everton,5,Blackpool,3,2011-02-05,Blackpool,25,28
+177,Blackpool,1,Aston Villa,1,2011-02-12,Blackpool,26,29
+178,Blackpool,3,Spurs,1,2011-02-22,Blackpool,27,32
+179,Wolves,4,Blackpool,0,2011-02-26,Blackpool,28,32
+180,Blackpool,1,Chelsea,3,2011-03-07,Blackpool,29,32
+181,Blackburn,2,Blackpool,2,2011-03-19,Blackpool,30,33
+182,Fulham,3,Blackpool,0,2011-04-03,Blackpool,31,33
+183,Blackpool,1,Arsenal,3,2011-04-10,Blackpool,32,33
+184,Blackpool,1,Wigan,3,2011-04-16,Blackpool,33,33
+185,Blackpool,1,Newcastle,1,2011-04-23,Blackpool,34,34
+186,Blackpool,0,Stoke,0,2011-04-30,Blackpool,35,35
+187,Spurs,1,Blackpool,1,2011-05-07,Blackpool,36,36
+188,Blackpool,4,Bolton,3,2011-05-14,Blackpool,37,39
+189,Man Utd,4,Blackpool,2,2011-05-22,Blackpool,38,39
+190,Bolton,0,Fulham,0,2010-08-14,Bolton,1,1
+191,West Ham,1,Bolton,3,2010-08-21,Bolton,2,4
+192,Bolton,2,Birmingham,2,2010-08-29,Bolton,3,5
+193,Arsenal,4,Bolton,1,2010-09-11,Bolton,4,5
+194,Aston Villa,1,Bolton,1,2010-09-18,Bolton,5,6
+195,Bolton,2,Man Utd,2,2010-09-26,Bolton,6,7
+196,West Brom,1,Bolton,1,2010-10-02,Bolton,7,8
+197,Bolton,2,Stoke,1,2010-10-16,Bolton,8,11
+198,Wigan,1,Bolton,1,2010-10-23,Bolton,9,12
+199,Bolton,0,Liverpool,1,2010-10-31,Bolton,10,12
+200,Bolton,4,Spurs,2,2010-11-06,Bolton,11,15
+201,Everton,1,Bolton,1,2010-11-10,Bolton,12,16
+202,Wolves,2,Bolton,3,2010-11-13,Bolton,13,19
+203,Bolton,5,Newcastle,1,2010-11-20,Bolton,14,22
+204,Bolton,2,Blackpool,2,2010-11-27,Bolton,15,23
+205,Man City,1,Bolton,0,2010-12-04,Bolton,16,23
+206,Bolton,2,Blackburn,1,2010-12-12,Bolton,17,26
+207,Sunderland,1,Bolton,0,2010-12-18,Bolton,18,26
+208,Bolton,2,West Brom,0,2010-12-26,Bolton,19,29
+209,Chelsea,1,Bolton,0,2010-12-29,Bolton,20,29
+210,Liverpool,2,Bolton,1,2011-01-01,Bolton,21,29
+211,Bolton,1,Wigan,1,2011-01-05,Bolton,22,30
+212,Stoke,2,Bolton,0,2011-01-15,Bolton,23,30
+213,Bolton,0,Chelsea,4,2011-01-24,Bolton,24,30
+214,Bolton,1,Wolves,0,2011-02-02,Bolton,25,33
+215,Spurs,2,Bolton,1,2011-02-05,Bolton,26,33
+216,Bolton,2,Everton,0,2011-02-13,Bolton,27,36
+217,Newcastle,1,Bolton,1,2011-02-26,Bolton,28,37
+218,Bolton,3,Aston Villa,2,2011-03-05,Bolton,29,40
+219,Man Utd,1,Bolton,0,2011-03-19,Bolton,30,40
+220,Birmingham,2,Bolton,1,2011-04-02,Bolton,31,40
+221,Bolton,3,West Ham,0,2011-04-09,Bolton,32,43
+222,Bolton,2,Arsenal,1,2011-04-24,Bolton,33,46
+223,Fulham,3,Bolton,0,2011-04-27,Bolton,34,46
+224,Blackburn,1,Bolton,0,2011-04-30,Bolton,35,46
+225,Bolton,1,Sunderland,2,2011-05-07,Bolton,36,46
+226,Blackpool,4,Bolton,3,2011-05-14,Bolton,37,46
+227,Bolton,0,Man City,2,2011-05-22,Bolton,38,46
+228,Chelsea,6,West Brom,0,2010-08-14,Chelsea,1,3
+229,Wigan,0,Chelsea,6,2010-08-21,Chelsea,2,6
+230,Chelsea,2,Stoke,0,2010-08-28,Chelsea,3,9
+231,West Ham,1,Chelsea,3,2010-09-11,Chelsea,4,12
+232,Chelsea,4,Blackpool,0,2010-09-19,Chelsea,5,15
+233,Man City,1,Chelsea,0,2010-09-25,Chelsea,6,15
+234,Chelsea,2,Arsenal,0,2010-10-03,Chelsea,7,18
+235,Aston Villa,0,Chelsea,0,2010-10-16,Chelsea,8,19
+236,Chelsea,2,Wolves,0,2010-10-23,Chelsea,9,22
+237,Blackburn,1,Chelsea,2,2010-10-30,Chelsea,10,25
+238,Liverpool,2,Chelsea,0,2010-11-07,Chelsea,11,25
+239,Chelsea,1,Fulham,0,2010-11-10,Chelsea,12,28
+240,Chelsea,0,Sunderland,3,2010-11-14,Chelsea,13,28
+241,Birmingham,1,Chelsea,0,2010-11-20,Chelsea,14,28
+242,Newcastle,1,Chelsea,1,2010-11-28,Chelsea,15,29
+243,Chelsea,1,Everton,1,2010-12-04,Chelsea,16,30
+244,Spurs,1,Chelsea,1,2010-12-12,Chelsea,17,31
+245,Arsenal,3,Chelsea,1,2010-12-27,Chelsea,18,31
+246,Chelsea,1,Bolton,0,2010-12-29,Chelsea,19,34
+247,Chelsea,3,Aston Villa,3,2011-01-02,Chelsea,20,35
+248,Wolves,1,Chelsea,0,2011-01-05,Chelsea,21,35
+249,Chelsea,2,Blackburn,0,2011-01-15,Chelsea,22,38
+250,Bolton,0,Chelsea,4,2011-01-24,Chelsea,23,41
+251,Sunderland,2,Chelsea,4,2011-02-01,Chelsea,24,44
+252,Chelsea,0,Liverpool,1,2011-02-06,Chelsea,25,44
+253,Fulham,0,Chelsea,0,2011-02-14,Chelsea,26,45
+254,Chelsea,2,Man Utd,1,2011-03-01,Chelsea,27,48
+255,Blackpool,1,Chelsea,3,2011-03-07,Chelsea,28,51
+256,Chelsea,2,Man City,0,2011-03-20,Chelsea,29,54
+257,Stoke,1,Chelsea,1,2011-04-02,Chelsea,30,55
+258,Chelsea,1,Wigan,0,2011-04-09,Chelsea,31,58
+259,West Brom,1,Chelsea,3,2011-04-16,Chelsea,32,61
+260,Chelsea,3,Birmingham,1,2011-04-20,Chelsea,33,64
+261,Chelsea,3,West Ham,0,2011-04-23,Chelsea,34,67
+262,Chelsea,2,Spurs,1,2011-04-30,Chelsea,35,70
+263,Man Utd,2,Chelsea,1,2011-05-08,Chelsea,36,70
+264,Chelsea,2,Newcastle,2,2011-05-15,Chelsea,37,71
+265,Everton,1,Chelsea,0,2011-05-22,Chelsea,38,71
+266,Blackburn,1,Everton,0,2010-08-14,Everton,1,0
+267,Everton,1,Wolves,1,2010-08-21,Everton,2,1
+268,Aston Villa,1,Everton,0,2010-08-29,Everton,3,1
+269,Everton,3,Man Utd,3,2010-09-11,Everton,4,2
+270,Everton,0,Newcastle,1,2010-09-18,Everton,5,2
+271,Fulham,0,Everton,0,2010-09-25,Everton,6,3
+272,Birmingham,0,Everton,2,2010-10-02,Everton,7,6
+273,Everton,2,Liverpool,0,2010-10-17,Everton,8,9
+274,Spurs,1,Everton,1,2010-10-23,Everton,9,10
+275,Everton,1,Stoke,0,2010-10-30,Everton,10,13
+276,Blackpool,2,Everton,2,2010-11-06,Everton,11,14
+277,Everton,1,Bolton,1,2010-11-10,Everton,12,15
+278,Everton,1,Arsenal,2,2010-11-14,Everton,13,15
+279,Sunderland,2,Everton,2,2010-11-22,Everton,14,16
+280,Everton,1,West Brom,4,2010-11-27,Everton,15,16
+281,Chelsea,1,Everton,1,2010-12-04,Everton,16,17
+282,Everton,0,Wigan,0,2010-12-11,Everton,17,18
+283,Man City,1,Everton,2,2010-12-20,Everton,18,21
+284,West Ham,1,Everton,1,2010-12-28,Everton,19,22
+285,Stoke,2,Everton,0,2011-01-01,Everton,20,22
+286,Everton,2,Spurs,1,2011-01-05,Everton,21,25
+287,Liverpool,2,Everton,2,2011-01-16,Everton,22,26
+288,Everton,2,West Ham,2,2011-01-22,Everton,23,27
+289,Arsenal,2,Everton,1,2011-02-01,Everton,24,27
+290,Everton,5,Blackpool,3,2011-02-05,Everton,25,30
+291,Bolton,2,Everton,0,2011-02-13,Everton,26,30
+292,Everton,2,Sunderland,0,2011-02-26,Everton,27,33
+293,Newcastle,1,Everton,2,2011-03-05,Everton,28,36
+294,Everton,1,Birmingham,1,2011-03-09,Everton,29,37
+295,Everton,2,Fulham,1,2011-03-19,Everton,30,40
+296,Everton,2,Aston Villa,2,2011-04-02,Everton,31,41
+297,Wolves,0,Everton,3,2011-04-09,Everton,32,44
+298,Everton,2,Blackburn,0,2011-04-16,Everton,33,47
+299,Man Utd,1,Everton,0,2011-04-23,Everton,34,47
+300,Wigan,1,Everton,1,2011-04-30,Everton,35,48
+301,Everton,2,Man City,1,2011-05-07,Everton,36,51
+302,West Brom,1,Everton,0,2011-05-14,Everton,37,51
+303,Everton,1,Chelsea,0,2011-05-22,Everton,38,54
+304,Bolton,0,Fulham,0,2010-08-14,Fulham,1,1
+305,Fulham,2,Man Utd,2,2010-08-22,Fulham,2,2
+306,Blackpool,2,Fulham,2,2010-08-28,Fulham,3,3
+307,Fulham,2,Wolves,1,2010-09-11,Fulham,4,6
+308,Blackburn,1,Fulham,1,2010-09-18,Fulham,5,7
+309,Fulham,0,Everton,0,2010-09-25,Fulham,6,8
+310,West Ham,1,Fulham,1,2010-10-02,Fulham,7,9
+311,Fulham,1,Spurs,2,2010-10-16,Fulham,8,9
+312,West Brom,2,Fulham,1,2010-10-23,Fulham,9,9
+313,Fulham,2,Wigan,0,2010-10-30,Fulham,10,12
+314,Fulham,1,Aston Villa,1,2010-11-06,Fulham,11,13
+315,Chelsea,1,Fulham,0,2010-11-10,Fulham,12,13
+316,Newcastle,0,Fulham,0,2010-11-13,Fulham,13,14
+317,Fulham,1,Man City,4,2010-11-21,Fulham,14,14
+318,Fulham,1,Birmingham,1,2010-11-27,Fulham,15,15
+319,Arsenal,2,Fulham,1,2010-12-04,Fulham,16,15
+320,Fulham,0,Sunderland,0,2010-12-11,Fulham,17,16
+321,Fulham,1,West Ham,3,2010-12-26,Fulham,18,16
+322,Stoke,0,Fulham,2,2010-12-28,Fulham,19,19
+323,Spurs,1,Fulham,0,2011-01-01,Fulham,20,19
+324,Fulham,3,West Brom,0,2011-01-04,Fulham,21,22
+325,Wigan,1,Fulham,1,2011-01-15,Fulham,22,23
+326,Fulham,2,Stoke,0,2011-01-22,Fulham,23,26
+327,Liverpool,1,Fulham,0,2011-01-26,Fulham,24,26
+328,Fulham,1,Newcastle,0,2011-02-02,Fulham,25,29
+329,Aston Villa,2,Fulham,2,2011-02-05,Fulham,26,30
+330,Fulham,0,Chelsea,0,2011-02-14,Fulham,27,31
+331,Man City,1,Fulham,1,2011-02-27,Fulham,28,32
+332,Fulham,3,Blackburn,2,2011-03-05,Fulham,29,35
+333,Everton,2,Fulham,1,2011-03-19,Fulham,30,35
+334,Fulham,3,Blackpool,0,2011-04-03,Fulham,31,38
+335,Man Utd,2,Fulham,0,2011-04-09,Fulham,32,38
+336,Wolves,1,Fulham,1,2011-04-23,Fulham,33,39
+337,Fulham,3,Bolton,0,2011-04-27,Fulham,34,42
+338,Sunderland,0,Fulham,3,2011-04-30,Fulham,35,45
+339,Fulham,2,Liverpool,5,2011-05-09,Fulham,36,45
+340,Birmingham,0,Fulham,2,2011-05-15,Fulham,37,48
+341,Fulham,2,Arsenal,2,2011-05-22,Fulham,38,49
+342,Liverpool,1,Arsenal,1,2010-08-15,Liverpool,1,1
+343,Man City,3,Liverpool,0,2010-08-23,Liverpool,2,1
+344,Liverpool,1,West Brom,0,2010-08-29,Liverpool,3,4
+345,Birmingham,0,Liverpool,0,2010-09-12,Liverpool,4,5
+346,Man Utd,3,Liverpool,2,2010-09-19,Liverpool,5,5
+347,Liverpool,2,Sunderland,2,2010-09-25,Liverpool,6,6
+348,Liverpool,1,Blackpool,2,2010-10-03,Liverpool,7,6
+349,Everton,2,Liverpool,0,2010-10-17,Liverpool,8,6
+350,Liverpool,2,Blackburn,1,2010-10-24,Liverpool,9,9
+351,Bolton,0,Liverpool,1,2010-10-31,Liverpool,10,12
+352,Liverpool,2,Chelsea,0,2010-11-07,Liverpool,11,15
+353,Wigan,1,Liverpool,1,2010-11-10,Liverpool,12,16
+354,Stoke,2,Liverpool,0,2010-11-13,Liverpool,13,16
+355,Liverpool,3,West Ham,0,2010-11-20,Liverpool,14,19
+356,Spurs,2,Liverpool,1,2010-11-28,Liverpool,15,19
+357,Liverpool,3,Aston Villa,0,2010-12-06,Liverpool,16,22
+358,Newcastle,3,Liverpool,1,2010-12-11,Liverpool,17,22
+359,Liverpool,0,Wolves,1,2010-12-29,Liverpool,18,22
+360,Liverpool,2,Bolton,1,2011-01-01,Liverpool,19,25
+361,Blackburn,3,Liverpool,1,2011-01-05,Liverpool,20,25
+362,Blackpool,2,Liverpool,1,2011-01-12,Liverpool,21,25
+363,Liverpool,2,Everton,2,2011-01-16,Liverpool,22,26
+364,Wolves,0,Liverpool,3,2011-01-22,Liverpool,23,29
+365,Liverpool,1,Fulham,0,2011-01-26,Liverpool,24,32
+366,Liverpool,2,Stoke,0,2011-02-02,Liverpool,25,35
+367,Chelsea,0,Liverpool,1,2011-02-06,Liverpool,26,38
+368,Liverpool,1,Wigan,1,2011-02-12,Liverpool,27,39
+369,West Ham,3,Liverpool,1,2011-02-27,Liverpool,28,39
+370,Liverpool,3,Man Utd,1,2011-03-06,Liverpool,29,42
+371,Sunderland,0,Liverpool,2,2011-03-20,Liverpool,30,45
+372,West Brom,2,Liverpool,1,2011-04-02,Liverpool,31,45
+373,Liverpool,3,Man City,0,2011-04-11,Liverpool,32,48
+374,Arsenal,1,Liverpool,1,2011-04-17,Liverpool,33,49
+375,Liverpool,5,Birmingham,0,2011-04-23,Liverpool,34,52
+376,Liverpool,3,Newcastle,0,2011-05-01,Liverpool,35,55
+377,Fulham,2,Liverpool,5,2011-05-09,Liverpool,36,58
+378,Liverpool,0,Spurs,2,2011-05-15,Liverpool,37,58
+379,Aston Villa,1,Liverpool,0,2011-05-22,Liverpool,38,58
+380,Spurs,0,Man City,0,2010-08-14,Man City,1,1
+381,Man City,3,Liverpool,0,2010-08-23,Man City,2,4
+382,Sunderland,1,Man City,0,2010-08-29,Man City,3,4
+383,Man City,1,Blackburn,1,2010-09-11,Man City,4,5
+384,Wigan,0,Man City,2,2010-09-19,Man City,5,8
+385,Man City,1,Chelsea,0,2010-09-25,Man City,6,11
+386,Man City,2,Newcastle,1,2010-10-03,Man City,7,14
+387,Blackpool,2,Man City,3,2010-10-17,Man City,8,17
+388,Man City,0,Arsenal,3,2010-10-24,Man City,9,17
+389,Wolves,2,Man City,1,2010-10-30,Man City,10,17
+390,West Brom,0,Man City,2,2010-11-07,Man City,11,20
+391,Man City,0,Man Utd,0,2010-11-10,Man City,12,21
+392,Man City,0,Birmingham,0,2010-11-13,Man City,13,22
+393,Fulham,1,Man City,4,2010-11-21,Man City,14,25
+394,Stoke,1,Man City,1,2010-11-27,Man City,15,26
+395,Man City,1,Bolton,0,2010-12-04,Man City,16,29
+396,West Ham,1,Man City,3,2010-12-11,Man City,17,32
+397,Man City,1,Everton,2,2010-12-20,Man City,18,32
+398,Newcastle,1,Man City,3,2010-12-26,Man City,19,35
+399,Man City,4,Aston Villa,0,2010-12-28,Man City,20,38
+400,Man City,1,Blackpool,0,2011-01-01,Man City,21,41
+401,Arsenal,0,Man City,0,2011-01-05,Man City,22,42
+402,Man City,4,Wolves,3,2011-01-15,Man City,23,45
+403,Aston Villa,1,Man City,0,2011-01-22,Man City,24,45
+404,Birmingham,2,Man City,2,2011-02-02,Man City,25,46
+405,Man City,3,West Brom,0,2011-02-05,Man City,26,49
+406,Man Utd,2,Man City,1,2011-02-12,Man City,27,49
+407,Man City,1,Fulham,1,2011-02-27,Man City,28,50
+408,Man City,1,Wigan,0,2011-03-05,Man City,29,53
+409,Chelsea,2,Man City,0,2011-03-20,Man City,30,53
+410,Man City,5,Sunderland,0,2011-04-03,Man City,31,56
+411,Liverpool,3,Man City,0,2011-04-11,Man City,32,56
+412,Blackburn,0,Man City,1,2011-04-25,Man City,33,59
+413,Man City,2,West Ham,1,2011-05-01,Man City,34,62
+414,Everton,2,Man City,1,2011-05-07,Man City,35,62
+415,Man City,1,Spurs,0,2011-05-10,Man City,36,65
+416,Man City,3,Stoke,0,2011-05-17,Man City,37,68
+417,Bolton,0,Man City,2,2011-05-22,Man City,38,71
+418,Man Utd,3,Newcastle,0,2010-08-16,Man Utd,1,3
+419,Fulham,2,Man Utd,2,2010-08-22,Man Utd,2,4
+420,Man Utd,3,West Ham,0,2010-08-28,Man Utd,3,7
+421,Everton,3,Man Utd,3,2010-09-11,Man Utd,4,8
+422,Man Utd,3,Liverpool,2,2010-09-19,Man Utd,5,11
+423,Bolton,2,Man Utd,2,2010-09-26,Man Utd,6,12
+424,Sunderland,0,Man Utd,0,2010-10-02,Man Utd,7,13
+425,Man Utd,2,West Brom,2,2010-10-16,Man Utd,8,14
+426,Stoke,1,Man Utd,2,2010-10-24,Man Utd,9,17
+427,Man Utd,2,Spurs,0,2010-10-30,Man Utd,10,20
+428,Man Utd,2,Wolves,1,2010-11-06,Man Utd,11,23
+429,Man City,0,Man Utd,0,2010-11-10,Man Utd,12,24
+430,Aston Villa,2,Man Utd,2,2010-11-13,Man Utd,13,25
+431,Man Utd,2,Wigan,0,2010-11-20,Man Utd,14,28
+432,Man Utd,7,Blackburn,1,2010-11-27,Man Utd,15,31
+433,Man Utd,1,Arsenal,0,2010-12-13,Man Utd,16,34
+434,Man Utd,2,Sunderland,0,2010-12-26,Man Utd,17,37
+435,Birmingham,1,Man Utd,1,2010-12-28,Man Utd,18,38
+436,West Brom,1,Man Utd,2,2011-01-01,Man Utd,19,41
+437,Man Utd,2,Stoke,1,2011-01-04,Man Utd,20,44
+438,Spurs,0,Man Utd,0,2011-01-16,Man Utd,21,45
+439,Man Utd,5,Birmingham,0,2011-01-22,Man Utd,22,48
+440,Blackpool,2,Man Utd,3,2011-01-25,Man Utd,23,51
+441,Man Utd,3,Aston Villa,1,2011-02-01,Man Utd,24,54
+442,Wolves,2,Man Utd,1,2011-02-05,Man Utd,25,54
+443,Man Utd,2,Man City,1,2011-02-12,Man Utd,26,57
+444,Wigan,0,Man Utd,4,2011-02-26,Man Utd,27,60
+445,Chelsea,2,Man Utd,1,2011-03-01,Man Utd,28,60
+446,Liverpool,3,Man Utd,1,2011-03-06,Man Utd,29,60
+447,Man Utd,1,Bolton,0,2011-03-19,Man Utd,30,63
+448,West Ham,2,Man Utd,4,2011-04-02,Man Utd,31,66
+449,Man Utd,2,Fulham,0,2011-04-09,Man Utd,32,69
+450,Newcastle,0,Man Utd,0,2011-04-19,Man Utd,33,70
+451,Man Utd,1,Everton,0,2011-04-23,Man Utd,34,73
+452,Arsenal,1,Man Utd,0,2011-05-01,Man Utd,35,73
+453,Man Utd,2,Chelsea,1,2011-05-08,Man Utd,36,76
+454,Blackburn,1,Man Utd,1,2011-05-14,Man Utd,37,77
+455,Man Utd,4,Blackpool,2,2011-05-22,Man Utd,38,80
+456,Man Utd,3,Newcastle,0,2010-08-16,Newcastle,1,0
+457,Newcastle,6,Aston Villa,0,2010-08-22,Newcastle,2,3
+458,Wolves,1,Newcastle,1,2010-08-28,Newcastle,3,4
+459,Newcastle,0,Blackpool,2,2010-09-11,Newcastle,4,4
+460,Everton,0,Newcastle,1,2010-09-18,Newcastle,5,7
+461,Newcastle,1,Stoke,2,2010-09-26,Newcastle,6,7
+462,Man City,2,Newcastle,1,2010-10-03,Newcastle,7,7
+463,Newcastle,2,Wigan,2,2010-10-16,Newcastle,8,8
+464,West Ham,1,Newcastle,2,2010-10-23,Newcastle,9,11
+465,Newcastle,5,Sunderland,1,2010-10-31,Newcastle,10,14
+466,Arsenal,0,Newcastle,1,2010-11-07,Newcastle,11,17
+467,Newcastle,1,Blackburn,2,2010-11-10,Newcastle,12,17
+468,Newcastle,0,Fulham,0,2010-11-13,Newcastle,13,18
+469,Bolton,5,Newcastle,1,2010-11-20,Newcastle,14,18
+470,Newcastle,1,Chelsea,1,2010-11-28,Newcastle,15,19
+471,West Brom,3,Newcastle,1,2010-12-05,Newcastle,16,19
+472,Newcastle,3,Liverpool,1,2010-12-11,Newcastle,17,22
+473,Newcastle,1,Man City,3,2010-12-26,Newcastle,18,22
+474,Spurs,2,Newcastle,0,2010-12-28,Newcastle,19,22
+475,Wigan,0,Newcastle,1,2011-01-02,Newcastle,20,25
+476,Newcastle,5,West Ham,0,2011-01-05,Newcastle,21,28
+477,Sunderland,1,Newcastle,1,2011-01-16,Newcastle,22,29
+478,Newcastle,1,Spurs,1,2011-01-22,Newcastle,23,30
+479,Fulham,1,Newcastle,0,2011-02-02,Newcastle,24,30
+480,Newcastle,4,Arsenal,4,2011-02-05,Newcastle,25,31
+481,Blackburn,0,Newcastle,0,2011-02-12,Newcastle,26,32
+482,Birmingham,0,Newcastle,2,2011-02-15,Newcastle,27,35
+483,Newcastle,1,Bolton,1,2011-02-26,Newcastle,28,36
+484,Newcastle,1,Everton,2,2011-03-05,Newcastle,29,36
+485,Stoke,4,Newcastle,0,2011-03-19,Newcastle,30,36
+486,Newcastle,4,Wolves,1,2011-04-02,Newcastle,31,39
+487,Aston Villa,1,Newcastle,0,2011-04-10,Newcastle,32,39
+488,Newcastle,0,Man Utd,0,2011-04-19,Newcastle,33,40
+489,Blackpool,1,Newcastle,1,2011-04-23,Newcastle,34,41
+490,Liverpool,3,Newcastle,0,2011-05-01,Newcastle,35,41
+491,Newcastle,2,Birmingham,1,2011-05-07,Newcastle,36,44
+492,Chelsea,2,Newcastle,2,2011-05-15,Newcastle,37,45
+493,Newcastle,3,West Brom,3,2011-05-22,Newcastle,38,46
+494,Spurs,0,Man City,0,2010-08-14,Spurs,1,1
+495,Stoke,1,Spurs,2,2010-08-21,Spurs,2,4
+496,Spurs,0,Wigan,1,2010-08-28,Spurs,3,4
+497,West Brom,1,Spurs,1,2010-09-11,Spurs,4,5
+498,Spurs,3,Wolves,1,2010-09-18,Spurs,5,8
+499,West Ham,1,Spurs,0,2010-09-25,Spurs,6,8
+500,Spurs,2,Aston Villa,1,2010-10-02,Spurs,7,11
+501,Fulham,1,Spurs,2,2010-10-16,Spurs,8,14
+502,Spurs,1,Everton,1,2010-10-23,Spurs,9,15
+503,Man Utd,2,Spurs,0,2010-10-30,Spurs,10,15
+504,Bolton,4,Spurs,2,2010-11-06,Spurs,11,15
+505,Spurs,1,Sunderland,1,2010-11-09,Spurs,12,16
+506,Spurs,4,Blackburn,2,2010-11-13,Spurs,13,19
+507,Arsenal,2,Spurs,3,2010-11-20,Spurs,14,22
+508,Spurs,2,Liverpool,1,2010-11-28,Spurs,15,25
+509,Birmingham,1,Spurs,1,2010-12-04,Spurs,16,26
+510,Spurs,1,Chelsea,1,2010-12-12,Spurs,17,27
+511,Aston Villa,1,Spurs,2,2010-12-26,Spurs,18,30
+512,Spurs,2,Newcastle,0,2010-12-28,Spurs,19,33
+513,Spurs,1,Fulham,0,2011-01-01,Spurs,20,36
+514,Everton,2,Spurs,1,2011-01-05,Spurs,21,36
+515,Spurs,0,Man Utd,0,2011-01-16,Spurs,22,37
+516,Newcastle,1,Spurs,1,2011-01-22,Spurs,23,38
+517,Blackburn,0,Spurs,1,2011-02-02,Spurs,24,41
+518,Spurs,2,Bolton,1,2011-02-05,Spurs,25,44
+519,Sunderland,1,Spurs,2,2011-02-12,Spurs,26,47
+520,Blackpool,3,Spurs,1,2011-02-22,Spurs,27,47
+521,Wolves,3,Spurs,3,2011-03-06,Spurs,28,48
+522,Spurs,0,West Ham,0,2011-03-19,Spurs,29,49
+523,Wigan,0,Spurs,0,2011-04-02,Spurs,30,50
+524,Spurs,3,Stoke,2,2011-04-09,Spurs,31,53
+525,Spurs,3,Arsenal,3,2011-04-20,Spurs,32,54
+526,Spurs,2,West Brom,2,2011-04-23,Spurs,33,55
+527,Chelsea,2,Spurs,1,2011-04-30,Spurs,34,55
+528,Spurs,1,Blackpool,1,2011-05-07,Spurs,35,56
+529,Man City,1,Spurs,0,2011-05-10,Spurs,36,56
+530,Liverpool,0,Spurs,2,2011-05-15,Spurs,37,59
+531,Spurs,2,Birmingham,1,2011-05-22,Spurs,38,62
+532,Wolves,2,Stoke,1,2010-08-14,Stoke,1,0
+533,Stoke,1,Spurs,2,2010-08-21,Stoke,2,0
+534,Chelsea,2,Stoke,0,2010-08-28,Stoke,3,0
+535,Stoke,2,Aston Villa,1,2010-09-13,Stoke,4,3
+536,Stoke,1,West Ham,1,2010-09-18,Stoke,5,4
+537,Newcastle,1,Stoke,2,2010-09-26,Stoke,6,7
+538,Stoke,1,Blackburn,0,2010-10-02,Stoke,7,10
+539,Bolton,2,Stoke,1,2010-10-16,Stoke,8,10
+540,Stoke,1,Man Utd,2,2010-10-24,Stoke,9,10
+541,Everton,1,Stoke,0,2010-10-30,Stoke,10,10
+542,Sunderland,2,Stoke,0,2010-11-06,Stoke,11,10
+543,Stoke,3,Birmingham,2,2010-11-09,Stoke,12,13
+544,Stoke,2,Liverpool,0,2010-11-13,Stoke,13,16
+545,West Brom,0,Stoke,3,2010-11-20,Stoke,14,19
+546,Stoke,1,Man City,1,2010-11-27,Stoke,15,20
+547,Wigan,2,Stoke,2,2010-12-04,Stoke,16,21
+548,Stoke,0,Blackpool,1,2010-12-11,Stoke,17,21
+549,Blackburn,0,Stoke,2,2010-12-26,Stoke,18,24
+550,Stoke,0,Fulham,2,2010-12-28,Stoke,19,24
+551,Stoke,2,Everton,0,2011-01-01,Stoke,20,27
+552,Man Utd,2,Stoke,1,2011-01-04,Stoke,21,27
+553,Stoke,2,Bolton,0,2011-01-15,Stoke,22,30
+554,Fulham,2,Stoke,0,2011-01-22,Stoke,23,30
+555,Liverpool,2,Stoke,0,2011-02-02,Stoke,24,30
+556,Stoke,3,Sunderland,2,2011-02-05,Stoke,25,33
+557,Birmingham,1,Stoke,0,2011-02-12,Stoke,26,33
+558,Arsenal,1,Stoke,0,2011-02-23,Stoke,27,33
+559,Stoke,1,West Brom,1,2011-02-28,Stoke,28,34
+560,West Ham,3,Stoke,0,2011-03-05,Stoke,29,34
+561,Stoke,4,Newcastle,0,2011-03-19,Stoke,30,37
+562,Stoke,1,Chelsea,1,2011-04-02,Stoke,31,38
+563,Spurs,3,Stoke,2,2011-04-09,Stoke,32,38
+564,Aston Villa,1,Stoke,1,2011-04-23,Stoke,33,39
+565,Stoke,3,Wolves,0,2011-04-26,Stoke,34,42
+566,Blackpool,0,Stoke,0,2011-04-30,Stoke,35,43
+567,Stoke,3,Arsenal,1,2011-05-08,Stoke,36,46
+568,Man City,3,Stoke,0,2011-05-17,Stoke,37,46
+569,Stoke,0,Wigan,1,2011-05-22,Stoke,38,46
+570,Sunderland,2,Birmingham,2,2010-08-14,Sunderland,1,1
+571,West Brom,1,Sunderland,0,2010-08-21,Sunderland,2,1
+572,Sunderland,1,Man City,0,2010-08-29,Sunderland,3,4
+573,Wigan,1,Sunderland,1,2010-09-11,Sunderland,4,5
+574,Sunderland,1,Arsenal,1,2010-09-18,Sunderland,5,6
+575,Liverpool,2,Sunderland,2,2010-09-25,Sunderland,6,7
+576,Sunderland,0,Man Utd,0,2010-10-02,Sunderland,7,8
+577,Blackburn,0,Sunderland,0,2010-10-18,Sunderland,8,9
+578,Sunderland,1,Aston Villa,0,2010-10-23,Sunderland,9,12
+579,Newcastle,5,Sunderland,1,2010-10-31,Sunderland,10,12
+580,Sunderland,2,Stoke,0,2010-11-06,Sunderland,11,15
+581,Spurs,1,Sunderland,1,2010-11-09,Sunderland,12,16
+582,Chelsea,0,Sunderland,3,2010-11-14,Sunderland,13,19
+583,Sunderland,2,Everton,2,2010-11-22,Sunderland,14,20
+584,Wolves,3,Sunderland,2,2010-11-27,Sunderland,15,20
+585,Sunderland,1,West Ham,0,2010-12-05,Sunderland,16,23
+586,Fulham,0,Sunderland,0,2010-12-11,Sunderland,17,24
+587,Sunderland,1,Bolton,0,2010-12-18,Sunderland,18,27
+588,Man Utd,2,Sunderland,0,2010-12-26,Sunderland,19,27
+589,Sunderland,0,Blackpool,2,2010-12-28,Sunderland,20,27
+590,Sunderland,3,Blackburn,0,2011-01-01,Sunderland,21,30
+591,Aston Villa,0,Sunderland,1,2011-01-05,Sunderland,22,33
+592,Sunderland,1,Newcastle,1,2011-01-16,Sunderland,23,34
+593,Blackpool,1,Sunderland,2,2011-01-22,Sunderland,24,37
+594,Sunderland,2,Chelsea,4,2011-02-01,Sunderland,25,37
+595,Stoke,3,Sunderland,2,2011-02-05,Sunderland,26,37
+596,Sunderland,1,Spurs,2,2011-02-12,Sunderland,27,37
+597,Everton,2,Sunderland,0,2011-02-26,Sunderland,28,37
+598,Arsenal,0,Sunderland,0,2011-03-05,Sunderland,29,38
+599,Sunderland,0,Liverpool,2,2011-03-20,Sunderland,30,38
+600,Man City,5,Sunderland,0,2011-04-03,Sunderland,31,38
+601,Sunderland,2,West Brom,3,2011-04-09,Sunderland,32,38
+602,Birmingham,2,Sunderland,0,2011-04-16,Sunderland,33,38
+603,Sunderland,4,Wigan,2,2011-04-23,Sunderland,34,41
+604,Sunderland,0,Fulham,3,2011-04-30,Sunderland,35,41
+605,Bolton,1,Sunderland,2,2011-05-07,Sunderland,36,44
+606,Sunderland,1,Wolves,3,2011-05-14,Sunderland,37,44
+607,West Ham,0,Sunderland,3,2011-05-22,Sunderland,38,47
+608,Chelsea,6,West Brom,0,2010-08-14,West Brom,1,0
+609,West Brom,1,Sunderland,0,2010-08-21,West Brom,2,3
+610,Liverpool,1,West Brom,0,2010-08-29,West Brom,3,3
+611,West Brom,1,Spurs,1,2010-09-11,West Brom,4,4
+612,West Brom,3,Birmingham,1,2010-09-18,West Brom,5,7
+613,Arsenal,2,West Brom,3,2010-09-25,West Brom,6,10
+614,West Brom,1,Bolton,1,2010-10-02,West Brom,7,11
+615,Man Utd,2,West Brom,2,2010-10-16,West Brom,8,12
+616,West Brom,2,Fulham,1,2010-10-23,West Brom,9,15
+617,Blackpool,2,West Brom,1,2010-11-01,West Brom,10,15
+618,West Brom,0,Man City,2,2010-11-07,West Brom,11,15
+619,West Ham,2,West Brom,2,2010-11-10,West Brom,12,16
+620,Wigan,1,West Brom,0,2010-11-13,West Brom,13,16
+621,West Brom,0,Stoke,3,2010-11-20,West Brom,14,16
+622,Everton,1,West Brom,4,2010-11-27,West Brom,15,19
+623,West Brom,3,Newcastle,1,2010-12-05,West Brom,16,22
+624,Aston Villa,2,West Brom,1,2010-12-11,West Brom,17,22
+625,Bolton,2,West Brom,0,2010-12-26,West Brom,18,22
+626,West Brom,1,Blackburn,3,2010-12-28,West Brom,19,22
+627,West Brom,1,Man Utd,2,2011-01-01,West Brom,20,22
+628,Fulham,3,West Brom,0,2011-01-04,West Brom,21,22
+629,West Brom,3,Blackpool,2,2011-01-15,West Brom,22,25
+630,Blackburn,2,West Brom,0,2011-01-23,West Brom,23,25
+631,West Brom,2,Wigan,2,2011-02-01,West Brom,24,26
+632,Man City,3,West Brom,0,2011-02-05,West Brom,25,26
+633,West Brom,3,West Ham,3,2011-02-12,West Brom,26,27
+634,West Brom,1,Wolves,1,2011-02-20,West Brom,27,28
+635,Stoke,1,West Brom,1,2011-02-28,West Brom,28,29
+636,Birmingham,1,West Brom,3,2011-03-05,West Brom,29,32
+637,West Brom,2,Arsenal,2,2011-03-19,West Brom,30,33
+638,West Brom,2,Liverpool,1,2011-04-02,West Brom,31,36
+639,Sunderland,2,West Brom,3,2011-04-09,West Brom,32,39
+640,West Brom,1,Chelsea,3,2011-04-16,West Brom,33,39
+641,Spurs,2,West Brom,2,2011-04-23,West Brom,34,40
+642,West Brom,2,Aston Villa,1,2011-04-30,West Brom,35,43
+643,Wolves,3,West Brom,1,2011-05-08,West Brom,36,43
+644,West Brom,1,Everton,0,2011-05-14,West Brom,37,46
+645,Newcastle,3,West Brom,3,2011-05-22,West Brom,38,47
+646,Aston Villa,3,West Ham,0,2010-08-14,West Ham,1,0
+647,West Ham,1,Bolton,3,2010-08-21,West Ham,2,0
+648,Man Utd,3,West Ham,0,2010-08-28,West Ham,3,0
+649,West Ham,1,Chelsea,3,2010-09-11,West Ham,4,0
+650,Stoke,1,West Ham,1,2010-09-18,West Ham,5,1
+651,West Ham,1,Spurs,0,2010-09-25,West Ham,6,4
+652,West Ham,1,Fulham,1,2010-10-02,West Ham,7,5
+653,Wolves,1,West Ham,1,2010-10-16,West Ham,8,6
+654,West Ham,1,Newcastle,2,2010-10-23,West Ham,9,6
+655,Arsenal,1,West Ham,0,2010-10-30,West Ham,10,6
+656,Birmingham,2,West Ham,2,2010-11-06,West Ham,11,7
+657,West Ham,2,West Brom,2,2010-11-10,West Ham,12,8
+658,West Ham,0,Blackpool,0,2010-11-13,West Ham,13,9
+659,Liverpool,3,West Ham,0,2010-11-20,West Ham,14,9
+660,West Ham,3,Wigan,1,2010-11-27,West Ham,15,12
+661,Sunderland,1,West Ham,0,2010-12-05,West Ham,16,12
+662,West Ham,1,Man City,3,2010-12-11,West Ham,17,12
+663,Blackburn,1,West Ham,1,2010-12-18,West Ham,18,13
+664,Fulham,1,West Ham,3,2010-12-26,West Ham,19,16
+665,West Ham,1,Everton,1,2010-12-28,West Ham,20,17
+666,West Ham,2,Wolves,0,2011-01-01,West Ham,21,20
+667,Newcastle,5,West Ham,0,2011-01-05,West Ham,22,20
+668,West Ham,0,Arsenal,3,2011-01-15,West Ham,23,20
+669,Everton,2,West Ham,2,2011-01-22,West Ham,24,21
+670,Blackpool,1,West Ham,3,2011-02-02,West Ham,25,24
+671,West Ham,0,Birmingham,1,2011-02-06,West Ham,26,24
+672,West Brom,3,West Ham,3,2011-02-12,West Ham,27,25
+673,West Ham,3,Liverpool,1,2011-02-27,West Ham,28,28
+674,West Ham,3,Stoke,0,2011-03-05,West Ham,29,31
+675,Spurs,0,West Ham,0,2011-03-19,West Ham,30,32
+676,West Ham,2,Man Utd,4,2011-04-02,West Ham,31,32
+677,Bolton,3,West Ham,0,2011-04-09,West Ham,32,32
+678,West Ham,1,Aston Villa,2,2011-04-16,West Ham,33,32
+679,Chelsea,3,West Ham,0,2011-04-23,West Ham,34,32
+680,Man City,2,West Ham,1,2011-05-01,West Ham,35,32
+681,West Ham,1,Blackburn,1,2011-05-07,West Ham,36,33
+682,Wigan,3,West Ham,2,2011-05-15,West Ham,37,33
+683,West Ham,0,Sunderland,3,2011-05-22,West Ham,38,33
+684,Wigan,0,Blackpool,4,2010-08-14,Wigan,1,0
+685,Wigan,0,Chelsea,6,2010-08-21,Wigan,2,0
+686,Spurs,0,Wigan,1,2010-08-28,Wigan,3,3
+687,Wigan,1,Sunderland,1,2010-09-11,Wigan,4,4
+688,Wigan,0,Man City,2,2010-09-19,Wigan,5,4
+689,Birmingham,0,Wigan,0,2010-09-25,Wigan,6,5
+690,Wigan,2,Wolves,0,2010-10-02,Wigan,7,8
+691,Newcastle,2,Wigan,2,2010-10-16,Wigan,8,9
+692,Wigan,1,Bolton,1,2010-10-23,Wigan,9,10
+693,Fulham,2,Wigan,0,2010-10-30,Wigan,10,10
+694,Blackburn,2,Wigan,1,2010-11-06,Wigan,11,10
+695,Wigan,1,Liverpool,1,2010-11-10,Wigan,12,11
+696,Wigan,1,West Brom,0,2010-11-13,Wigan,13,14
+697,Man Utd,2,Wigan,0,2010-11-20,Wigan,14,14
+698,West Ham,3,Wigan,1,2010-11-27,Wigan,15,14
+699,Wigan,2,Stoke,2,2010-12-04,Wigan,16,15
+700,Everton,0,Wigan,0,2010-12-11,Wigan,17,16
+701,Wolves,1,Wigan,2,2010-12-26,Wigan,18,19
+702,Wigan,2,Arsenal,2,2010-12-29,Wigan,19,20
+703,Wigan,0,Newcastle,1,2011-01-02,Wigan,20,20
+704,Bolton,1,Wigan,1,2011-01-05,Wigan,21,21
+705,Wigan,1,Fulham,1,2011-01-15,Wigan,22,22
+706,Arsenal,3,Wigan,0,2011-01-22,Wigan,23,22
+707,Wigan,1,Aston Villa,2,2011-01-25,Wigan,24,22
+708,West Brom,2,Wigan,2,2011-02-01,Wigan,25,23
+709,Wigan,4,Blackburn,3,2011-02-05,Wigan,26,26
+710,Liverpool,1,Wigan,1,2011-02-12,Wigan,27,27
+711,Wigan,0,Man Utd,4,2011-02-26,Wigan,28,27
+712,Man City,1,Wigan,0,2011-03-05,Wigan,29,27
+713,Wigan,2,Birmingham,1,2011-03-19,Wigan,30,30
+714,Wigan,0,Spurs,0,2011-04-02,Wigan,31,31
+715,Chelsea,1,Wigan,0,2011-04-09,Wigan,32,31
+716,Blackpool,1,Wigan,3,2011-04-16,Wigan,33,34
+717,Sunderland,4,Wigan,2,2011-04-23,Wigan,34,34
+718,Wigan,1,Everton,1,2011-04-30,Wigan,35,35
+719,Aston Villa,1,Wigan,1,2011-05-07,Wigan,36,36
+720,Wigan,3,West Ham,2,2011-05-15,Wigan,37,39
+721,Stoke,0,Wigan,1,2011-05-22,Wigan,38,42
+722,Wolves,2,Stoke,1,2010-08-14,Wolves,1,3
+723,Everton,1,Wolves,1,2010-08-21,Wolves,2,4
+724,Wolves,1,Newcastle,1,2010-08-28,Wolves,3,5
+725,Fulham,2,Wolves,1,2010-09-11,Wolves,4,5
+726,Spurs,3,Wolves,1,2010-09-18,Wolves,5,5
+727,Wolves,1,Aston Villa,2,2010-09-26,Wolves,6,5
+728,Wigan,2,Wolves,0,2010-10-02,Wolves,7,5
+729,Wolves,1,West Ham,1,2010-10-16,Wolves,8,6
+730,Chelsea,2,Wolves,0,2010-10-23,Wolves,9,6
+731,Wolves,2,Man City,1,2010-10-30,Wolves,10,9
+732,Man Utd,2,Wolves,1,2010-11-06,Wolves,11,9
+733,Wolves,0,Arsenal,2,2010-11-10,Wolves,12,9
+734,Wolves,2,Bolton,3,2010-11-13,Wolves,13,9
+735,Blackpool,2,Wolves,1,2010-11-20,Wolves,14,9
+736,Wolves,3,Sunderland,2,2010-11-27,Wolves,15,12
+737,Blackburn,3,Wolves,0,2010-12-04,Wolves,16,12
+738,Wolves,1,Birmingham,0,2010-12-12,Wolves,17,15
+739,Wolves,1,Wigan,2,2010-12-26,Wolves,18,15
+740,Liverpool,0,Wolves,1,2010-12-29,Wolves,19,18
+741,West Ham,2,Wolves,0,2011-01-01,Wolves,20,18
+742,Wolves,1,Chelsea,0,2011-01-05,Wolves,21,21
+743,Man City,4,Wolves,3,2011-01-15,Wolves,22,21
+744,Wolves,0,Liverpool,3,2011-01-22,Wolves,23,21
+745,Bolton,1,Wolves,0,2011-02-02,Wolves,24,21
+746,Wolves,2,Man Utd,1,2011-02-05,Wolves,25,24
+747,Arsenal,2,Wolves,0,2011-02-12,Wolves,26,24
+748,West Brom,1,Wolves,1,2011-02-20,Wolves,27,25
+749,Wolves,4,Blackpool,0,2011-02-26,Wolves,28,28
+750,Wolves,3,Spurs,3,2011-03-06,Wolves,29,29
+751,Aston Villa,0,Wolves,1,2011-03-19,Wolves,30,32
+752,Newcastle,4,Wolves,1,2011-04-02,Wolves,31,32
+753,Wolves,0,Everton,3,2011-04-09,Wolves,32,32
+754,Wolves,1,Fulham,1,2011-04-23,Wolves,33,33
+755,Stoke,3,Wolves,0,2011-04-26,Wolves,34,33
+756,Birmingham,1,Wolves,1,2011-05-01,Wolves,35,34
+757,Wolves,3,West Brom,1,2011-05-08,Wolves,36,37
+758,Sunderland,1,Wolves,3,2011-05-14,Wolves,37,40
+759,Wolves,2,Blackburn,3,2011-05-22,Wolves,38,40

@@ -1,0 +1,761 @@
+,home_team,home_goals,away_team,away_goals,date2,team,week,points
+0,Arsenal,1,Aston Villa,3,2013-08-17,Arsenal,1,0
+1,Fulham,1,Arsenal,3,2013-08-24,Arsenal,2,3
+2,Arsenal,1,Spurs,0,2013-09-01,Arsenal,3,6
+3,Sunderland,1,Arsenal,3,2013-09-14,Arsenal,4,9
+4,Arsenal,3,Stoke,1,2013-09-22,Arsenal,5,12
+5,Swansea,1,Arsenal,2,2013-09-28,Arsenal,6,15
+6,West Brom,1,Arsenal,1,2013-10-06,Arsenal,7,16
+7,Arsenal,4,Norwich,1,2013-10-19,Arsenal,8,19
+8,Crystal Palace,0,Arsenal,2,2013-10-26,Arsenal,9,22
+9,Arsenal,2,Liverpool,0,2013-11-02,Arsenal,10,25
+10,Man Utd,1,Arsenal,0,2013-11-10,Arsenal,11,25
+11,Arsenal,2,Southampton,0,2013-11-23,Arsenal,12,28
+12,Cardiff,0,Arsenal,3,2013-11-30,Arsenal,13,31
+13,Arsenal,2,Hull,0,2013-12-04,Arsenal,14,34
+14,Arsenal,1,Everton,1,2013-12-08,Arsenal,15,35
+15,Man City,6,Arsenal,3,2013-12-14,Arsenal,16,35
+16,Arsenal,0,Chelsea,0,2013-12-23,Arsenal,17,36
+17,West Ham,1,Arsenal,3,2013-12-26,Arsenal,18,39
+18,Newcastle,0,Arsenal,1,2013-12-29,Arsenal,19,42
+19,Arsenal,2,Cardiff,0,2014-01-01,Arsenal,20,45
+20,Aston Villa,1,Arsenal,2,2014-01-13,Arsenal,21,48
+21,Arsenal,2,Fulham,0,2014-01-18,Arsenal,22,51
+22,Southampton,2,Arsenal,2,2014-01-28,Arsenal,23,52
+23,Arsenal,2,Crystal Palace,0,2014-02-02,Arsenal,24,55
+24,Liverpool,5,Arsenal,1,2014-02-08,Arsenal,25,55
+25,Arsenal,0,Man Utd,0,2014-02-12,Arsenal,26,56
+26,Arsenal,4,Sunderland,1,2014-02-22,Arsenal,27,59
+27,Stoke,1,Arsenal,0,2014-03-01,Arsenal,28,59
+28,Spurs,0,Arsenal,1,2014-03-16,Arsenal,29,62
+29,Chelsea,6,Arsenal,0,2014-03-22,Arsenal,30,62
+30,Arsenal,2,Swansea,2,2014-03-25,Arsenal,31,63
+31,Arsenal,1,Man City,1,2014-03-29,Arsenal,32,64
+32,Everton,3,Arsenal,0,2014-04-06,Arsenal,33,64
+33,Arsenal,3,West Ham,1,2014-04-15,Arsenal,34,67
+34,Hull,0,Arsenal,3,2014-04-20,Arsenal,35,70
+35,Arsenal,3,Newcastle,0,2014-04-28,Arsenal,36,73
+36,Arsenal,1,West Brom,0,2014-05-04,Arsenal,37,76
+37,Norwich,0,Arsenal,2,2014-05-11,Arsenal,38,79
+38,Arsenal,1,Aston Villa,3,2013-08-17,Aston Villa,1,3
+39,Chelsea,2,Aston Villa,1,2013-08-21,Aston Villa,2,3
+40,Aston Villa,0,Liverpool,1,2013-08-24,Aston Villa,3,3
+41,Aston Villa,1,Newcastle,2,2013-09-14,Aston Villa,4,3
+42,Norwich,0,Aston Villa,1,2013-09-21,Aston Villa,5,6
+43,Aston Villa,3,Man City,2,2013-09-28,Aston Villa,6,9
+44,Hull,0,Aston Villa,0,2013-10-05,Aston Villa,7,10
+45,Aston Villa,0,Spurs,2,2013-10-20,Aston Villa,8,10
+46,Aston Villa,0,Everton,2,2013-10-26,Aston Villa,9,10
+47,West Ham,0,Aston Villa,0,2013-11-02,Aston Villa,10,11
+48,Aston Villa,2,Cardiff,0,2013-11-09,Aston Villa,11,14
+49,West Brom,2,Aston Villa,2,2013-11-25,Aston Villa,12,15
+50,Aston Villa,0,Sunderland,0,2013-11-30,Aston Villa,13,16
+51,Southampton,2,Aston Villa,3,2013-12-04,Aston Villa,14,19
+52,Fulham,2,Aston Villa,0,2013-12-08,Aston Villa,15,19
+53,Aston Villa,0,Man Utd,3,2013-12-15,Aston Villa,16,19
+54,Stoke,2,Aston Villa,1,2013-12-21,Aston Villa,17,19
+55,Aston Villa,0,Crystal Palace,1,2013-12-26,Aston Villa,18,19
+56,Aston Villa,1,Swansea,1,2013-12-28,Aston Villa,19,20
+57,Sunderland,0,Aston Villa,1,2014-01-01,Aston Villa,20,23
+58,Aston Villa,1,Arsenal,2,2014-01-13,Aston Villa,21,23
+59,Liverpool,2,Aston Villa,2,2014-01-18,Aston Villa,22,24
+60,Aston Villa,4,West Brom,3,2014-01-29,Aston Villa,23,27
+61,Everton,2,Aston Villa,1,2014-02-01,Aston Villa,24,27
+62,Aston Villa,0,West Ham,2,2014-02-08,Aston Villa,25,27
+63,Cardiff,0,Aston Villa,0,2014-02-11,Aston Villa,26,28
+64,Newcastle,1,Aston Villa,0,2014-02-23,Aston Villa,27,28
+65,Aston Villa,4,Norwich,1,2014-03-02,Aston Villa,28,31
+66,Aston Villa,1,Chelsea,0,2014-03-15,Aston Villa,29,34
+67,Aston Villa,1,Stoke,4,2014-03-23,Aston Villa,30,34
+68,Man Utd,4,Aston Villa,1,2014-03-29,Aston Villa,31,34
+69,Aston Villa,1,Fulham,2,2014-04-05,Aston Villa,32,34
+70,Crystal Palace,1,Aston Villa,0,2014-04-12,Aston Villa,33,34
+71,Aston Villa,0,Southampton,0,2014-04-19,Aston Villa,34,35
+72,Swansea,4,Aston Villa,1,2014-04-26,Aston Villa,35,35
+73,Aston Villa,3,Hull,1,2014-05-03,Aston Villa,36,38
+74,Man City,4,Aston Villa,0,2014-05-07,Aston Villa,37,38
+75,Spurs,3,Aston Villa,0,2014-05-11,Aston Villa,38,38
+76,West Ham,2,Cardiff,0,2013-08-17,Cardiff,1,0
+77,Cardiff,3,Man City,2,2013-08-25,Cardiff,2,3
+78,Cardiff,0,Everton,0,2013-08-31,Cardiff,3,4
+79,Hull,1,Cardiff,1,2013-09-14,Cardiff,4,5
+80,Cardiff,0,Spurs,1,2013-09-22,Cardiff,5,5
+81,Fulham,1,Cardiff,2,2013-09-28,Cardiff,6,8
+82,Cardiff,1,Newcastle,2,2013-10-05,Cardiff,7,8
+83,Chelsea,4,Cardiff,1,2013-10-19,Cardiff,8,8
+84,Norwich,0,Cardiff,0,2013-10-26,Cardiff,9,9
+85,Cardiff,1,Swansea,0,2013-11-03,Cardiff,10,12
+86,Aston Villa,2,Cardiff,0,2013-11-09,Cardiff,11,12
+87,Cardiff,2,Man Utd,2,2013-11-24,Cardiff,12,13
+88,Cardiff,0,Arsenal,3,2013-11-30,Cardiff,13,13
+89,Stoke,0,Cardiff,0,2013-12-04,Cardiff,14,14
+90,Crystal Palace,2,Cardiff,0,2013-12-07,Cardiff,15,14
+91,Cardiff,1,West Brom,0,2013-12-14,Cardiff,16,17
+92,Liverpool,3,Cardiff,1,2013-12-21,Cardiff,17,17
+93,Cardiff,0,Southampton,3,2013-12-26,Cardiff,18,17
+94,Cardiff,2,Sunderland,2,2013-12-28,Cardiff,19,18
+95,Arsenal,2,Cardiff,0,2014-01-01,Cardiff,20,18
+96,Cardiff,0,West Ham,2,2014-01-11,Cardiff,21,18
+97,Man City,4,Cardiff,2,2014-01-18,Cardiff,22,18
+98,Man Utd,2,Cardiff,0,2014-01-28,Cardiff,23,18
+99,Cardiff,2,Norwich,1,2014-02-01,Cardiff,24,21
+100,Swansea,3,Cardiff,0,2014-02-08,Cardiff,25,21
+101,Cardiff,0,Aston Villa,0,2014-02-11,Cardiff,26,22
+102,Cardiff,0,Hull,4,2014-02-22,Cardiff,27,22
+103,Spurs,1,Cardiff,0,2014-03-02,Cardiff,28,22
+104,Cardiff,3,Fulham,1,2014-03-08,Cardiff,29,25
+105,Everton,2,Cardiff,1,2014-03-15,Cardiff,30,25
+106,Cardiff,3,Liverpool,6,2014-03-22,Cardiff,31,25
+107,West Brom,3,Cardiff,3,2014-03-29,Cardiff,32,26
+108,Cardiff,0,Crystal Palace,3,2014-04-05,Cardiff,33,26
+109,Southampton,0,Cardiff,1,2014-04-12,Cardiff,34,29
+110,Cardiff,1,Stoke,1,2014-04-19,Cardiff,35,30
+111,Sunderland,4,Cardiff,0,2014-04-27,Cardiff,36,30
+112,Newcastle,3,Cardiff,0,2014-05-03,Cardiff,37,30
+113,Cardiff,1,Chelsea,2,2014-05-11,Cardiff,38,30
+114,Chelsea,2,Hull,0,2013-08-18,Chelsea,1,3
+115,Chelsea,2,Aston Villa,1,2013-08-21,Chelsea,2,6
+116,Man Utd,0,Chelsea,0,2013-08-26,Chelsea,3,7
+117,Everton,1,Chelsea,0,2013-09-14,Chelsea,4,7
+118,Chelsea,2,Fulham,0,2013-09-21,Chelsea,5,10
+119,Spurs,1,Chelsea,1,2013-09-28,Chelsea,6,11
+120,Norwich,1,Chelsea,3,2013-10-06,Chelsea,7,14
+121,Chelsea,4,Cardiff,1,2013-10-19,Chelsea,8,17
+122,Chelsea,2,Man City,1,2013-10-27,Chelsea,9,20
+123,Newcastle,2,Chelsea,0,2013-11-02,Chelsea,10,20
+124,Chelsea,2,West Brom,2,2013-11-09,Chelsea,11,21
+125,West Ham,0,Chelsea,3,2013-11-23,Chelsea,12,24
+126,Chelsea,3,Southampton,1,2013-12-01,Chelsea,13,27
+127,Sunderland,3,Chelsea,4,2013-12-04,Chelsea,14,30
+128,Stoke,3,Chelsea,2,2013-12-07,Chelsea,15,30
+129,Chelsea,2,Crystal Palace,1,2013-12-14,Chelsea,16,33
+130,Arsenal,0,Chelsea,0,2013-12-23,Chelsea,17,34
+131,Chelsea,1,Swansea,0,2013-12-26,Chelsea,18,37
+132,Chelsea,2,Liverpool,1,2013-12-29,Chelsea,19,40
+133,Southampton,0,Chelsea,3,2014-01-01,Chelsea,20,43
+134,Hull,0,Chelsea,2,2014-01-11,Chelsea,21,46
+135,Chelsea,3,Man Utd,1,2014-01-19,Chelsea,22,49
+136,Chelsea,0,West Ham,0,2014-01-29,Chelsea,23,50
+137,Man City,0,Chelsea,1,2014-02-03,Chelsea,24,53
+138,Chelsea,3,Newcastle,0,2014-02-08,Chelsea,25,56
+139,West Brom,1,Chelsea,1,2014-02-11,Chelsea,26,57
+140,Chelsea,1,Everton,0,2014-02-22,Chelsea,27,60
+141,Fulham,1,Chelsea,3,2014-03-01,Chelsea,28,63
+142,Chelsea,4,Spurs,0,2014-03-08,Chelsea,29,66
+143,Aston Villa,1,Chelsea,0,2014-03-15,Chelsea,30,66
+144,Chelsea,6,Arsenal,0,2014-03-22,Chelsea,31,69
+145,Crystal Palace,1,Chelsea,0,2014-03-29,Chelsea,32,69
+146,Chelsea,3,Stoke,0,2014-04-05,Chelsea,33,72
+147,Swansea,0,Chelsea,1,2014-04-13,Chelsea,34,75
+148,Chelsea,1,Sunderland,2,2014-04-19,Chelsea,35,75
+149,Liverpool,0,Chelsea,2,2014-04-27,Chelsea,36,78
+150,Chelsea,0,Norwich,0,2014-05-04,Chelsea,37,79
+151,Cardiff,1,Chelsea,2,2014-05-11,Chelsea,38,82
+152,Crystal Palace,0,Spurs,1,2013-08-18,Crystal Palace,1,0
+153,Stoke,2,Crystal Palace,1,2013-08-24,Crystal Palace,2,0
+154,Crystal Palace,3,Sunderland,1,2013-08-31,Crystal Palace,3,3
+155,Man Utd,2,Crystal Palace,0,2013-09-14,Crystal Palace,4,3
+156,Crystal Palace,0,Swansea,2,2013-09-22,Crystal Palace,5,3
+157,Southampton,2,Crystal Palace,0,2013-09-28,Crystal Palace,6,3
+158,Liverpool,3,Crystal Palace,1,2013-10-05,Crystal Palace,7,3
+159,Crystal Palace,1,Fulham,4,2013-10-21,Crystal Palace,8,3
+160,Crystal Palace,0,Arsenal,2,2013-10-26,Crystal Palace,9,3
+161,West Brom,2,Crystal Palace,0,2013-11-02,Crystal Palace,10,3
+162,Crystal Palace,0,Everton,0,2013-11-09,Crystal Palace,11,4
+163,Hull,0,Crystal Palace,1,2013-11-23,Crystal Palace,12,7
+164,Norwich,1,Crystal Palace,0,2013-11-30,Crystal Palace,13,7
+165,Crystal Palace,1,West Ham,0,2013-12-03,Crystal Palace,14,10
+166,Crystal Palace,2,Cardiff,0,2013-12-07,Crystal Palace,15,13
+167,Chelsea,2,Crystal Palace,1,2013-12-14,Crystal Palace,16,13
+168,Crystal Palace,0,Newcastle,3,2013-12-21,Crystal Palace,17,13
+169,Aston Villa,0,Crystal Palace,1,2013-12-26,Crystal Palace,18,16
+170,Man City,1,Crystal Palace,0,2013-12-28,Crystal Palace,19,16
+171,Crystal Palace,1,Norwich,1,2014-01-01,Crystal Palace,20,17
+172,Spurs,2,Crystal Palace,0,2014-01-11,Crystal Palace,21,17
+173,Crystal Palace,1,Stoke,0,2014-01-18,Crystal Palace,22,20
+174,Crystal Palace,1,Hull,0,2014-01-28,Crystal Palace,23,23
+175,Arsenal,2,Crystal Palace,0,2014-02-02,Crystal Palace,24,23
+176,Crystal Palace,3,West Brom,1,2014-02-08,Crystal Palace,25,26
+177,Crystal Palace,0,Man Utd,2,2014-02-22,Crystal Palace,26,26
+178,Swansea,1,Crystal Palace,1,2014-03-02,Crystal Palace,27,27
+179,Crystal Palace,0,Southampton,1,2014-03-08,Crystal Palace,28,27
+180,Sunderland,0,Crystal Palace,0,2014-03-15,Crystal Palace,29,28
+181,Newcastle,1,Crystal Palace,0,2014-03-22,Crystal Palace,30,28
+182,Crystal Palace,1,Chelsea,0,2014-03-29,Crystal Palace,31,31
+183,Cardiff,0,Crystal Palace,3,2014-04-05,Crystal Palace,32,34
+184,Crystal Palace,1,Aston Villa,0,2014-04-12,Crystal Palace,33,37
+185,Everton,2,Crystal Palace,3,2014-04-16,Crystal Palace,34,40
+186,West Ham,0,Crystal Palace,1,2014-04-19,Crystal Palace,35,43
+187,Crystal Palace,0,Man City,2,2014-04-27,Crystal Palace,36,43
+188,Crystal Palace,3,Liverpool,3,2014-05-05,Crystal Palace,37,44
+189,Fulham,2,Crystal Palace,2,2014-05-11,Crystal Palace,38,45
+190,Norwich,2,Everton,2,2013-08-17,Everton,1,1
+191,Everton,0,West Brom,0,2013-08-24,Everton,2,2
+192,Cardiff,0,Everton,0,2013-08-31,Everton,3,3
+193,Everton,1,Chelsea,0,2013-09-14,Everton,4,6
+194,West Ham,2,Everton,3,2013-09-21,Everton,5,9
+195,Everton,3,Newcastle,2,2013-09-30,Everton,6,12
+196,Man City,3,Everton,1,2013-10-05,Everton,7,12
+197,Everton,2,Hull,1,2013-10-19,Everton,8,15
+198,Aston Villa,0,Everton,2,2013-10-26,Everton,9,18
+199,Everton,0,Spurs,0,2013-11-03,Everton,10,19
+200,Crystal Palace,0,Everton,0,2013-11-09,Everton,11,20
+201,Everton,3,Liverpool,3,2013-11-23,Everton,12,21
+202,Everton,4,Stoke,0,2013-11-30,Everton,13,24
+203,Man Utd,0,Everton,1,2013-12-04,Everton,14,27
+204,Arsenal,1,Everton,1,2013-12-08,Everton,15,28
+205,Everton,4,Fulham,1,2013-12-14,Everton,16,31
+206,Swansea,1,Everton,2,2013-12-22,Everton,17,34
+207,Everton,0,Sunderland,1,2013-12-26,Everton,18,34
+208,Everton,2,Southampton,1,2013-12-29,Everton,19,37
+209,Stoke,1,Everton,1,2014-01-01,Everton,20,38
+210,Everton,2,Norwich,0,2014-01-11,Everton,21,41
+211,West Brom,1,Everton,1,2014-01-20,Everton,22,42
+212,Liverpool,4,Everton,0,2014-01-28,Everton,23,42
+213,Everton,2,Aston Villa,1,2014-02-01,Everton,24,45
+214,Spurs,1,Everton,0,2014-02-09,Everton,25,45
+215,Chelsea,1,Everton,0,2014-02-22,Everton,26,45
+216,Everton,1,West Ham,0,2014-03-01,Everton,27,48
+217,Everton,2,Cardiff,1,2014-03-15,Everton,28,51
+218,Everton,3,Swansea,2,2014-03-22,Everton,29,54
+219,Newcastle,0,Everton,3,2014-03-25,Everton,30,57
+220,Fulham,1,Everton,3,2014-03-30,Everton,31,60
+221,Everton,3,Arsenal,0,2014-04-06,Everton,32,63
+222,Sunderland,0,Everton,1,2014-04-12,Everton,33,66
+223,Everton,2,Crystal Palace,3,2014-04-16,Everton,34,66
+224,Everton,2,Man Utd,0,2014-04-20,Everton,35,69
+225,Southampton,2,Everton,0,2014-04-26,Everton,36,69
+226,Everton,2,Man City,3,2014-05-03,Everton,37,69
+227,Hull,0,Everton,2,2014-05-11,Everton,38,72
+228,Sunderland,0,Fulham,1,2013-08-17,Fulham,1,3
+229,Fulham,1,Arsenal,3,2013-08-24,Fulham,2,3
+230,Newcastle,1,Fulham,0,2013-08-31,Fulham,3,3
+231,Fulham,1,West Brom,1,2013-09-14,Fulham,4,4
+232,Chelsea,2,Fulham,0,2013-09-21,Fulham,5,4
+233,Fulham,1,Cardiff,2,2013-09-28,Fulham,6,4
+234,Fulham,1,Stoke,0,2013-10-05,Fulham,7,7
+235,Crystal Palace,1,Fulham,4,2013-10-21,Fulham,8,10
+236,Southampton,2,Fulham,0,2013-10-26,Fulham,9,10
+237,Fulham,1,Man Utd,3,2013-11-02,Fulham,10,10
+238,Liverpool,4,Fulham,0,2013-11-09,Fulham,11,10
+239,Fulham,1,Swansea,2,2013-11-23,Fulham,12,10
+240,West Ham,3,Fulham,0,2013-11-30,Fulham,13,10
+241,Fulham,1,Spurs,2,2013-12-04,Fulham,14,10
+242,Fulham,2,Aston Villa,0,2013-12-08,Fulham,15,13
+243,Everton,4,Fulham,1,2013-12-14,Fulham,16,13
+244,Fulham,2,Man City,4,2013-12-21,Fulham,17,13
+245,Norwich,1,Fulham,2,2013-12-26,Fulham,18,16
+246,Hull,6,Fulham,0,2013-12-28,Fulham,19,16
+247,Fulham,2,West Ham,1,2014-01-01,Fulham,20,19
+248,Fulham,1,Sunderland,4,2014-01-11,Fulham,21,19
+249,Arsenal,2,Fulham,0,2014-01-18,Fulham,22,19
+250,Swansea,2,Fulham,0,2014-01-28,Fulham,23,19
+251,Fulham,0,Southampton,3,2014-02-01,Fulham,24,19
+252,Man Utd,2,Fulham,2,2014-02-09,Fulham,25,20
+253,Fulham,2,Liverpool,3,2014-02-12,Fulham,26,20
+254,West Brom,1,Fulham,1,2014-02-22,Fulham,27,21
+255,Fulham,1,Chelsea,3,2014-03-01,Fulham,28,21
+256,Cardiff,3,Fulham,1,2014-03-08,Fulham,29,21
+257,Fulham,1,Newcastle,0,2014-03-15,Fulham,30,24
+258,Man City,5,Fulham,0,2014-03-22,Fulham,31,24
+259,Fulham,1,Everton,3,2014-03-30,Fulham,32,24
+260,Aston Villa,1,Fulham,2,2014-04-05,Fulham,33,27
+261,Fulham,1,Norwich,0,2014-04-12,Fulham,34,30
+262,Spurs,3,Fulham,1,2014-04-19,Fulham,35,30
+263,Fulham,2,Hull,2,2014-04-26,Fulham,36,31
+264,Stoke,4,Fulham,1,2014-05-03,Fulham,37,31
+265,Fulham,2,Crystal Palace,2,2014-05-11,Fulham,38,32
+266,Chelsea,2,Hull,0,2013-08-18,Hull,1,0
+267,Hull,1,Norwich,0,2013-08-24,Hull,2,3
+268,Man City,2,Hull,0,2013-08-31,Hull,3,3
+269,Hull,1,Cardiff,1,2013-09-14,Hull,4,4
+270,Newcastle,2,Hull,3,2013-09-21,Hull,5,7
+271,Hull,1,West Ham,0,2013-09-28,Hull,6,10
+272,Hull,0,Aston Villa,0,2013-10-05,Hull,7,11
+273,Everton,2,Hull,1,2013-10-19,Hull,8,11
+274,Spurs,1,Hull,0,2013-10-27,Hull,9,11
+275,Hull,1,Sunderland,0,2013-11-02,Hull,10,14
+276,Southampton,4,Hull,1,2013-11-09,Hull,11,14
+277,Hull,0,Crystal Palace,1,2013-11-23,Hull,12,14
+278,Hull,3,Liverpool,1,2013-12-01,Hull,13,17
+279,Arsenal,2,Hull,0,2013-12-04,Hull,14,17
+280,Swansea,1,Hull,1,2013-12-09,Hull,15,18
+281,Hull,0,Stoke,0,2013-12-14,Hull,16,19
+282,West Brom,1,Hull,1,2013-12-21,Hull,17,20
+283,Hull,2,Man Utd,3,2013-12-26,Hull,18,20
+284,Hull,6,Fulham,0,2013-12-28,Hull,19,23
+285,Liverpool,2,Hull,0,2014-01-01,Hull,20,23
+286,Hull,0,Chelsea,2,2014-01-11,Hull,21,23
+287,Norwich,1,Hull,0,2014-01-18,Hull,22,23
+288,Crystal Palace,1,Hull,0,2014-01-28,Hull,23,23
+289,Hull,1,Spurs,1,2014-02-01,Hull,24,24
+290,Sunderland,0,Hull,2,2014-02-08,Hull,25,27
+291,Hull,0,Southampton,1,2014-02-11,Hull,26,27
+292,Cardiff,0,Hull,4,2014-02-22,Hull,27,30
+293,Hull,1,Newcastle,4,2014-03-01,Hull,28,30
+294,Hull,0,Man City,2,2014-03-15,Hull,29,30
+295,Hull,2,West Brom,0,2014-03-22,Hull,30,33
+296,West Ham,2,Hull,1,2014-03-26,Hull,31,33
+297,Stoke,1,Hull,0,2014-03-29,Hull,32,33
+298,Hull,1,Swansea,0,2014-04-05,Hull,33,36
+299,Hull,0,Arsenal,3,2014-04-20,Hull,34,36
+300,Fulham,2,Hull,2,2014-04-26,Hull,35,37
+301,Aston Villa,3,Hull,1,2014-05-03,Hull,36,37
+302,Man Utd,3,Hull,1,2014-05-06,Hull,37,37
+303,Hull,0,Everton,2,2014-05-11,Hull,38,37
+304,Liverpool,1,Stoke,0,2013-08-17,Liverpool,1,3
+305,Aston Villa,0,Liverpool,1,2013-08-24,Liverpool,2,6
+306,Liverpool,1,Man Utd,0,2013-09-01,Liverpool,3,9
+307,Swansea,2,Liverpool,2,2013-09-16,Liverpool,4,10
+308,Liverpool,0,Southampton,1,2013-09-21,Liverpool,5,10
+309,Sunderland,1,Liverpool,3,2013-09-29,Liverpool,6,13
+310,Liverpool,3,Crystal Palace,1,2013-10-05,Liverpool,7,16
+311,Newcastle,2,Liverpool,2,2013-10-19,Liverpool,8,17
+312,Liverpool,4,West Brom,1,2013-10-26,Liverpool,9,20
+313,Arsenal,2,Liverpool,0,2013-11-02,Liverpool,10,20
+314,Liverpool,4,Fulham,0,2013-11-09,Liverpool,11,23
+315,Everton,3,Liverpool,3,2013-11-23,Liverpool,12,24
+316,Hull,3,Liverpool,1,2013-12-01,Liverpool,13,24
+317,Liverpool,5,Norwich,1,2013-12-04,Liverpool,14,27
+318,Liverpool,4,West Ham,1,2013-12-07,Liverpool,15,30
+319,Spurs,0,Liverpool,5,2013-12-15,Liverpool,16,33
+320,Liverpool,3,Cardiff,1,2013-12-21,Liverpool,17,36
+321,Man City,2,Liverpool,1,2013-12-26,Liverpool,18,36
+322,Chelsea,2,Liverpool,1,2013-12-29,Liverpool,19,36
+323,Liverpool,2,Hull,0,2014-01-01,Liverpool,20,39
+324,Stoke,3,Liverpool,5,2014-01-12,Liverpool,21,42
+325,Liverpool,2,Aston Villa,2,2014-01-18,Liverpool,22,43
+326,Liverpool,4,Everton,0,2014-01-28,Liverpool,23,46
+327,West Brom,1,Liverpool,1,2014-02-02,Liverpool,24,47
+328,Liverpool,5,Arsenal,1,2014-02-08,Liverpool,25,50
+329,Fulham,2,Liverpool,3,2014-02-12,Liverpool,26,53
+330,Liverpool,4,Swansea,3,2014-02-23,Liverpool,27,56
+331,Southampton,0,Liverpool,3,2014-03-01,Liverpool,28,59
+332,Man Utd,0,Liverpool,3,2014-03-16,Liverpool,29,62
+333,Cardiff,3,Liverpool,6,2014-03-22,Liverpool,30,65
+334,Liverpool,2,Sunderland,1,2014-03-26,Liverpool,31,68
+335,Liverpool,4,Spurs,0,2014-03-30,Liverpool,32,71
+336,West Ham,1,Liverpool,2,2014-04-06,Liverpool,33,74
+337,Liverpool,3,Man City,2,2014-04-13,Liverpool,34,77
+338,Norwich,2,Liverpool,3,2014-04-20,Liverpool,35,80
+339,Liverpool,0,Chelsea,2,2014-04-27,Liverpool,36,80
+340,Crystal Palace,3,Liverpool,3,2014-05-05,Liverpool,37,81
+341,Liverpool,2,Newcastle,1,2014-05-11,Liverpool,38,84
+342,Man City,4,Newcastle,0,2013-08-19,Man City,1,3
+343,Cardiff,3,Man City,2,2013-08-25,Man City,2,3
+344,Man City,2,Hull,0,2013-08-31,Man City,3,6
+345,Stoke,0,Man City,0,2013-09-14,Man City,4,7
+346,Man City,4,Man Utd,1,2013-09-22,Man City,5,10
+347,Aston Villa,3,Man City,2,2013-09-28,Man City,6,10
+348,Man City,3,Everton,1,2013-10-05,Man City,7,13
+349,West Ham,1,Man City,3,2013-10-19,Man City,8,16
+350,Chelsea,2,Man City,1,2013-10-27,Man City,9,16
+351,Man City,7,Norwich,0,2013-11-02,Man City,10,19
+352,Sunderland,1,Man City,0,2013-11-10,Man City,11,19
+353,Man City,6,Spurs,0,2013-11-24,Man City,12,22
+354,Man City,3,Swansea,0,2013-12-01,Man City,13,25
+355,West Brom,2,Man City,3,2013-12-04,Man City,14,28
+356,Southampton,1,Man City,1,2013-12-07,Man City,15,29
+357,Man City,6,Arsenal,3,2013-12-14,Man City,16,32
+358,Fulham,2,Man City,4,2013-12-21,Man City,17,35
+359,Man City,2,Liverpool,1,2013-12-26,Man City,18,38
+360,Man City,1,Crystal Palace,0,2013-12-28,Man City,19,41
+361,Swansea,2,Man City,3,2014-01-01,Man City,20,44
+362,Newcastle,0,Man City,2,2014-01-12,Man City,21,47
+363,Man City,4,Cardiff,2,2014-01-18,Man City,22,50
+364,Spurs,1,Man City,5,2014-01-29,Man City,23,53
+365,Man City,0,Chelsea,1,2014-02-03,Man City,24,53
+366,Norwich,0,Man City,0,2014-02-08,Man City,25,54
+367,Man City,1,Stoke,0,2014-02-22,Man City,26,57
+368,Hull,0,Man City,2,2014-03-15,Man City,27,60
+369,Man City,5,Fulham,0,2014-03-22,Man City,28,63
+370,Man Utd,0,Man City,3,2014-03-25,Man City,29,66
+371,Arsenal,1,Man City,1,2014-03-29,Man City,30,67
+372,Man City,4,Southampton,1,2014-04-05,Man City,31,70
+373,Liverpool,3,Man City,2,2014-04-13,Man City,32,70
+374,Man City,2,Sunderland,2,2014-04-16,Man City,33,71
+375,Man City,3,West Brom,1,2014-04-21,Man City,34,74
+376,Crystal Palace,0,Man City,2,2014-04-27,Man City,35,77
+377,Everton,2,Man City,3,2014-05-03,Man City,36,80
+378,Man City,4,Aston Villa,0,2014-05-07,Man City,37,83
+379,Man City,2,West Ham,0,2014-05-11,Man City,38,86
+380,Swansea,1,Man Utd,4,2013-08-17,Man Utd,1,3
+381,Man Utd,0,Chelsea,0,2013-08-26,Man Utd,2,4
+382,Liverpool,1,Man Utd,0,2013-09-01,Man Utd,3,4
+383,Man Utd,2,Crystal Palace,0,2013-09-14,Man Utd,4,7
+384,Man City,4,Man Utd,1,2013-09-22,Man Utd,5,7
+385,Man Utd,1,West Brom,2,2013-09-28,Man Utd,6,7
+386,Sunderland,1,Man Utd,2,2013-10-05,Man Utd,7,10
+387,Man Utd,1,Southampton,1,2013-10-19,Man Utd,8,11
+388,Man Utd,3,Stoke,2,2013-10-26,Man Utd,9,14
+389,Fulham,1,Man Utd,3,2013-11-02,Man Utd,10,17
+390,Man Utd,1,Arsenal,0,2013-11-10,Man Utd,11,20
+391,Cardiff,2,Man Utd,2,2013-11-24,Man Utd,12,21
+392,Spurs,2,Man Utd,2,2013-12-01,Man Utd,13,22
+393,Man Utd,0,Everton,1,2013-12-04,Man Utd,14,22
+394,Man Utd,0,Newcastle,1,2013-12-07,Man Utd,15,22
+395,Aston Villa,0,Man Utd,3,2013-12-15,Man Utd,16,25
+396,Man Utd,3,West Ham,1,2013-12-21,Man Utd,17,28
+397,Hull,2,Man Utd,3,2013-12-26,Man Utd,18,31
+398,Norwich,0,Man Utd,1,2013-12-28,Man Utd,19,34
+399,Man Utd,1,Spurs,2,2014-01-01,Man Utd,20,34
+400,Man Utd,2,Swansea,0,2014-01-11,Man Utd,21,37
+401,Chelsea,3,Man Utd,1,2014-01-19,Man Utd,22,37
+402,Man Utd,2,Cardiff,0,2014-01-28,Man Utd,23,40
+403,Stoke,2,Man Utd,1,2014-02-01,Man Utd,24,40
+404,Man Utd,2,Fulham,2,2014-02-09,Man Utd,25,41
+405,Arsenal,0,Man Utd,0,2014-02-12,Man Utd,26,42
+406,Crystal Palace,0,Man Utd,2,2014-02-22,Man Utd,27,45
+407,West Brom,0,Man Utd,3,2014-03-08,Man Utd,28,48
+408,Man Utd,0,Liverpool,3,2014-03-16,Man Utd,29,48
+409,West Ham,0,Man Utd,2,2014-03-22,Man Utd,30,51
+410,Man Utd,0,Man City,3,2014-03-25,Man Utd,31,51
+411,Man Utd,4,Aston Villa,1,2014-03-29,Man Utd,32,54
+412,Newcastle,0,Man Utd,4,2014-04-05,Man Utd,33,57
+413,Everton,2,Man Utd,0,2014-04-20,Man Utd,34,57
+414,Man Utd,4,Norwich,0,2014-04-26,Man Utd,35,60
+415,Man Utd,0,Sunderland,1,2014-05-03,Man Utd,36,60
+416,Man Utd,3,Hull,1,2014-05-06,Man Utd,37,63
+417,Southampton,1,Man Utd,1,2014-05-11,Man Utd,38,64
+418,Man City,4,Newcastle,0,2013-08-19,Newcastle,1,0
+419,Newcastle,0,West Ham,0,2013-08-24,Newcastle,2,1
+420,Newcastle,1,Fulham,0,2013-08-31,Newcastle,3,4
+421,Aston Villa,1,Newcastle,2,2013-09-14,Newcastle,4,7
+422,Newcastle,2,Hull,3,2013-09-21,Newcastle,5,7
+423,Everton,3,Newcastle,2,2013-09-30,Newcastle,6,7
+424,Cardiff,1,Newcastle,2,2013-10-05,Newcastle,7,10
+425,Newcastle,2,Liverpool,2,2013-10-19,Newcastle,8,11
+426,Sunderland,2,Newcastle,1,2013-10-27,Newcastle,9,11
+427,Newcastle,2,Chelsea,0,2013-11-02,Newcastle,10,14
+428,Spurs,0,Newcastle,1,2013-11-10,Newcastle,11,17
+429,Newcastle,2,Norwich,1,2013-11-23,Newcastle,12,20
+430,Newcastle,2,West Brom,1,2013-11-30,Newcastle,13,23
+431,Swansea,3,Newcastle,0,2013-12-04,Newcastle,14,23
+432,Man Utd,0,Newcastle,1,2013-12-07,Newcastle,15,26
+433,Newcastle,1,Southampton,1,2013-12-14,Newcastle,16,27
+434,Crystal Palace,0,Newcastle,3,2013-12-21,Newcastle,17,30
+435,Newcastle,5,Stoke,1,2013-12-26,Newcastle,18,33
+436,Newcastle,0,Arsenal,1,2013-12-29,Newcastle,19,33
+437,West Brom,1,Newcastle,0,2014-01-01,Newcastle,20,33
+438,Newcastle,0,Man City,2,2014-01-12,Newcastle,21,33
+439,West Ham,1,Newcastle,3,2014-01-18,Newcastle,22,36
+440,Norwich,0,Newcastle,0,2014-01-28,Newcastle,23,37
+441,Newcastle,0,Sunderland,3,2014-02-01,Newcastle,24,37
+442,Chelsea,3,Newcastle,0,2014-02-08,Newcastle,25,37
+443,Newcastle,0,Spurs,4,2014-02-12,Newcastle,26,37
+444,Newcastle,1,Aston Villa,0,2014-02-23,Newcastle,27,40
+445,Hull,1,Newcastle,4,2014-03-01,Newcastle,28,43
+446,Fulham,1,Newcastle,0,2014-03-15,Newcastle,29,43
+447,Newcastle,1,Crystal Palace,0,2014-03-22,Newcastle,30,46
+448,Newcastle,0,Everton,3,2014-03-25,Newcastle,31,46
+449,Southampton,4,Newcastle,0,2014-03-29,Newcastle,32,46
+450,Newcastle,0,Man Utd,4,2014-04-05,Newcastle,33,46
+451,Stoke,1,Newcastle,0,2014-04-12,Newcastle,34,46
+452,Newcastle,1,Swansea,2,2014-04-19,Newcastle,35,46
+453,Arsenal,3,Newcastle,0,2014-04-28,Newcastle,36,46
+454,Newcastle,3,Cardiff,0,2014-05-03,Newcastle,37,49
+455,Liverpool,2,Newcastle,1,2014-05-11,Newcastle,38,49
+456,Norwich,2,Everton,2,2013-08-17,Norwich,1,1
+457,Hull,1,Norwich,0,2013-08-24,Norwich,2,1
+458,Norwich,1,Southampton,0,2013-08-31,Norwich,3,4
+459,Spurs,2,Norwich,0,2013-09-14,Norwich,4,4
+460,Norwich,0,Aston Villa,1,2013-09-21,Norwich,5,4
+461,Stoke,0,Norwich,1,2013-09-29,Norwich,6,7
+462,Norwich,1,Chelsea,3,2013-10-06,Norwich,7,7
+463,Arsenal,4,Norwich,1,2013-10-19,Norwich,8,7
+464,Norwich,0,Cardiff,0,2013-10-26,Norwich,9,8
+465,Man City,7,Norwich,0,2013-11-02,Norwich,10,8
+466,Norwich,3,West Ham,1,2013-11-09,Norwich,11,11
+467,Newcastle,2,Norwich,1,2013-11-23,Norwich,12,11
+468,Norwich,1,Crystal Palace,0,2013-11-30,Norwich,13,14
+469,Liverpool,5,Norwich,1,2013-12-04,Norwich,14,14
+470,West Brom,0,Norwich,2,2013-12-07,Norwich,15,17
+471,Norwich,1,Swansea,1,2013-12-15,Norwich,16,18
+472,Sunderland,0,Norwich,0,2013-12-21,Norwich,17,19
+473,Norwich,1,Fulham,2,2013-12-26,Norwich,18,19
+474,Norwich,0,Man Utd,1,2013-12-28,Norwich,19,19
+475,Crystal Palace,1,Norwich,1,2014-01-01,Norwich,20,20
+476,Everton,2,Norwich,0,2014-01-11,Norwich,21,20
+477,Norwich,1,Hull,0,2014-01-18,Norwich,22,23
+478,Norwich,0,Newcastle,0,2014-01-28,Norwich,23,24
+479,Cardiff,2,Norwich,1,2014-02-01,Norwich,24,24
+480,Norwich,0,Man City,0,2014-02-08,Norwich,25,25
+481,West Ham,2,Norwich,0,2014-02-11,Norwich,26,25
+482,Norwich,1,Spurs,0,2014-02-23,Norwich,27,28
+483,Aston Villa,4,Norwich,1,2014-03-02,Norwich,28,28
+484,Norwich,1,Stoke,1,2014-03-08,Norwich,29,29
+485,Southampton,4,Norwich,2,2014-03-15,Norwich,30,29
+486,Norwich,2,Sunderland,0,2014-03-22,Norwich,31,32
+487,Swansea,3,Norwich,0,2014-03-29,Norwich,32,32
+488,Norwich,0,West Brom,1,2014-04-05,Norwich,33,32
+489,Fulham,1,Norwich,0,2014-04-12,Norwich,34,32
+490,Norwich,2,Liverpool,3,2014-04-20,Norwich,35,32
+491,Man Utd,4,Norwich,0,2014-04-26,Norwich,36,32
+492,Chelsea,0,Norwich,0,2014-05-04,Norwich,37,33
+493,Norwich,0,Arsenal,2,2014-05-11,Norwich,38,33
+494,West Brom,0,Southampton,1,2013-08-17,Southampton,1,3
+495,Southampton,1,Sunderland,1,2013-08-24,Southampton,2,4
+496,Norwich,1,Southampton,0,2013-08-31,Southampton,3,4
+497,Southampton,0,West Ham,0,2013-09-15,Southampton,4,5
+498,Liverpool,0,Southampton,1,2013-09-21,Southampton,5,8
+499,Southampton,2,Crystal Palace,0,2013-09-28,Southampton,6,11
+500,Southampton,2,Swansea,0,2013-10-06,Southampton,7,14
+501,Man Utd,1,Southampton,1,2013-10-19,Southampton,8,15
+502,Southampton,2,Fulham,0,2013-10-26,Southampton,9,18
+503,Stoke,1,Southampton,1,2013-11-02,Southampton,10,19
+504,Southampton,4,Hull,1,2013-11-09,Southampton,11,22
+505,Arsenal,2,Southampton,0,2013-11-23,Southampton,12,22
+506,Chelsea,3,Southampton,1,2013-12-01,Southampton,13,22
+507,Southampton,2,Aston Villa,3,2013-12-04,Southampton,14,22
+508,Southampton,1,Man City,1,2013-12-07,Southampton,15,23
+509,Newcastle,1,Southampton,1,2013-12-14,Southampton,16,24
+510,Southampton,2,Spurs,3,2013-12-22,Southampton,17,24
+511,Cardiff,0,Southampton,3,2013-12-26,Southampton,18,27
+512,Everton,2,Southampton,1,2013-12-29,Southampton,19,27
+513,Southampton,0,Chelsea,3,2014-01-01,Southampton,20,27
+514,Southampton,1,West Brom,0,2014-01-11,Southampton,21,30
+515,Sunderland,2,Southampton,2,2014-01-18,Southampton,22,31
+516,Southampton,2,Arsenal,2,2014-01-28,Southampton,23,32
+517,Fulham,0,Southampton,3,2014-02-01,Southampton,24,35
+518,Southampton,2,Stoke,2,2014-02-08,Southampton,25,36
+519,Hull,0,Southampton,1,2014-02-11,Southampton,26,39
+520,West Ham,3,Southampton,1,2014-02-22,Southampton,27,39
+521,Southampton,0,Liverpool,3,2014-03-01,Southampton,28,39
+522,Crystal Palace,0,Southampton,1,2014-03-08,Southampton,29,42
+523,Southampton,4,Norwich,2,2014-03-15,Southampton,30,45
+524,Spurs,3,Southampton,2,2014-03-23,Southampton,31,45
+525,Southampton,4,Newcastle,0,2014-03-29,Southampton,32,48
+526,Man City,4,Southampton,1,2014-04-05,Southampton,33,48
+527,Southampton,0,Cardiff,1,2014-04-12,Southampton,34,48
+528,Aston Villa,0,Southampton,0,2014-04-19,Southampton,35,49
+529,Southampton,2,Everton,0,2014-04-26,Southampton,36,52
+530,Swansea,0,Southampton,1,2014-05-03,Southampton,37,55
+531,Southampton,1,Man Utd,1,2014-05-11,Southampton,38,56
+532,Crystal Palace,0,Spurs,1,2013-08-18,Spurs,1,3
+533,Spurs,1,Swansea,0,2013-08-25,Spurs,2,6
+534,Arsenal,1,Spurs,0,2013-09-01,Spurs,3,6
+535,Spurs,2,Norwich,0,2013-09-14,Spurs,4,9
+536,Cardiff,0,Spurs,1,2013-09-22,Spurs,5,12
+537,Spurs,1,Chelsea,1,2013-09-28,Spurs,6,13
+538,Spurs,0,West Ham,3,2013-10-06,Spurs,7,13
+539,Aston Villa,0,Spurs,2,2013-10-20,Spurs,8,16
+540,Spurs,1,Hull,0,2013-10-27,Spurs,9,19
+541,Everton,0,Spurs,0,2013-11-03,Spurs,10,20
+542,Spurs,0,Newcastle,1,2013-11-10,Spurs,11,20
+543,Man City,6,Spurs,0,2013-11-24,Spurs,12,20
+544,Spurs,2,Man Utd,2,2013-12-01,Spurs,13,21
+545,Fulham,1,Spurs,2,2013-12-04,Spurs,14,24
+546,Sunderland,1,Spurs,2,2013-12-07,Spurs,15,27
+547,Spurs,0,Liverpool,5,2013-12-15,Spurs,16,27
+548,Southampton,2,Spurs,3,2013-12-22,Spurs,17,30
+549,Spurs,1,West Brom,1,2013-12-26,Spurs,18,31
+550,Spurs,3,Stoke,0,2013-12-29,Spurs,19,34
+551,Man Utd,1,Spurs,2,2014-01-01,Spurs,20,37
+552,Spurs,2,Crystal Palace,0,2014-01-11,Spurs,21,40
+553,Swansea,1,Spurs,3,2014-01-19,Spurs,22,43
+554,Spurs,1,Man City,5,2014-01-29,Spurs,23,43
+555,Hull,1,Spurs,1,2014-02-01,Spurs,24,44
+556,Spurs,1,Everton,0,2014-02-09,Spurs,25,47
+557,Newcastle,0,Spurs,4,2014-02-12,Spurs,26,50
+558,Norwich,1,Spurs,0,2014-02-23,Spurs,27,50
+559,Spurs,1,Cardiff,0,2014-03-02,Spurs,28,53
+560,Chelsea,4,Spurs,0,2014-03-08,Spurs,29,53
+561,Spurs,0,Arsenal,1,2014-03-16,Spurs,30,53
+562,Spurs,3,Southampton,2,2014-03-23,Spurs,31,56
+563,Liverpool,4,Spurs,0,2014-03-30,Spurs,32,56
+564,Spurs,5,Sunderland,1,2014-04-07,Spurs,33,59
+565,West Brom,3,Spurs,3,2014-04-12,Spurs,34,60
+566,Spurs,3,Fulham,1,2014-04-19,Spurs,35,63
+567,Stoke,0,Spurs,1,2014-04-26,Spurs,36,66
+568,West Ham,2,Spurs,0,2014-05-03,Spurs,37,66
+569,Spurs,3,Aston Villa,0,2014-05-11,Spurs,38,69
+570,Liverpool,1,Stoke,0,2013-08-17,Stoke,1,0
+571,Stoke,2,Crystal Palace,1,2013-08-24,Stoke,2,3
+572,West Ham,0,Stoke,1,2013-08-31,Stoke,3,6
+573,Stoke,0,Man City,0,2013-09-14,Stoke,4,7
+574,Arsenal,3,Stoke,1,2013-09-22,Stoke,5,7
+575,Stoke,0,Norwich,1,2013-09-29,Stoke,6,7
+576,Fulham,1,Stoke,0,2013-10-05,Stoke,7,7
+577,Stoke,0,West Brom,0,2013-10-19,Stoke,8,8
+578,Man Utd,3,Stoke,2,2013-10-26,Stoke,9,8
+579,Stoke,1,Southampton,1,2013-11-02,Stoke,10,9
+580,Swansea,3,Stoke,3,2013-11-10,Stoke,11,10
+581,Stoke,2,Sunderland,0,2013-11-23,Stoke,12,13
+582,Everton,4,Stoke,0,2013-11-30,Stoke,13,13
+583,Stoke,0,Cardiff,0,2013-12-04,Stoke,14,14
+584,Stoke,3,Chelsea,2,2013-12-07,Stoke,15,17
+585,Hull,0,Stoke,0,2013-12-14,Stoke,16,18
+586,Stoke,2,Aston Villa,1,2013-12-21,Stoke,17,21
+587,Newcastle,5,Stoke,1,2013-12-26,Stoke,18,21
+588,Spurs,3,Stoke,0,2013-12-29,Stoke,19,21
+589,Stoke,1,Everton,1,2014-01-01,Stoke,20,22
+590,Stoke,3,Liverpool,5,2014-01-12,Stoke,21,22
+591,Crystal Palace,1,Stoke,0,2014-01-18,Stoke,22,22
+592,Sunderland,1,Stoke,0,2014-01-29,Stoke,23,22
+593,Stoke,2,Man Utd,1,2014-02-01,Stoke,24,25
+594,Southampton,2,Stoke,2,2014-02-08,Stoke,25,26
+595,Stoke,1,Swansea,1,2014-02-12,Stoke,26,27
+596,Man City,1,Stoke,0,2014-02-22,Stoke,27,27
+597,Stoke,1,Arsenal,0,2014-03-01,Stoke,28,30
+598,Norwich,1,Stoke,1,2014-03-08,Stoke,29,31
+599,Stoke,3,West Ham,1,2014-03-15,Stoke,30,34
+600,Aston Villa,1,Stoke,4,2014-03-23,Stoke,31,37
+601,Stoke,1,Hull,0,2014-03-29,Stoke,32,40
+602,Chelsea,3,Stoke,0,2014-04-05,Stoke,33,40
+603,Stoke,1,Newcastle,0,2014-04-12,Stoke,34,43
+604,Cardiff,1,Stoke,1,2014-04-19,Stoke,35,44
+605,Stoke,0,Spurs,1,2014-04-26,Stoke,36,44
+606,Stoke,4,Fulham,1,2014-05-03,Stoke,37,47
+607,West Brom,1,Stoke,2,2014-05-11,Stoke,38,50
+608,Sunderland,0,Fulham,1,2013-08-17,Sunderland,1,0
+609,Southampton,1,Sunderland,1,2013-08-24,Sunderland,2,1
+610,Crystal Palace,3,Sunderland,1,2013-08-31,Sunderland,3,1
+611,Sunderland,1,Arsenal,3,2013-09-14,Sunderland,4,1
+612,West Brom,3,Sunderland,0,2013-09-21,Sunderland,5,1
+613,Sunderland,1,Liverpool,3,2013-09-29,Sunderland,6,1
+614,Sunderland,1,Man Utd,2,2013-10-05,Sunderland,7,1
+615,Swansea,4,Sunderland,0,2013-10-19,Sunderland,8,1
+616,Sunderland,2,Newcastle,1,2013-10-27,Sunderland,9,4
+617,Hull,1,Sunderland,0,2013-11-02,Sunderland,10,4
+618,Sunderland,1,Man City,0,2013-11-10,Sunderland,11,7
+619,Stoke,2,Sunderland,0,2013-11-23,Sunderland,12,7
+620,Aston Villa,0,Sunderland,0,2013-11-30,Sunderland,13,8
+621,Sunderland,3,Chelsea,4,2013-12-04,Sunderland,14,8
+622,Sunderland,1,Spurs,2,2013-12-07,Sunderland,15,8
+623,West Ham,0,Sunderland,0,2013-12-14,Sunderland,16,9
+624,Sunderland,0,Norwich,0,2013-12-21,Sunderland,17,10
+625,Everton,0,Sunderland,1,2013-12-26,Sunderland,18,13
+626,Cardiff,2,Sunderland,2,2013-12-28,Sunderland,19,14
+627,Sunderland,0,Aston Villa,1,2014-01-01,Sunderland,20,14
+628,Fulham,1,Sunderland,4,2014-01-11,Sunderland,21,17
+629,Sunderland,2,Southampton,2,2014-01-18,Sunderland,22,18
+630,Sunderland,1,Stoke,0,2014-01-29,Sunderland,23,21
+631,Newcastle,0,Sunderland,3,2014-02-01,Sunderland,24,24
+632,Sunderland,0,Hull,2,2014-02-08,Sunderland,25,24
+633,Arsenal,4,Sunderland,1,2014-02-22,Sunderland,26,24
+634,Sunderland,0,Crystal Palace,0,2014-03-15,Sunderland,27,25
+635,Norwich,2,Sunderland,0,2014-03-22,Sunderland,28,25
+636,Liverpool,2,Sunderland,1,2014-03-26,Sunderland,29,25
+637,Sunderland,1,West Ham,2,2014-03-31,Sunderland,30,25
+638,Spurs,5,Sunderland,1,2014-04-07,Sunderland,31,25
+639,Sunderland,0,Everton,1,2014-04-12,Sunderland,32,25
+640,Man City,2,Sunderland,2,2014-04-16,Sunderland,33,26
+641,Chelsea,1,Sunderland,2,2014-04-19,Sunderland,34,29
+642,Sunderland,4,Cardiff,0,2014-04-27,Sunderland,35,32
+643,Man Utd,0,Sunderland,1,2014-05-03,Sunderland,36,35
+644,Sunderland,2,West Brom,0,2014-05-07,Sunderland,37,38
+645,Sunderland,1,Swansea,3,2014-05-11,Sunderland,38,38
+646,Swansea,1,Man Utd,4,2013-08-17,Swansea,1,0
+647,Spurs,1,Swansea,0,2013-08-25,Swansea,2,0
+648,West Brom,0,Swansea,2,2013-09-01,Swansea,3,3
+649,Swansea,2,Liverpool,2,2013-09-16,Swansea,4,4
+650,Crystal Palace,0,Swansea,2,2013-09-22,Swansea,5,7
+651,Swansea,1,Arsenal,2,2013-09-28,Swansea,6,7
+652,Southampton,2,Swansea,0,2013-10-06,Swansea,7,7
+653,Swansea,4,Sunderland,0,2013-10-19,Swansea,8,10
+654,Swansea,0,West Ham,0,2013-10-27,Swansea,9,11
+655,Cardiff,1,Swansea,0,2013-11-03,Swansea,10,11
+656,Swansea,3,Stoke,3,2013-11-10,Swansea,11,12
+657,Fulham,1,Swansea,2,2013-11-23,Swansea,12,15
+658,Man City,3,Swansea,0,2013-12-01,Swansea,13,15
+659,Swansea,3,Newcastle,0,2013-12-04,Swansea,14,18
+660,Swansea,1,Hull,1,2013-12-09,Swansea,15,19
+661,Norwich,1,Swansea,1,2013-12-15,Swansea,16,20
+662,Swansea,1,Everton,2,2013-12-22,Swansea,17,20
+663,Chelsea,1,Swansea,0,2013-12-26,Swansea,18,20
+664,Aston Villa,1,Swansea,1,2013-12-28,Swansea,19,21
+665,Swansea,2,Man City,3,2014-01-01,Swansea,20,21
+666,Man Utd,2,Swansea,0,2014-01-11,Swansea,21,21
+667,Swansea,1,Spurs,3,2014-01-19,Swansea,22,21
+668,Swansea,2,Fulham,0,2014-01-28,Swansea,23,24
+669,West Ham,2,Swansea,0,2014-02-01,Swansea,24,24
+670,Swansea,3,Cardiff,0,2014-02-08,Swansea,25,27
+671,Stoke,1,Swansea,1,2014-02-12,Swansea,26,28
+672,Liverpool,4,Swansea,3,2014-02-23,Swansea,27,28
+673,Swansea,1,Crystal Palace,1,2014-03-02,Swansea,28,29
+674,Swansea,1,West Brom,2,2014-03-15,Swansea,29,29
+675,Everton,3,Swansea,2,2014-03-22,Swansea,30,29
+676,Arsenal,2,Swansea,2,2014-03-25,Swansea,31,30
+677,Swansea,3,Norwich,0,2014-03-29,Swansea,32,33
+678,Hull,1,Swansea,0,2014-04-05,Swansea,33,33
+679,Swansea,0,Chelsea,1,2014-04-13,Swansea,34,33
+680,Newcastle,1,Swansea,2,2014-04-19,Swansea,35,36
+681,Swansea,4,Aston Villa,1,2014-04-26,Swansea,36,39
+682,Swansea,0,Southampton,1,2014-05-03,Swansea,37,39
+683,Sunderland,1,Swansea,3,2014-05-11,Swansea,38,42
+684,West Brom,0,Southampton,1,2013-08-17,West Brom,1,0
+685,Everton,0,West Brom,0,2013-08-24,West Brom,2,1
+686,West Brom,0,Swansea,2,2013-09-01,West Brom,3,1
+687,Fulham,1,West Brom,1,2013-09-14,West Brom,4,2
+688,West Brom,3,Sunderland,0,2013-09-21,West Brom,5,5
+689,Man Utd,1,West Brom,2,2013-09-28,West Brom,6,8
+690,West Brom,1,Arsenal,1,2013-10-06,West Brom,7,9
+691,Stoke,0,West Brom,0,2013-10-19,West Brom,8,10
+692,Liverpool,4,West Brom,1,2013-10-26,West Brom,9,10
+693,West Brom,2,Crystal Palace,0,2013-11-02,West Brom,10,13
+694,Chelsea,2,West Brom,2,2013-11-09,West Brom,11,14
+695,West Brom,2,Aston Villa,2,2013-11-25,West Brom,12,15
+696,Newcastle,2,West Brom,1,2013-11-30,West Brom,13,15
+697,West Brom,2,Man City,3,2013-12-04,West Brom,14,15
+698,West Brom,0,Norwich,2,2013-12-07,West Brom,15,15
+699,Cardiff,1,West Brom,0,2013-12-14,West Brom,16,15
+700,West Brom,1,Hull,1,2013-12-21,West Brom,17,16
+701,Spurs,1,West Brom,1,2013-12-26,West Brom,18,17
+702,West Ham,3,West Brom,3,2013-12-28,West Brom,19,18
+703,West Brom,1,Newcastle,0,2014-01-01,West Brom,20,21
+704,Southampton,1,West Brom,0,2014-01-11,West Brom,21,21
+705,West Brom,1,Everton,1,2014-01-20,West Brom,22,22
+706,Aston Villa,4,West Brom,3,2014-01-29,West Brom,23,22
+707,West Brom,1,Liverpool,1,2014-02-02,West Brom,24,23
+708,Crystal Palace,3,West Brom,1,2014-02-08,West Brom,25,23
+709,West Brom,1,Chelsea,1,2014-02-11,West Brom,26,24
+710,West Brom,1,Fulham,1,2014-02-22,West Brom,27,25
+711,West Brom,0,Man Utd,3,2014-03-08,West Brom,28,25
+712,Swansea,1,West Brom,2,2014-03-15,West Brom,29,28
+713,Hull,2,West Brom,0,2014-03-22,West Brom,30,28
+714,West Brom,3,Cardiff,3,2014-03-29,West Brom,31,29
+715,Norwich,0,West Brom,1,2014-04-05,West Brom,32,32
+716,West Brom,3,Spurs,3,2014-04-12,West Brom,33,33
+717,Man City,3,West Brom,1,2014-04-21,West Brom,34,33
+718,West Brom,1,West Ham,0,2014-04-26,West Brom,35,36
+719,Arsenal,1,West Brom,0,2014-05-04,West Brom,36,36
+720,Sunderland,2,West Brom,0,2014-05-07,West Brom,37,36
+721,West Brom,1,Stoke,2,2014-05-11,West Brom,38,36
+722,West Ham,2,Cardiff,0,2013-08-17,West Ham,1,3
+723,Newcastle,0,West Ham,0,2013-08-24,West Ham,2,4
+724,West Ham,0,Stoke,1,2013-08-31,West Ham,3,4
+725,Southampton,0,West Ham,0,2013-09-15,West Ham,4,5
+726,West Ham,2,Everton,3,2013-09-21,West Ham,5,5
+727,Hull,1,West Ham,0,2013-09-28,West Ham,6,5
+728,Spurs,0,West Ham,3,2013-10-06,West Ham,7,8
+729,West Ham,1,Man City,3,2013-10-19,West Ham,8,8
+730,Swansea,0,West Ham,0,2013-10-27,West Ham,9,9
+731,West Ham,0,Aston Villa,0,2013-11-02,West Ham,10,10
+732,Norwich,3,West Ham,1,2013-11-09,West Ham,11,10
+733,West Ham,0,Chelsea,3,2013-11-23,West Ham,12,10
+734,West Ham,3,Fulham,0,2013-11-30,West Ham,13,13
+735,Crystal Palace,1,West Ham,0,2013-12-03,West Ham,14,13
+736,Liverpool,4,West Ham,1,2013-12-07,West Ham,15,13
+737,West Ham,0,Sunderland,0,2013-12-14,West Ham,16,14
+738,Man Utd,3,West Ham,1,2013-12-21,West Ham,17,14
+739,West Ham,1,Arsenal,3,2013-12-26,West Ham,18,14
+740,West Ham,3,West Brom,3,2013-12-28,West Ham,19,15
+741,Fulham,2,West Ham,1,2014-01-01,West Ham,20,15
+742,Cardiff,0,West Ham,2,2014-01-11,West Ham,21,18
+743,West Ham,1,Newcastle,3,2014-01-18,West Ham,22,18
+744,Chelsea,0,West Ham,0,2014-01-29,West Ham,23,19
+745,West Ham,2,Swansea,0,2014-02-01,West Ham,24,22
+746,Aston Villa,0,West Ham,2,2014-02-08,West Ham,25,25
+747,West Ham,2,Norwich,0,2014-02-11,West Ham,26,28
+748,West Ham,3,Southampton,1,2014-02-22,West Ham,27,31
+749,Everton,1,West Ham,0,2014-03-01,West Ham,28,31
+750,Stoke,3,West Ham,1,2014-03-15,West Ham,29,31
+751,West Ham,0,Man Utd,2,2014-03-22,West Ham,30,31
+752,West Ham,2,Hull,1,2014-03-26,West Ham,31,34
+753,Sunderland,1,West Ham,2,2014-03-31,West Ham,32,37
+754,West Ham,1,Liverpool,2,2014-04-06,West Ham,33,37
+755,Arsenal,3,West Ham,1,2014-04-15,West Ham,34,37
+756,West Ham,0,Crystal Palace,1,2014-04-19,West Ham,35,37
+757,West Brom,1,West Ham,0,2014-04-26,West Ham,36,37
+758,West Ham,2,Spurs,0,2014-05-03,West Ham,37,40
+759,Man City,2,West Ham,0,2014-05-11,West Ham,38,40
