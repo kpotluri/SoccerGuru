@@ -1,0 +1,369 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.header h1 b {
+	font-weight: bold;
+}
+
+.header img {
+	border-radius: 10%;
+	max-height: 110px;
+}
+
+
+
+
+/*added*/
+
+body {
+   width: 100%;
+   height: 100%;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 300;
+   color: #666;
+   background-color: #fff;
+   font-size: 16px;
+   line-height: 1.6em;
+   font-weight: 400;
+   /*padding-top: 65px;*/
+}
+
+h1,h2,h3,h4,h5,h6 {
+   font-family: 'Montserrat', sans-serif;
+}
+
+#home {
+   color: #fff;
+   text-align: center;
+   background-color: #000;
+   background-image: url(../images/bg4.gif);
+   background-size:100% auto;
+   height: 250px;
+}
+
+#home-container {
+   background-color: rgba(0, 0, 0, 0.7);
+   position: relative;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+#home-text {
+   position: relative;
+   top: 50%;
+   transform: translateY(-50%);
+   height: 200px;
+
+}
+
+#home-text h2{
+  font-size: 80px;
+  margin-top: 0.2em;
+  margin-bottom: 10px;
+  text-align:center;
+  text-transform:uppercase;
+  text-shadow: 0px 0px 30px rgba(30, 28, 28, 0.6)
+}
+
+#home-text p{
+   font-size: 20px;
+   line-height: 1.3em;
+}
+
+/*end*/
+
+
+
+.vs-nav li a {
+	letter-spacing: -1px;
+	font-weight: 300;
+	font-size: 2em;
+}
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+.media-cell-desc h3 {
+	text-transform: none;
+}
+
+.media-cell-desc h3 b {
+	font-weight: 900;
+}
+
+.filters {
+	margin: 0;
+}
+
+#fancybox-title-float-main {
+	text-align: left;
+	padding: 15px 20px;
+}
+
+
+.portfolio-single {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.portfolio-header {
+  margin-bottom: 30px;
+}
+
+.daya-research b {
+  font-size: 1.8em;
+  color: #32aaaa;
+  padding-right: 7px;
+  padding-left: 10px;
+}
+
+.section-wrap {
+  /*font-weight: 400;*/
+}
+
+.icon-top-title h2 {
+  font-weight: 300;
+  font-size: 2.5em;
+  margin: 0.5em 0;
+}
+
+.icon-top-title > i {
+  display: inline-block;
+  /*color: #64c2c2;*/
+  color: #38bfc2;
+  font-size: 64px;
+}
+
+.extra-padding {
+  margin-top: 0.5em;
+  margin-bottom: 3em;
+}
+
+.extra-padding-2 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.extra-padding-3 {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+
+.project-logo {
+  float: left;
+  margin-right: 30px;
+  width: 110px;
+  min-width: 90px;
+}
+
+.portfolio-title .project-title {
+  font-size: 2.5em;
+  margin-top: 0.25em;
+}
+
+.process-item p,
+.process-item ul li {
+  color: #777;
+}
+
+.process-icon {
+  width: 64px;
+}
+
+.icon-box2 h2 {
+  font-weight: 400;
+}
+.icon-box2 p {
+  color: #777;
+}
+
+.p-overlay {
+  z-index: 1000;
+}
+
+/*  --------------------------------------------
+
+	8. THEME - customize colors etc...
+	
+    -------------------------------------------- */
+body {
+ 	color: #345;
+	}
+/* Links */
+a {
+ 	color: #32aaaa;
+	}
+a:hover {
+ 	color: #38bfc2;
+	}
+
+/* Text Selection */
+::selection {
+ 	text-shadow: none; color: #333; background: #90DB76;
+	}
+::-moz-selection {
+ 	text-shadow: none; color: #333; background: #90DB76;
+	}
+
+/* Service Icons */	
+.color1 i { 
+	background: #F8CB30; 
+	}
+.color2 i { 
+	background: #74BADE; 
+	}
+.color3 i { 
+	background: #38bfc2; 
+	}
+.color4 i { 
+	background: #E25E5B; 
+	}	
+	
+/* PRIMARY COLOR : #32aaaa previous: #096
+   ================================================== */
+.navigation a:hover,
+.pagination a:hover,
+.entry-meta a:hover,
+.single-page-layout .vs-nav li i:hover,
+.media-box .mask:before,
+.button.primary:hover,
+a.more-link:hover,
+.flex-control-paging li a.flex-active,
+.mejs-controls .mejs-time-rail .mejs-time-current,
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+ 	background: #333
+	}
+.entry-title a:hover,
+.portfolio-nav a.button:hover,
+.related-posts li a:hover,
+.nav-single a:hover,
+.comment-meta a:hover, 
+.comment-meta .fn + a:hover, 
+.comment-reply-link:hover {
+ 	color: #333
+	}
+.portfolio-nav a.button:hover,
+.format-link .link-content > a:first-child:hover,
+.flex-control-paging li a:hover,
+.bypostauthor > article {
+	border-color: #333
+	}
+	
+/* SECONDARY COLOR : #38bfc2 - lighter than primary color, previous: #5BCF80;
+   ================================================== */	
+.skill-unit .bar .progress,
+.event .date,
+.letter-info p i,
+.media-cell-desc .date,
+#nprogress .bar,
+#fancybox-close,
+.portfolio-nav a.button.back {
+	background: #38bfc2;
+	}
+#nprogress .spinner-icon {
+  border-top-color: #38bfc2; border-left-color: #38bfc2;
+	}
+
+
+.testo:before {
+  content: none;
+}
+
+
+/* Accordian */
+.accordian-item .hidden-details {
+  color: #777;
+  font-size: 0.9em;
+  /*display: none;*/
+}
+
+.letter-info {
+  margin-left: 50px;
+}
+
+/* Phone Frame */
+.phoneframe {
+/*  background: url('../images/portfolio/single/mride/iphone_mockup.png') no-repeat;
+  width: 970px;
+  height: 800px;*/
+  position:relative;
+}
+
+.phonecontainer {
+  position: absolute;
+  top: 233px;
+  left: 39px;
+}
+
+#iphone-embeded {
+  height: 1136px;
+  width: 640px;
+}
+
+
+
+
+  /* #Media Queries
+  ================================================== */
+  
+
+  
+  /* Tablet Portrait size to standard 960 (devices and browsers) */
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+
+  #tline-content { width: 800px; }
+  .tline-box { width: 335px; }
+
+  }
+  
+  /* All Mobile Sizes (devices and browser) */
+  @media only screen and (max-width: 767px) {
+
+  .tline-box .blog-date-sp { width: 80%; }
+  .tline-box .blog-com-sp { width: 0; display: none; }
+
+  }
+  
+  /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+ 
+  #tline-content { width: 460px; }
+  .tline-box { width: 165px; }
+  }
+  
+  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+  @media only screen and (max-width: 479px) {
+  
+  #tline-content { width: 300px; }
+  .tline-box { width: 250px; }
+  .tline-row-l, .tline-row-r { display: none }
+  .tline-box.rgtline { float: left; left: 0; }
+  }
+  
+  @media only screen and (min-width: 1200px) {  
+  
+   } 
+  
+  
+  @media screen and (min-width: 767px) {
+  /* ensure #nav is visible on desktop version */
+
+  } 
+  

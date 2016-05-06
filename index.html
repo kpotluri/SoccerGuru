@@ -1,232 +1,476 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<style>
+<html lang="en" class="no-js one-page-layout" data-classic-layout="false" data-mobile-only-classic-layout="true" data-inAnimation="fadeInUp" data-outAnimation="fadeOutDownBig"><!-- InstanceBegin template="/Templates/layout.dwt" codeOutsideHTMLIsLocked="false" -->
 
-body {
-  font: 10px sans-serif;
-}
+  <head>
 
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
+    <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="info_viz">
+        <meta name="keywords" content="info_viz">
+        <meta name="author" content="info_viz">
 
-.x.axis path {
-  display: none;
-}
+        <title>Soccer Guru</title>
 
-.line {
-  fill: none;
-  stroke: steelblue;
-  stroke-width: 1.5px;
-}
+        <!-- FAV and TOUCH ICONS -->
+        <script src="js/modernizr.custom.js"></script>
 
-</style>
-<body>
-<script src="//d3js.org/d3.v3.min.js"></script>
-<script>
+        <!-- FONTS -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
 
-/* Set margin and widths */
-var margin = {top: 20, right: 80, bottom: 30, left: 50},
-    width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
-
-/* Function to Set the date format */
-var parseDate = d3.time.format("%Y%m%d").parse;
-
-/* Sets the range of scale to 0 - width of the chart */
-/* Range defines the area available to render the graph */
-/* Left to Right for x Axis */
-var xScale = d3.scale.linear()
-    .range([0, width]);
-
-/* Sets the range of scale to height - 0 of the chart */
-/* Range defines the area available to render the graph */
-/* Top to Bottom for y Axis */
-var yScale = d3.scale.linear()
-    .range([height, 0]);
-
-/* Sets the scale for colors */
-var color = d3.scale.category10();
-
-/* Creates axes */
-/* Scales for the axes are set to the scales created above */
-/* Orient sets the position of ticks & text w.r.t. axis path */
-var xAxis = d3.svg.axis()
-    .scale(xScale)
-    .orient("bottom");
-
-var xAxis_top = d3.svg.axis()
-    .scale(xScale)
-    .orient("top");
-
-var yAxis = d3.svg.axis()
-    .scale(yScale)
-    .orient("left");
-
-var yAxis_right = d3.svg.axis()
-    .scale(yScale)
-    .orient("right");
-
-/* Function to create the line for each data point */
-/* Interpolate specifies the shape of the line rendered */
-/* x and y for the datapoint are set according to the scales */
-var line = d3.svg.line()
-    .interpolate("basis")
-    .x(function(d) { return xScale(d.week); })
-    .y(function(d) { return yScale(d.points); });
-
-/* Creates the SVG and bundles the grouped elements together based on margins */
-/* Selects the body tag from the html and appends SVG*/
-/* Sets the width and height of the SVG */
-/* Bundles the group elements based on margins */
-var svg = d3.select("body").append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-/* Open data file and populate the chart*/
-d3.csv("data.csv", function(error, data) {
-  /* Throw error else continue */
-  if (error) throw error;
-
-  var teamName = data[0].team;
-  var teams = [];
-  var team = {};
-  var teamData = [];
-  /* Runs the parse date function to transform the data into desired format */
-  data.forEach(function(d) {
-    if (d.team != teamName) {
-      team['values'] = teamData;
-      team['name'] = teamName;
-      teams.push(team);
-      team = {};
-      teamData = [];
-      teamName = d.team;
-    }
-    var dataPoint = {};
-    dataPoint['away_goals'] = d.away_goals;
-    dataPoint['away_team'] = d.away_team;
-    dataPoint['home_goals'] = d.home_goals;
-    dataPoint['home_team'] = d.home_team;
-    dataPoint['date2'] = d.date2;
-    dataPoint['points'] = +d.points;
-    dataPoint['week'] = +d.week;
-    teamData.push(dataPoint);
-    // d.date = parseDate(d.date);
-  });
-  team['values'] = teamData;
-  team['name'] = teamName;
-  teams.push(team);
-
-  var teamNameList = d3.map(teams, function(d) { return d.name; }).keys();
-  console.log(teamNameList);
+        <!-- STYLES -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/custom.css">
+        <link rel="stylesheet" type="text/css" href="bubble.css">
 
 
-  /* Sets the domain for the color scale */
-  /* Assigns name of each category to a color */
-  color.domain(teamNameList);
+        <script src="http://d3js.org/d3.v3.js"></script>
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> -->
 
 
-  /* Creates an array with each city having all the data. */
-  // var cities = color.domain().map(function(name) {
-  //   return {
-  //     name: name,
-  //     values: data.map(function(d) {
-  //       return {date: d.date, temperature: +d[name]};
-  //     })
-  //   };
-  // });
-
-  /* Defines the maximum and minimum values for the x scale */
-  xScale.domain([
-    d3.min(teams, function(c) { return d3.min(c.values, function(v) { return v.week; }); }),
-    d3.max(teams, function(c) { return d3.max(c.values, function(v) { return v.week; }); })
-  ]);
-
-  /* Defines the maximum and minimum values for the y scale */
-  yScale.domain([
-    d3.min(teams, function(c) { return d3.min(c.values, function(v) { return v.points; }); }),
-    d3.max(teams, function(c) { return d3.max(c.values, function(v) { return v.points; }); })
-  ]);
 
 
-  /* Append the x axis to the svg */
-  /* attr "class" adds the class name to the axes element */
-  /* attr "transform" positions the axes element */
-  svg.append("g")
-      .attr("class", "x axis")
-      .attr("transform", "translate(0," + height + ")")
-      .call(xAxis);
 
-  /* Append the y axis to the svg */
-  /* attr "class" adds the class name to the axes element */
-  /* Appends the text to the axes */
-  /* attr "rotate" rotates the text element */
-  /* attr "y" positions the text element absolutely away from the y axes */
-  /* attr "dy" positions the text element relatively away from the y axes */
-  /* attr "text-anchor" positions the text element. "end" positions it such
-     that the end of the text aligns with the start position for the text */
-  svg.append("g")
-      .attr("class", "y axis")
-      .call(yAxis)
-      .append("text")
-      .attr("transform", "rotate(-90)")
-      .attr("y", 6)
-      .attr("dy", ".71em")
-      .style("text-anchor", "end")
-      .text("Points");
 
-  /* Creates svg groups for all the data points and adds class name "city" */
-  var team = svg.selectAll(".team")
-      .data(teams)
-      .enter().append("g")
-      .attr("class", "team");
 
-  // team.selectAll(".team")
-  //     .enter().append("circle")
-  //     .attr("r", 5)
-  //     .attr("cx", function(d) { return d.week; })
-  //     .attr("cy", function(d) { return d.points; });
 
-  /* Plots the line for each data point */
-  team.append("path")
-      .attr("class", "line")
-      .attr("d", function(d) { return line(d.values); })
-      .style("stroke", function(d) { return color(d.name); })
-      .style("stroke-width", 2)
-      .on("mouseover", function(d){
-                var that = this;
+        <!--[if lte IE 9]>
+            <script src="js/html5shiv.js"></script>
+            <script src="js/respond.min.js"></script>
+            <script src="js/selectivizr-min.js"></script>
+        <![endif]-->
 
-                d3.selectAll(".line")
-                  .transition().duration(100)
-                  .style("opacity", 0.1);
+    <!-- InstanceBeginEditable name="head" -->
+        <!-- InstanceEndEditable -->
 
-                  d3.select(that)
-                    .transition().duration(100)
-                    .style("opacity", 1);
-              })
-      .on("mouseout", function(d){
+  </head>
 
-                d3.selectAll(".line")
-                  .transition().duration(100)
-                  .style("opacity", 1);
 
-              });
+	<body>
+        <!-- <img alt="full screen background image" src="images/site/Pepsized_Blur_15.jpg" id="full-screen-background-image" /> 	 -->
 
-  /* Adds the text towards the end */
-  /* datum gets the data point name and the value of the last data point */
-  /* transform positions the text based on the location of the data point */
-  /* x and dy are relative positions fo the text */
-  team.append("text")
-      .datum(function(d) { return {name: d.name, value: d.values[d.values.length - 1]}; })
-      .attr("transform", function(d) { return "translate(" + xScale(d.value.week) + "," + yScale(d.value.points) + ")"; })
-      .attr("x", 3)
-      .attr("dy", ".35em")
-      .text(function(d) { return d.name; });
-});
 
-</script>
+
+        <!-- CONTAINER -->
+           <div id="home">
+                 <div class="container" id="home-container">
+                    <div class="center" id="home-text">
+<!--                     <ul>
+                        <li style="float: right; display: inline;"><a href="#/soccer" style="color: #FFF;padding-top: 5px; padding-bottom: 15px; padding-top: 10px; padding-right: 15px; padding-bottom: 10px; padding-left: 15px;box-sizing: border-box; display: block;text-align: -webkit-match-parent; font-weight: 400;list-style: none;">About</a></li>
+                        <li style="float: right; display: inline;"><a href="#/performance" style="color: #FFF;padding-top: 5px; padding-bottom: 15px; padding-top: 10px; padding-right: 15px; padding-bottom: 10px; padding-left: 15px;box-sizing: border-box; display: block;text-align: -webkit-match-parent; font-weight: 400;list-style: none;">Performance Trends</a></li>
+                        <li style="float: right; display: inline;"><a href="#/analysis" style="color: #FFF;padding-top: 5px; padding-bottom: 15px; padding-top: 10px; padding-right: 15px; padding-bottom: 10px; padding-left: 15px;box-sizing: border-box; display: block;text-align: -webkit-match-parent; font-weight: 400;list-style: none;">Data Exploration</a></li>
+                    </ul> -->
+                    <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden;">
+                        <li style="float: right;"><a href="#analysis" style="display: block;
+    color: #D6D6D6;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 16px 10px;
+    text-decoration: none;font-weight: bold;">Data Exploration</a></li>
+
+                        <li style="float: right;"><a href="#performance" style="display: block;
+    color: #D6D6D6;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 16px 10px;
+    text-decoration: none;font-weight: bold;">Performance Trends</a></li>
+
+                        <li style="float: right;"><a href="#about" style="display: block;
+    color: #D6D6D6;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 16px 10px;
+    text-decoration: none;font-weight: bold;">About</a></li>
+                    </ul>
+                      <h2 style="padding-top:.4em; padding-bottom:.2em;">SOCCER GURU</h2>
+                      <p>
+
+                        <span class="credit">
+                          <br/>
+
+                          Sameer Bajaj, Safei Gu, Keshav Potluri | Info Viz Final Project
+                        </span>
+<!--                         <br/>
+                        <span class="subheader">
+                          INFO 247_Information Visualization_Final Project
+                        </span> -->
+                      </p>
+                  </div>
+
+                 </div>
+
+          </div>
+
+		<div class="container" id="container">
+
+
+
+            <!-- HEADER -->
+            <header class="header">
+                <!-- NAV MENU -->
+
+
+
+<!--                 <ul class="vs-nav">
+
+
+                    <li><a href="#/soccer">I. About</a></li>
+                    <li><a href="#/performance">II. Performance Trends</a></li>
+                    <li><a href="#/analysis">III. Data Exploration</a></li>
+
+
+                </ul> -->
+
+
+                <!-- NAV MENU -->
+
+
+			</header>
+            <!-- HEADER -->
+
+            <!-- WRAPPER -->
+			<div class="wrapper">
+
+
+				<!-- InstanceBeginEditable name="Page-Content" -->
+
+
+                <!-- PAGE : PORTFOLIO -->
+               <a name="about"></a>
+			<section id="soccer" class="portfolio page">
+			<div class="content">
+
+<!--                         <h2 class="section-title center"><span><i class="icon-leaf"></i>MY WORKS</span></h2> -->
+
+            <div class="row" style="margin-left:5em;margin-right:5em;">
+                <div class="icon-top-title center">
+
+                  <h2 style="margin-top:1.5em;">Premier League? Soccer? What's that?<br></br></h2>
+                  <h3>Exploring English Premier League through data.<br/>
+                      A guide to understanding soccer and the English Premier League.</h3>
+                </div>
+
+                <div class="col-md-12 center">
+                    <p style="display:block;">.<br/>The English Premier League is one of the world’s most popular professional soccer leagues, broadcasted in  212 territories to a potential TV audience of 4.7 billion people. It involves 20 teams from England, each playing a total of 38 matches every season, hence totaling 380 matches per season, making it a very rich source of data. The data set is available publicly <a href="https://github.com/jargnar/premier-league-data">here</a>.<br/></p>
+
+                    <p style="text-align: block;">As huge fans of the beautiful game of soccer and the English Premier league, we are motivated to share our enthusiasm with others. The project hence aims at utilizing data to create rich visualizations to help understand soccer and the English Premier League better. We aim to create visualizations that would allow people to easily understand various data metrics and performance indicators in an interactive manner. With easy to understand and interactive visualizations, we aim to provide better insights about soccer and the league, like how do teams perform throughout seasons, how is it performing relative to other teams, etc.</p>
+                    <article class="icon-box2">
+                   <div>
+                    <div class="col-md-6 center">
+                        <h3>Official website for the English Premier League</h3>
+                    <a href="http://www.premierleague.com/en-gb/matchday/results.html"><img src="images/Website1.jpg" alt=""></a>
+                  </div>
+
+
+                    <div class="col-md-6 center">
+                        <h3>Teams and their stadiums</h3>
+                    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+            <div class='tableauPlaceholder' style='margin-right:auto; margin-left:auto; width: 100px; height: 592px;'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;co&#47;countries_19&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='1004' height='569' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='countries_19&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;co&#47;countries_19&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showTabs' value='y' /></object></div>
+                  </div>
+              </div>
+                    </article>
+
+                </div>
+          </div>
+
+
+
+
+
+
+
+
+            <div class="row" style="background-color:#EFF4F5; padding-bottom: 6em;">
+
+
+                <div class="icon-top-title center">
+                  <h2 style="padding-top:3em;">Why is the English Premier League popular?<br></br></h2>
+                </div>
+
+                <div class="col-md-4 center">
+                    <article class="icon-box2">
+                    <img src="images/icon-02.png" alt="">
+                    <h2>World-Class Players</h2>
+
+                    <p>English premier league has been the home to some of the world's top football clubs like Manchester United, Arsenal, Chelsea etc. These clubs attract world's some of the most talented players making every game a visual treat for the viewers. Most of the world's best players like Christiano Ronaldo, Theiry Henry, Robin Van Persie etc. started their careers in the Premier League.</p>
+                    </article>
+                </div>
+                <div class="col-md-4 center">
+                    <article class="icon-box2">
+                        <img src="images/icon-03.png" alt="">
+                    <h2>Uncertainty of Result</h2>
+                    <p>“If uncertainty makes for compelling competition, nothing can rival the English Premier League.” - New York Times.<br/>As a result of the world-class talent, many of the Premier League games feature unpredictable outcomes. Unlike other leagues in the world, it’s very difficult to predict the results of the matches, making it the most interesting league in the world. For example, in 2015-2016 season, Leicester City, a bottom seed club with the odds of 1:5000 of winning the league, achieved the impossible and won the league.</p>
+                    </article>
+                </div>
+                <div class="col-md-4 center">
+                    <article class="icon-box2">
+                    <img src="images/icon-01.png" alt="">
+                    <h2>4/20: Champions League</h2>
+                    <p>Among the twenty teams, the top four teams qualify for the UEFA Champions League, which is the most prestigious club soccer tournament in the world, featuring the best teams from Europe competing against each other. With one-fifth of the teams in the tournament from the premier league, clubs from England also outperform teams from the rest of the Europe, making it one of the most respected leagues in Europe.</p>
+                    </article>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+
+            </div>
+
+
+
+            <div class="row" style="padding-bottom: 5em;">
+                        <div class="icon-top-title center">
+                          <h2 style="margin-top:3em;">A Guide to Squad Formations<br></br></h2>
+                          <p style="margin-left:6em;margin-right:6em;">Soccer is played between two teams of 11 players. Each team has to put the ball in the opposite team's net, while preventing the other team from putting the ball in their net. Different players have different positions on the field and each of these players has a unique responsibility in the game. A <strong>Goalkeeper</strong> stays close to the team's net and stops the ball from entering the net. A <strong>Defender</strong> prevents the opposite team from getting too close to their net and helps the goalkeeper in doing his job. A <strong>Forward or Striker</strong> plays up front towards the opposite team's net, with the only responsibilty of putting the ball in the opposite team's net. A <strong>Midfielder</strong> is the most versatile player on the field. When the ball is towards the opposite team's goal, a midfielder helps the forwards in scoring. But if the ball is toward's their own goal, they help the defenders and the goalkeeper in stopping the opposite team from scoring. In order to perform well, a team requires all its players in very specific positions in the field and this is prescribed by <strong>Formations</strong></p>
+
+                          <p style="margin-left:6em;margin-right:6em;">A <strong>Formation</strong> describes how the players in a soccer team are positioned on the field. Different formations are used by teams based on the skill of the opposite team, the match situation and also the skills of the players in their own team. If a team wants to play defensive soccer, the 4-4-2 formation, with 4 defenders, 4 midfielders and two forwards, can be used. On the other hand, 3-4-3 is an offensive formation with little defensive play and more focus on attack. There is no optimal formation that a team can use for every match.</p>
+
+                          <h3>Below is an interactive visualization displaying the most common formations used in soccer.</h3>
+                          <p>Team formations can change any time during the game. Click on one of the formations below to view the field movement.</p>
+
+                          <div class="row">
+                            <div class="col-md-2 center">
+
+                            </div>
+                            <div class="col-md-2 center">
+                              <h3 style="margin-right:6em;">4-4-2</h3>
+                            </div>
+                            <div class="col-md-2 center">
+                              <h3 style="margin-right:2em;">4-3-1-2</h3>
+                            </div>
+                            <div class="col-md-2 center">
+                              <h3 style="margin-left:2em;">4-3-3</h3>
+                            </div>
+                            <div class="col-md-2 center">
+                              <h3 style="margin-left:6em;"style="margin-left:6em;margin-right:6em;">3-4-3</h3>
+                            </div>
+                            <div class="col-md-2 center">
+
+                            </div>
+                          </div>
+                          <div class="span6" id="area1" style="margin-left: auto; margin-right:auto;margin-top: 15px;">
+                            <input type="image" src="images/1.png" style="padding:0px;margin-left: auto; margin-right:auto; width: 20%; height: 10%; opacity: 0.6;" src="http://www.google.com" onclick="formone()"  onmouseout="this.style.opacity=0.6;" onmouseover="this.style.opacity=1;"/>
+                            <input type="image" src="images/2.png" style="padding:0px;margin-left: auto; margin-right:auto; width: 20%; height: 10%; opacity: 0.6;" src="http://www.google.com" onclick="formtwo()" onmouseout="this.style.opacity=0.6;" onmouseover="this.style.opacity=1;"/>
+
+                            <input type="image" src="images/3.png" style="padding:0px;margin-left: auto; margin-right:auto;  width: 20%; height: 10%; opacity: 0.6;" src="http://www.google.com" onclick="formthree()" onmouseout="this.style.opacity=0.6;" onmouseover="this.style.opacity=1;"/>
+                            <input type="image" src="images/4.png" style="padding:0px; margin-left: auto; margin-right:auto; width: 20%; height: 10%; opacity: 0.6;" src="http://www.google.com" onclick="formfour()" onmouseout="this.style.opacity=0.6;" onmouseover="this.style.opacity=1;"/>
+
+
+                          </div>
+
+                          <div class="span8" id="area2" style="margin-left: auto; margin-right:auto; margin-top: 15px; height:500px">
+
+                </div>
+              </div>
+
+            </div>
+
+
+
+          </div>
+                    <!-- CONTENT -->
+				</section>
+                <!-- PAGE : PORTFOLIO -->
+
+
+
+
+                <!-- PAGE : CONTACT -->
+				<section id="performance" class="page" ng-app="mainApp" ng-controller="MainCtrl as chart">
+                <a name="performance"></a>
+                  <div class="content">
+
+                    <div class="row" style="background-color:#F0F0F0; padding-bottom: 6em;">
+                        <div class="icon-top-title center">
+                          <h2 style="margin-top:3em;">Team Progression during the Season<br></br></h2>
+                          <p style="margin-left:6em;margin-right:6em;">All 20 teams in the Premier League, play every other team twice every season, playing a total of 38 matches. Every team plays one match every week. A win earns a team 3 points, a draw earns both the teams 1 point and a loss does not earn any point. At the end of 38 weeks, the team with the maximum number of points wins the League. Different teams perform differently in the league. The better teams perform consistently throughout the year, while some teams perform extremely well for one half of the year, but manage to loose in the other half. Also, due to the highly unpredictable nature of the league, any team can win or lose at any time. Therefore, looking at how teams perform throughout the year, can provide some interesting insights about the league.</p>
+
+                          <h3>Below is a visualization showcasing the team performance as the League progresses.</h3>
+                                    <p style="margin-left:6em;margin-right:6em;">Select the season from the dropdown to view the team performances for that season. Hover on a team to view its performance in the season. The horizontal axis represents the 38 weeks in the tournament. The vertical axis represents the maximum and the minimum points scored by any team in that week. Each line represents a team, showcasing its performance throughout the year.</p>
+                        </div>
+
+                        <div class="col-md-12 center">
+                            <div id="line_viz">
+                              <div >
+                                <h3>Select Year:
+                                  <!--Binds options to radar.examples. Binds selected item to example selected. Fires change method with the selected example.-->
+                                  <select ng-options="example for example in chart.seasons_line" ng-model="chart.seasonSelected_line" ng-change="chart.selectSeason_line(chart.seasonSelected_line)"></select>
+                                </h3>
+                              </div>
+                              </div>
+                        <!-- row -->
+                        </div>
+                        <!-- row -->
+
+                    </div>
+
+
+                    <div class="row" style="background-color: #F9F9F9; padding-bottom: 6em;">
+                        <div class="icon-top-title center">
+                          <h2 style="margin-top:3em;">Relative Team Performance<br></br></h2>
+                          <p style="margin-left:6em;margin-right:6em;">Over the years, teams have developed rivalries amongst themselves, establishing patterns within the league. For example, Stoke City no matter how badly it performs throughout the season, defeats all the top clubs in home matches. Manchester United almost always defeats its rivals, Liverpool. Such interesting insights can be developed if one views the relative performaces of teams with respect to each other.</p>
+                          <h3>Below is an interactive visualization that displays relative performace of teams across seasons.</h3>
+                          <p style="margin-left:6em;margin-right:6em;">Select the season from the drop down. Double click on a team to view its relative performance w.r.t other teams during that season. Click and drag any of the teams to view the data clearly, if not visible. Hover on lines/circles for more info.</p>
+                        </div>
+
+                        <div class="col-md-12 center">
+                        <!-- row -->
+                              <div >
+                                <h3>Select Year:
+                                  <!--Binds options to radar.examples. Binds selected item to example selected. Fires change method with the selected example.-->
+                                  <select ng-options="example for example in chart.seasons_network" ng-model="chart.seasonSelected_network" ng-change="chart.selectSeason_network(chart.seasonSelected_network)"></select>
+                                </h3>
+                                 <div id = "bubble_viz">
+                                 </div>
+
+                              </div>
+
+                        </div>
+                        <!-- row -->
+                    </div>
+
+
+                    <div class="row" style="padding-bottom: 6em;">
+                        <div class="icon-top-title center">
+                          <h2 style="margin-top:3em;">Player Information<br></br></h2>
+                          <p style="margin-left:6em;margin-right:6em;">Players maketh the team!!! Soccer is a team sport. And like any other team sport, a team can perform well for a variety of reasons. A team can perform exceptionally well across seasons because they have better players. Or a team can perform well exceptionally well because they have one exceptionally good player. Or a team can perform well because they have a team of average players who perform well together. Sometimes a team can have ups and downs because of player injuries or sudden good performance of certain players. All these can be examined if we examine data related to player performance in detail.</p>
+                          <h3>Below is a dashboard for exploring player data</h3>
+
+                            <p style="margin-left:6em;margin-right:6em;"> Select player from the list to view the player details. To view team specific player data, click on the teams to filter the players for that specific team.</h3>
+                        </div>
+
+                        <div class="col-md-12 center">
+                        <!-- row -->
+                        <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='margin-right:auto; margin-left:auto; width: 1000px; height: 819px;'><noscript><a href='#'><img alt='Player Stats Summary ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;PremierLeagueFantasyFootballWDC_0&#47;PlayerSummary&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='1000' height='819' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='PremierLeagueFantasyFootballWDC_0&#47;PlayerSummary' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;PremierLeagueFantasyFootballWDC_0&#47;PlayerSummary&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showTabs' value='y' /></object></div>
+
+                        </div>
+                        <!-- row -->
+                    </div>
+
+
+
+
+                    </div>
+
+                    <!-- CONTENT -->
+
+				</section>
+                <!-- PAGE : CONTACT -->
+
+
+
+
+
+                <!-- PAGE : RESUME -->
+				<section id="analysis" class="page">
+                    <a name="analysis"></a>
+					<div class="content">
+
+                    <div class="row" style="background-color: #E6F2E8; padding-bottom: 9em;">
+                        <div class="icon-top-title center">
+                          <h2 style="margin-top:3em;">Team Position, Advancement and Relegation<br></br></h2>
+                          <p style="margin-left:6em;margin-right:6em;">At the end of 38 weeks, the total points obtained by the team decide its fate for the next season. The team with the highest points wins the league and is crowned as the <strong>Champion</strong>. The <strong>top 3</strong> teams including the champion, get a chance to compete with Europe's best clubs in the UEFA Champions league next season. The team in the <strong>4th</strong> position, gets a chance to compete against other teams in Europe to secure a berth in the UEFA Champion's League. The <strong>bottom 3</strong> teams are relegated from the Premier League and do not get to play again in the Premier League next season. Instead 3 new clubs from lower leagues get a chance to play in the Premier League. All the other teams in the Premier League are considered <strong>safe</strong> and get the chance to compete again next season. Analyzing this data can lead to some interesting insigths acout the different clubs in the Premier League.</p>
+                          <h3>Below is a dashboard to analyze the Team Position, Relegation and Advancement across seasons.</h3>
+                          <p style="margin-left:6em;margin-right:6em;">Scroll and Filter through data to identify some interesting trends in the Premier League.</p>
+                        </div>
+
+                        <div class="col-md-12 center">
+                     	<!-- row -->
+
+                        <!-- <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='margin-right:auto; margin-left:auto; width: 1004px; height: 869px;'><noscript><a href='#'><img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_10872&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='1004' height='869' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='Book1_10872&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_10872&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showTabs' value='y' /></object></div> -->
+                        <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='margin-right:auto; margin-left:auto; width: 1004px; height: 869px;'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TotalPointsAnalysis&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='1004' height='1069' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='TotalPointsAnalysis&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TotalPointsAnalysis&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showTabs' value='y' /></object></div>
+
+                        </div>
+                        <!-- row -->
+
+                    </div>
+                    </div>
+
+                    <!-- CONTENT -->
+
+
+				</section>
+                <!-- PAGE : RESUME -->
+
+
+
+
+            	<!-- InstanceEndEditable -->
+
+
+
+			</div>
+            <!-- WRAPPER -->
+
+
+		</div>
+        <!-- CONTAINER -->
+
+
+
+
+
+        <!-- InstanceBeginEditable name="Body-End-Content" -->
+
+
+        <!-- PORTFOLIO SINGLE AJAX CONTENT CONTAINER -->
+        <div class="p-overlay"></div>
+        <div class="p-overlay"></div>
+
+
+        <!-- ALERT : used for contact form mail delivery alert -->
+        <div class="site-alert animated"></div>
+
+
+        <!-- InstanceEndEditable -->
+
+
+
+
+       <!-- SCRIPTS
+        <script src="js/jquery-1.10.2.min.js"></script>
+        <script src="js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/jquery.address-1.5.min.js"></script>
+        <script src="js/triple.layout.js"></script>
+        <script src="js/nprogress/nprogress.js"></script>
+        <script src="js/jquery.uniform.min.js"></script>
+        <script src="js/fastclick.js"></script>
+        <script src="js/mediaelement/mediaelement-and-player.min.js"></script>
+        <script src="js/send-mail.js"></script>
+        <script src="js/classie.js"></script>
+        <script src="js/main.js"></script> -->
+
+        <!-- scroll up -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://arrow.scrolltotop.com/arrow88.js"></script>
+
+<!-- SCRIPTS for bubble chart -->
+
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src ="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+        <script src="app.js"></script>
+        <script src="network.js"></script>
+
+<!-- SCRIPTS for tactics chart -->
+        <script src="js/tacticsboard.js"></script>
+<!-- Scripts for Line Chart -->
+        <script src="line.js"></script>
+
+
+<!--  scroll to top
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+          <script type="text/javascript" src="http://arrow.scrolltotop.com/arrow64.js"></script>
+     -->
+
+
+
+	</body>
+
+
+<!-- InstanceEnd -->
+</html>

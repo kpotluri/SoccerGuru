@@ -1,0 +1,761 @@
+,home_team,home_goals,away_team,away_goals,date2,team,week,points
+0,Arsenal,1,West Brom,0,2008-08-16,Arsenal,1,3
+1,Fulham,1,Arsenal,0,2008-08-23,Arsenal,2,3
+2,Arsenal,3,Newcastle,0,2008-08-30,Arsenal,3,6
+3,Blackburn,0,Arsenal,4,2008-09-13,Arsenal,4,9
+4,Bolton,1,Arsenal,3,2008-09-20,Arsenal,5,12
+5,Arsenal,1,Hull,2,2008-09-27,Arsenal,6,12
+6,Sunderland,1,Arsenal,1,2008-10-04,Arsenal,7,13
+7,Arsenal,3,Everton,1,2008-10-18,Arsenal,8,16
+8,West Ham,0,Arsenal,2,2008-10-26,Arsenal,9,19
+9,Arsenal,4,Spurs,4,2008-10-29,Arsenal,10,20
+10,Stoke,2,Arsenal,1,2008-11-01,Arsenal,11,20
+11,Arsenal,2,Man Utd,1,2008-11-08,Arsenal,12,23
+12,Arsenal,0,Aston Villa,2,2008-11-15,Arsenal,13,23
+13,Man City,3,Arsenal,0,2008-11-22,Arsenal,14,23
+14,Chelsea,1,Arsenal,2,2008-11-30,Arsenal,15,26
+15,Arsenal,1,Wigan,0,2008-12-06,Arsenal,16,29
+16,Middlesbrough,1,Arsenal,1,2008-12-13,Arsenal,17,30
+17,Arsenal,1,Liverpool,1,2008-12-21,Arsenal,18,31
+18,Aston Villa,2,Arsenal,2,2008-12-26,Arsenal,19,32
+19,Arsenal,1,Portsmouth,0,2008-12-28,Arsenal,20,35
+20,Arsenal,1,Bolton,0,2009-01-10,Arsenal,21,38
+21,Hull,1,Arsenal,3,2009-01-17,Arsenal,22,41
+22,Everton,1,Arsenal,1,2009-01-28,Arsenal,23,42
+23,Arsenal,0,West Ham,0,2009-01-31,Arsenal,24,43
+24,Spurs,0,Arsenal,0,2009-02-08,Arsenal,25,44
+25,Arsenal,0,Sunderland,0,2009-02-21,Arsenal,26,45
+26,Arsenal,0,Fulham,0,2009-02-28,Arsenal,27,46
+27,West Brom,1,Arsenal,3,2009-03-03,Arsenal,28,49
+28,Arsenal,4,Blackburn,0,2009-03-14,Arsenal,29,52
+29,Newcastle,1,Arsenal,3,2009-03-21,Arsenal,30,55
+30,Arsenal,2,Man City,0,2009-04-04,Arsenal,31,58
+31,Wigan,1,Arsenal,4,2009-04-11,Arsenal,32,61
+32,Liverpool,4,Arsenal,4,2009-04-21,Arsenal,33,62
+33,Arsenal,2,Middlesbrough,0,2009-04-26,Arsenal,34,65
+34,Portsmouth,0,Arsenal,3,2009-05-02,Arsenal,35,68
+35,Arsenal,1,Chelsea,4,2009-05-10,Arsenal,36,68
+36,Man Utd,0,Arsenal,0,2009-05-16,Arsenal,37,69
+37,Arsenal,4,Stoke,1,2009-05-24,Arsenal,38,72
+38,Aston Villa,4,Man City,2,2008-08-17,Aston Villa,1,3
+39,Stoke,3,Aston Villa,2,2008-08-23,Aston Villa,2,3
+40,Aston Villa,0,Liverpool,0,2008-08-31,Aston Villa,3,4
+41,Spurs,1,Aston Villa,2,2008-09-15,Aston Villa,4,7
+42,West Brom,1,Aston Villa,2,2008-09-21,Aston Villa,5,10
+43,Aston Villa,2,Sunderland,1,2008-09-27,Aston Villa,6,13
+44,Chelsea,2,Aston Villa,0,2008-10-05,Aston Villa,7,13
+45,Aston Villa,0,Portsmouth,0,2008-10-18,Aston Villa,8,14
+46,Wigan,0,Aston Villa,4,2008-10-26,Aston Villa,9,17
+47,Aston Villa,3,Blackburn,2,2008-10-29,Aston Villa,10,20
+48,Newcastle,2,Aston Villa,0,2008-11-03,Aston Villa,11,20
+49,Aston Villa,1,Middlesbrough,2,2008-11-09,Aston Villa,12,20
+50,Arsenal,0,Aston Villa,2,2008-11-15,Aston Villa,13,23
+51,Aston Villa,0,Man Utd,0,2008-11-22,Aston Villa,14,24
+52,Aston Villa,0,Fulham,0,2008-11-29,Aston Villa,15,25
+53,Everton,2,Aston Villa,3,2008-12-07,Aston Villa,16,28
+54,Aston Villa,4,Bolton,2,2008-12-13,Aston Villa,17,31
+55,West Ham,0,Aston Villa,1,2008-12-20,Aston Villa,18,34
+56,Aston Villa,2,Arsenal,2,2008-12-26,Aston Villa,19,35
+57,Hull,0,Aston Villa,1,2008-12-30,Aston Villa,20,38
+58,Aston Villa,2,West Brom,1,2009-01-10,Aston Villa,21,41
+59,Sunderland,1,Aston Villa,2,2009-01-17,Aston Villa,22,44
+60,Portsmouth,0,Aston Villa,1,2009-01-27,Aston Villa,23,47
+61,Aston Villa,0,Wigan,0,2009-01-31,Aston Villa,24,48
+62,Blackburn,0,Aston Villa,2,2009-02-07,Aston Villa,25,51
+63,Aston Villa,0,Chelsea,1,2009-02-21,Aston Villa,26,51
+64,Aston Villa,2,Stoke,2,2009-03-01,Aston Villa,27,52
+65,Man City,2,Aston Villa,0,2009-03-04,Aston Villa,28,52
+66,Aston Villa,1,Spurs,2,2009-03-15,Aston Villa,29,52
+67,Liverpool,5,Aston Villa,0,2009-03-22,Aston Villa,30,52
+68,Man Utd,3,Aston Villa,2,2009-04-05,Aston Villa,31,52
+69,Aston Villa,3,Everton,3,2009-04-12,Aston Villa,32,53
+70,Aston Villa,1,West Ham,1,2009-04-18,Aston Villa,33,54
+71,Bolton,1,Aston Villa,1,2009-04-25,Aston Villa,34,55
+72,Aston Villa,1,Hull,0,2009-05-04,Aston Villa,35,58
+73,Fulham,3,Aston Villa,1,2009-05-09,Aston Villa,36,58
+74,Middlesbrough,1,Aston Villa,1,2009-05-16,Aston Villa,37,59
+75,Aston Villa,1,Newcastle,0,2009-05-24,Aston Villa,38,62
+76,Everton,2,Blackburn,3,2008-08-16,Blackburn,1,3
+77,Blackburn,1,Hull,1,2008-08-23,Blackburn,2,4
+78,West Ham,4,Blackburn,1,2008-08-30,Blackburn,3,4
+79,Blackburn,0,Arsenal,4,2008-09-13,Blackburn,4,4
+80,Blackburn,1,Fulham,0,2008-09-20,Blackburn,5,7
+81,Newcastle,1,Blackburn,2,2008-09-27,Blackburn,6,10
+82,Blackburn,0,Man Utd,2,2008-10-04,Blackburn,7,10
+83,Bolton,0,Blackburn,0,2008-10-18,Blackburn,8,11
+84,Blackburn,1,Middlesbrough,1,2008-10-25,Blackburn,9,12
+85,Aston Villa,3,Blackburn,2,2008-10-29,Blackburn,10,12
+86,West Brom,2,Blackburn,2,2008-11-01,Blackburn,11,13
+87,Blackburn,0,Chelsea,2,2008-11-09,Blackburn,12,13
+88,Blackburn,1,Sunderland,2,2008-11-15,Blackburn,13,13
+89,Spurs,1,Blackburn,0,2008-11-23,Blackburn,14,13
+90,Portsmouth,3,Blackburn,2,2008-11-30,Blackburn,15,13
+91,Blackburn,1,Liverpool,3,2008-12-06,Blackburn,16,13
+92,Wigan,3,Blackburn,0,2008-12-13,Blackburn,17,13
+93,Blackburn,3,Stoke,0,2008-12-20,Blackburn,18,16
+94,Sunderland,0,Blackburn,0,2008-12-26,Blackburn,19,17
+95,Blackburn,2,Man City,2,2008-12-28,Blackburn,20,18
+96,Blackburn,3,Newcastle,0,2009-01-17,Blackburn,21,21
+97,Blackburn,2,Bolton,2,2009-01-28,Blackburn,22,22
+98,Middlesbrough,0,Blackburn,0,2009-01-31,Blackburn,23,23
+99,Blackburn,0,Aston Villa,2,2009-02-07,Blackburn,24,23
+100,Man Utd,2,Blackburn,1,2009-02-21,Blackburn,25,23
+101,Hull,1,Blackburn,2,2009-03-01,Blackburn,26,26
+102,Blackburn,0,Everton,0,2009-03-04,Blackburn,27,27
+103,Fulham,1,Blackburn,2,2009-03-11,Blackburn,28,30
+104,Arsenal,4,Blackburn,0,2009-03-14,Blackburn,29,30
+105,Blackburn,1,West Ham,1,2009-03-21,Blackburn,30,31
+106,Blackburn,2,Spurs,1,2009-04-04,Blackburn,31,34
+107,Liverpool,4,Blackburn,0,2009-04-11,Blackburn,32,34
+108,Stoke,1,Blackburn,0,2009-04-18,Blackburn,33,34
+109,Blackburn,2,Wigan,0,2009-04-26,Blackburn,34,37
+110,Man City,3,Blackburn,1,2009-05-02,Blackburn,35,37
+111,Blackburn,2,Portsmouth,0,2009-05-09,Blackburn,36,40
+112,Chelsea,2,Blackburn,0,2009-05-17,Blackburn,37,40
+113,Blackburn,0,West Brom,0,2009-05-24,Blackburn,38,41
+114,Bolton,3,Stoke,1,2008-08-16,Bolton,1,3
+115,Newcastle,1,Bolton,0,2008-08-23,Bolton,2,3
+116,Bolton,0,West Brom,0,2008-08-30,Bolton,3,4
+117,Fulham,2,Bolton,1,2008-09-13,Bolton,4,4
+118,Bolton,1,Arsenal,3,2008-09-20,Bolton,5,4
+119,Man Utd,2,Bolton,0,2008-09-27,Bolton,6,4
+120,West Ham,1,Bolton,3,2008-10-05,Bolton,7,7
+121,Bolton,0,Blackburn,0,2008-10-18,Bolton,8,8
+122,Spurs,2,Bolton,0,2008-10-26,Bolton,9,8
+123,Bolton,0,Everton,1,2008-10-29,Bolton,10,8
+124,Bolton,2,Man City,0,2008-11-02,Bolton,11,11
+125,Hull,0,Bolton,1,2008-11-08,Bolton,12,14
+126,Bolton,0,Liverpool,2,2008-11-15,Bolton,13,14
+127,Middlesbrough,1,Bolton,3,2008-11-22,Bolton,14,17
+128,Sunderland,1,Bolton,4,2008-11-29,Bolton,15,20
+129,Bolton,0,Chelsea,2,2008-12-06,Bolton,16,20
+130,Aston Villa,4,Bolton,2,2008-12-13,Bolton,17,20
+131,Bolton,2,Portsmouth,1,2008-12-20,Bolton,18,23
+132,Liverpool,3,Bolton,0,2008-12-26,Bolton,19,23
+133,Bolton,0,Wigan,1,2008-12-28,Bolton,20,23
+134,Arsenal,1,Bolton,0,2009-01-10,Bolton,21,23
+135,Bolton,0,Man Utd,1,2009-01-17,Bolton,22,23
+136,Blackburn,2,Bolton,2,2009-01-28,Bolton,23,24
+137,Bolton,3,Spurs,2,2009-01-31,Bolton,24,27
+138,Everton,3,Bolton,0,2009-02-07,Bolton,25,27
+139,Bolton,2,West Ham,1,2009-02-21,Bolton,26,30
+140,Bolton,1,Newcastle,0,2009-03-01,Bolton,27,33
+141,Stoke,2,Bolton,0,2009-03-04,Bolton,28,33
+142,Bolton,1,Fulham,3,2009-03-14,Bolton,29,33
+143,West Brom,1,Bolton,1,2009-03-21,Bolton,30,34
+144,Bolton,4,Middlesbrough,1,2009-04-04,Bolton,31,37
+145,Chelsea,4,Bolton,3,2009-04-11,Bolton,32,37
+146,Portsmouth,1,Bolton,0,2009-04-18,Bolton,33,37
+147,Bolton,1,Aston Villa,1,2009-04-25,Bolton,34,38
+148,Wigan,0,Bolton,0,2009-05-02,Bolton,35,39
+149,Bolton,0,Sunderland,0,2009-05-09,Bolton,36,40
+150,Bolton,1,Hull,1,2009-05-16,Bolton,37,41
+151,Man City,1,Bolton,0,2009-05-24,Bolton,38,41
+152,Chelsea,4,Portsmouth,0,2008-08-17,Chelsea,1,3
+153,Wigan,0,Chelsea,1,2008-08-24,Chelsea,2,6
+154,Chelsea,1,Spurs,1,2008-08-31,Chelsea,3,7
+155,Man City,1,Chelsea,3,2008-09-13,Chelsea,4,10
+156,Chelsea,1,Man Utd,1,2008-09-21,Chelsea,5,11
+157,Stoke,0,Chelsea,2,2008-09-27,Chelsea,6,14
+158,Chelsea,2,Aston Villa,0,2008-10-05,Chelsea,7,17
+159,Middlesbrough,0,Chelsea,5,2008-10-18,Chelsea,8,20
+160,Chelsea,0,Liverpool,1,2008-10-26,Chelsea,9,20
+161,Hull,0,Chelsea,3,2008-10-29,Chelsea,10,23
+162,Chelsea,5,Sunderland,0,2008-11-01,Chelsea,11,26
+163,Blackburn,0,Chelsea,2,2008-11-09,Chelsea,12,29
+164,West Brom,0,Chelsea,3,2008-11-15,Chelsea,13,32
+165,Chelsea,0,Newcastle,0,2008-11-22,Chelsea,14,33
+166,Chelsea,1,Arsenal,2,2008-11-30,Chelsea,15,33
+167,Bolton,0,Chelsea,2,2008-12-06,Chelsea,16,36
+168,Chelsea,1,West Ham,1,2008-12-14,Chelsea,17,37
+169,Everton,0,Chelsea,0,2008-12-22,Chelsea,18,38
+170,Chelsea,2,West Brom,0,2008-12-26,Chelsea,19,41
+171,Fulham,2,Chelsea,2,2008-12-28,Chelsea,20,42
+172,Man Utd,3,Chelsea,0,2009-01-11,Chelsea,21,42
+173,Chelsea,2,Stoke,1,2009-01-17,Chelsea,22,45
+174,Chelsea,2,Middlesbrough,0,2009-01-28,Chelsea,23,48
+175,Liverpool,2,Chelsea,0,2009-02-01,Chelsea,24,48
+176,Chelsea,0,Hull,0,2009-02-07,Chelsea,25,49
+177,Aston Villa,0,Chelsea,1,2009-02-21,Chelsea,26,52
+178,Chelsea,2,Wigan,1,2009-02-28,Chelsea,27,55
+179,Portsmouth,0,Chelsea,1,2009-03-03,Chelsea,28,58
+180,Chelsea,1,Man City,0,2009-03-15,Chelsea,29,61
+181,Spurs,1,Chelsea,0,2009-03-21,Chelsea,30,61
+182,Newcastle,0,Chelsea,2,2009-04-04,Chelsea,31,64
+183,Chelsea,4,Bolton,3,2009-04-11,Chelsea,32,67
+184,Chelsea,0,Everton,0,2009-04-22,Chelsea,33,68
+185,West Ham,0,Chelsea,1,2009-04-25,Chelsea,34,71
+186,Chelsea,3,Fulham,1,2009-05-02,Chelsea,35,74
+187,Arsenal,1,Chelsea,4,2009-05-10,Chelsea,36,77
+188,Chelsea,2,Blackburn,0,2009-05-17,Chelsea,37,80
+189,Sunderland,2,Chelsea,3,2009-05-24,Chelsea,38,83
+190,Everton,2,Blackburn,3,2008-08-16,Everton,1,0
+191,West Brom,1,Everton,2,2008-08-23,Everton,2,3
+192,Everton,0,Portsmouth,3,2008-08-30,Everton,3,3
+193,Stoke,2,Everton,3,2008-09-14,Everton,4,6
+194,Hull,2,Everton,2,2008-09-21,Everton,5,7
+195,Everton,0,Liverpool,2,2008-09-27,Everton,6,7
+196,Everton,2,Newcastle,2,2008-10-05,Everton,7,8
+197,Arsenal,3,Everton,1,2008-10-18,Everton,8,8
+198,Everton,1,Man Utd,1,2008-10-25,Everton,9,9
+199,Bolton,0,Everton,1,2008-10-29,Everton,10,12
+200,Everton,1,Fulham,0,2008-11-01,Everton,11,15
+201,West Ham,1,Everton,3,2008-11-08,Everton,12,18
+202,Everton,1,Middlesbrough,1,2008-11-16,Everton,13,19
+203,Wigan,1,Everton,0,2008-11-24,Everton,14,19
+204,Spurs,0,Everton,1,2008-11-30,Everton,15,22
+205,Everton,2,Aston Villa,3,2008-12-07,Everton,16,22
+206,Man City,0,Everton,1,2008-12-13,Everton,17,25
+207,Everton,0,Chelsea,0,2008-12-22,Everton,18,26
+208,Middlesbrough,0,Everton,1,2008-12-26,Everton,19,29
+209,Everton,3,Sunderland,0,2008-12-28,Everton,20,32
+210,Everton,2,Hull,0,2009-01-10,Everton,21,35
+211,Liverpool,1,Everton,1,2009-01-19,Everton,22,36
+212,Everton,1,Arsenal,1,2009-01-28,Everton,23,37
+213,Man Utd,1,Everton,0,2009-01-31,Everton,24,37
+214,Everton,3,Bolton,0,2009-02-07,Everton,25,40
+215,Newcastle,0,Everton,0,2009-02-22,Everton,26,41
+216,Everton,2,West Brom,0,2009-02-28,Everton,27,44
+217,Blackburn,0,Everton,0,2009-03-04,Everton,28,45
+218,Everton,3,Stoke,1,2009-03-14,Everton,29,48
+219,Portsmouth,2,Everton,1,2009-03-21,Everton,30,48
+220,Everton,4,Wigan,0,2009-04-05,Everton,31,51
+221,Aston Villa,3,Everton,3,2009-04-12,Everton,32,52
+222,Chelsea,0,Everton,0,2009-04-22,Everton,33,53
+223,Everton,1,Man City,2,2009-04-25,Everton,34,53
+224,Sunderland,0,Everton,2,2009-05-03,Everton,35,56
+225,Everton,0,Spurs,0,2009-05-09,Everton,36,57
+226,Everton,3,West Ham,1,2009-05-16,Everton,37,60
+227,Fulham,0,Everton,2,2009-05-24,Everton,38,63
+228,Hull,2,Fulham,1,2008-08-16,Fulham,1,0
+229,Fulham,1,Arsenal,0,2008-08-23,Fulham,2,3
+230,Fulham,2,Bolton,1,2008-09-13,Fulham,3,6
+231,Blackburn,1,Fulham,0,2008-09-20,Fulham,4,6
+232,Fulham,1,West Ham,2,2008-09-27,Fulham,5,6
+233,West Brom,1,Fulham,0,2008-10-04,Fulham,6,6
+234,Fulham,0,Sunderland,0,2008-10-18,Fulham,7,7
+235,Portsmouth,1,Fulham,1,2008-10-26,Fulham,8,8
+236,Fulham,2,Wigan,0,2008-10-29,Fulham,9,11
+237,Everton,1,Fulham,0,2008-11-01,Fulham,10,11
+238,Fulham,2,Newcastle,1,2008-11-09,Fulham,11,14
+239,Fulham,2,Spurs,1,2008-11-15,Fulham,12,17
+240,Liverpool,0,Fulham,0,2008-11-22,Fulham,13,18
+241,Aston Villa,0,Fulham,0,2008-11-29,Fulham,14,19
+242,Fulham,1,Man City,1,2008-12-06,Fulham,15,20
+243,Stoke,0,Fulham,0,2008-12-13,Fulham,16,21
+244,Fulham,3,Middlesbrough,0,2008-12-20,Fulham,17,24
+245,Spurs,0,Fulham,0,2008-12-26,Fulham,18,25
+246,Fulham,2,Chelsea,2,2008-12-28,Fulham,19,26
+247,West Ham,3,Fulham,1,2009-01-18,Fulham,20,26
+248,Sunderland,1,Fulham,0,2009-01-27,Fulham,21,26
+249,Fulham,3,Portsmouth,1,2009-01-31,Fulham,22,29
+250,Wigan,0,Fulham,0,2009-02-07,Fulham,23,30
+251,Man Utd,3,Fulham,0,2009-02-18,Fulham,24,30
+252,Fulham,2,West Brom,0,2009-02-22,Fulham,25,33
+253,Arsenal,0,Fulham,0,2009-02-28,Fulham,26,34
+254,Fulham,0,Hull,1,2009-03-04,Fulham,27,34
+255,Fulham,1,Blackburn,2,2009-03-11,Fulham,28,34
+256,Bolton,1,Fulham,3,2009-03-14,Fulham,29,37
+257,Fulham,2,Man Utd,0,2009-03-21,Fulham,30,40
+258,Fulham,0,Liverpool,1,2009-04-04,Fulham,31,40
+259,Man City,1,Fulham,3,2009-04-12,Fulham,32,43
+260,Middlesbrough,0,Fulham,0,2009-04-18,Fulham,33,44
+261,Fulham,1,Stoke,0,2009-04-25,Fulham,34,47
+262,Chelsea,3,Fulham,1,2009-05-02,Fulham,35,47
+263,Fulham,3,Aston Villa,1,2009-05-09,Fulham,36,50
+264,Newcastle,0,Fulham,1,2009-05-16,Fulham,37,53
+265,Fulham,0,Everton,2,2009-05-24,Fulham,38,53
+266,Hull,2,Fulham,1,2008-08-16,Hull,1,3
+267,Blackburn,1,Hull,1,2008-08-23,Hull,2,4
+268,Hull,0,Wigan,5,2008-08-30,Hull,3,4
+269,Newcastle,1,Hull,2,2008-09-13,Hull,4,7
+270,Hull,2,Everton,2,2008-09-21,Hull,5,8
+271,Arsenal,1,Hull,2,2008-09-27,Hull,6,11
+272,Spurs,0,Hull,1,2008-10-05,Hull,7,14
+273,Hull,1,West Ham,0,2008-10-19,Hull,8,17
+274,West Brom,0,Hull,3,2008-10-25,Hull,9,20
+275,Hull,0,Chelsea,3,2008-10-29,Hull,10,20
+276,Man Utd,4,Hull,3,2008-11-01,Hull,11,20
+277,Hull,0,Bolton,1,2008-11-08,Hull,12,20
+278,Hull,2,Man City,2,2008-11-16,Hull,13,21
+279,Portsmouth,2,Hull,2,2008-11-22,Hull,14,22
+280,Stoke,1,Hull,1,2008-11-29,Hull,15,23
+281,Hull,2,Middlesbrough,1,2008-12-06,Hull,16,26
+282,Liverpool,2,Hull,2,2008-12-13,Hull,17,27
+283,Hull,1,Sunderland,4,2008-12-20,Hull,18,27
+284,Man City,5,Hull,1,2008-12-26,Hull,19,27
+285,Hull,0,Aston Villa,1,2008-12-30,Hull,20,27
+286,Everton,2,Hull,0,2009-01-10,Hull,21,27
+287,Hull,1,Arsenal,3,2009-01-17,Hull,22,27
+288,West Ham,2,Hull,0,2009-01-28,Hull,23,27
+289,Hull,2,West Brom,2,2009-01-31,Hull,24,28
+290,Chelsea,0,Hull,0,2009-02-07,Hull,25,29
+291,Hull,1,Spurs,2,2009-02-23,Hull,26,29
+292,Hull,1,Blackburn,2,2009-03-01,Hull,27,29
+293,Fulham,0,Hull,1,2009-03-04,Hull,28,32
+294,Hull,1,Newcastle,1,2009-03-14,Hull,29,33
+295,Wigan,1,Hull,0,2009-03-22,Hull,30,33
+296,Hull,0,Portsmouth,0,2009-04-04,Hull,31,34
+297,Middlesbrough,3,Hull,1,2009-04-11,Hull,32,34
+298,Sunderland,1,Hull,0,2009-04-18,Hull,33,34
+299,Hull,1,Liverpool,3,2009-04-25,Hull,34,34
+300,Aston Villa,1,Hull,0,2009-05-04,Hull,35,34
+301,Hull,1,Stoke,2,2009-05-09,Hull,36,34
+302,Bolton,1,Hull,1,2009-05-16,Hull,37,35
+303,Hull,0,Man Utd,1,2009-05-24,Hull,38,35
+304,Sunderland,0,Liverpool,1,2008-08-16,Liverpool,1,3
+305,Liverpool,2,Middlesbrough,1,2008-08-23,Liverpool,2,6
+306,Aston Villa,0,Liverpool,0,2008-08-31,Liverpool,3,7
+307,Liverpool,2,Man Utd,1,2008-09-13,Liverpool,4,10
+308,Liverpool,0,Stoke,0,2008-09-20,Liverpool,5,11
+309,Everton,0,Liverpool,2,2008-09-27,Liverpool,6,14
+310,Man City,2,Liverpool,3,2008-10-05,Liverpool,7,17
+311,Liverpool,3,Wigan,2,2008-10-18,Liverpool,8,20
+312,Chelsea,0,Liverpool,1,2008-10-26,Liverpool,9,23
+313,Liverpool,1,Portsmouth,0,2008-10-29,Liverpool,10,26
+314,Spurs,2,Liverpool,1,2008-11-01,Liverpool,11,26
+315,Liverpool,3,West Brom,0,2008-11-08,Liverpool,12,29
+316,Bolton,0,Liverpool,2,2008-11-15,Liverpool,13,32
+317,Liverpool,0,Fulham,0,2008-11-22,Liverpool,14,33
+318,Liverpool,0,West Ham,0,2008-12-01,Liverpool,15,34
+319,Blackburn,1,Liverpool,3,2008-12-06,Liverpool,16,37
+320,Liverpool,2,Hull,2,2008-12-13,Liverpool,17,38
+321,Arsenal,1,Liverpool,1,2008-12-21,Liverpool,18,39
+322,Liverpool,3,Bolton,0,2008-12-26,Liverpool,19,42
+323,Newcastle,1,Liverpool,5,2008-12-28,Liverpool,20,45
+324,Stoke,0,Liverpool,0,2009-01-10,Liverpool,21,46
+325,Liverpool,1,Everton,1,2009-01-19,Liverpool,22,47
+326,Wigan,1,Liverpool,1,2009-01-28,Liverpool,23,48
+327,Liverpool,2,Chelsea,0,2009-02-01,Liverpool,24,51
+328,Portsmouth,2,Liverpool,3,2009-02-07,Liverpool,25,54
+329,Liverpool,1,Man City,1,2009-02-22,Liverpool,26,55
+330,Middlesbrough,2,Liverpool,0,2009-02-28,Liverpool,27,55
+331,Liverpool,2,Sunderland,0,2009-03-03,Liverpool,28,58
+332,Man Utd,1,Liverpool,4,2009-03-14,Liverpool,29,61
+333,Liverpool,5,Aston Villa,0,2009-03-22,Liverpool,30,64
+334,Fulham,0,Liverpool,1,2009-04-04,Liverpool,31,67
+335,Liverpool,4,Blackburn,0,2009-04-11,Liverpool,32,70
+336,Liverpool,4,Arsenal,4,2009-04-21,Liverpool,33,71
+337,Hull,1,Liverpool,3,2009-04-25,Liverpool,34,74
+338,Liverpool,3,Newcastle,0,2009-05-03,Liverpool,35,77
+339,West Ham,0,Liverpool,3,2009-05-09,Liverpool,36,80
+340,West Brom,0,Liverpool,2,2009-05-17,Liverpool,37,83
+341,Liverpool,3,Spurs,1,2009-05-24,Liverpool,38,86
+342,Aston Villa,4,Man City,2,2008-08-17,Man City,1,0
+343,Man City,3,West Ham,0,2008-08-24,Man City,2,3
+344,Sunderland,0,Man City,3,2008-08-31,Man City,3,6
+345,Man City,1,Chelsea,3,2008-09-13,Man City,4,6
+346,Man City,6,Portsmouth,0,2008-09-21,Man City,5,9
+347,Wigan,2,Man City,1,2008-09-28,Man City,6,9
+348,Man City,2,Liverpool,3,2008-10-05,Man City,7,9
+349,Newcastle,2,Man City,2,2008-10-20,Man City,8,10
+350,Man City,3,Stoke,0,2008-10-26,Man City,9,13
+351,Middlesbrough,2,Man City,0,2008-10-29,Man City,10,13
+352,Bolton,2,Man City,0,2008-11-02,Man City,11,13
+353,Man City,1,Spurs,2,2008-11-09,Man City,12,13
+354,Hull,2,Man City,2,2008-11-16,Man City,13,14
+355,Man City,3,Arsenal,0,2008-11-22,Man City,14,17
+356,Man City,0,Man Utd,1,2008-11-30,Man City,15,17
+357,Fulham,1,Man City,1,2008-12-06,Man City,16,18
+358,Man City,0,Everton,1,2008-12-13,Man City,17,18
+359,West Brom,2,Man City,1,2008-12-21,Man City,18,18
+360,Man City,5,Hull,1,2008-12-26,Man City,19,21
+361,Blackburn,2,Man City,2,2008-12-28,Man City,20,22
+362,Man City,1,Wigan,0,2009-01-17,Man City,21,25
+363,Man City,2,Newcastle,1,2009-01-28,Man City,22,28
+364,Stoke,1,Man City,0,2009-01-31,Man City,23,28
+365,Man City,1,Middlesbrough,0,2009-02-07,Man City,24,31
+366,Portsmouth,2,Man City,0,2009-02-14,Man City,25,31
+367,Liverpool,1,Man City,1,2009-02-22,Man City,26,32
+368,West Ham,1,Man City,0,2009-03-01,Man City,27,32
+369,Man City,2,Aston Villa,0,2009-03-04,Man City,28,35
+370,Chelsea,1,Man City,0,2009-03-15,Man City,29,35
+371,Man City,1,Sunderland,0,2009-03-22,Man City,30,38
+372,Arsenal,2,Man City,0,2009-04-04,Man City,31,38
+373,Man City,1,Fulham,3,2009-04-12,Man City,32,38
+374,Man City,4,West Brom,2,2009-04-19,Man City,33,41
+375,Everton,1,Man City,2,2009-04-25,Man City,34,44
+376,Man City,3,Blackburn,1,2009-05-02,Man City,35,47
+377,Man Utd,2,Man City,0,2009-05-10,Man City,36,47
+378,Spurs,2,Man City,1,2009-05-16,Man City,37,47
+379,Man City,1,Bolton,0,2009-05-24,Man City,38,50
+380,Man Utd,1,Newcastle,1,2008-08-17,Man Utd,1,1
+381,Portsmouth,0,Man Utd,1,2008-08-25,Man Utd,2,4
+382,Liverpool,2,Man Utd,1,2008-09-13,Man Utd,3,4
+383,Chelsea,1,Man Utd,1,2008-09-21,Man Utd,4,5
+384,Man Utd,2,Bolton,0,2008-09-27,Man Utd,5,8
+385,Blackburn,0,Man Utd,2,2008-10-04,Man Utd,6,11
+386,Man Utd,4,West Brom,0,2008-10-18,Man Utd,7,14
+387,Everton,1,Man Utd,1,2008-10-25,Man Utd,8,15
+388,Man Utd,2,West Ham,0,2008-10-29,Man Utd,9,18
+389,Man Utd,4,Hull,3,2008-11-01,Man Utd,10,21
+390,Arsenal,2,Man Utd,1,2008-11-08,Man Utd,11,21
+391,Man Utd,5,Stoke,0,2008-11-15,Man Utd,12,24
+392,Aston Villa,0,Man Utd,0,2008-11-22,Man Utd,13,25
+393,Man City,0,Man Utd,1,2008-11-30,Man Utd,14,28
+394,Man Utd,1,Sunderland,0,2008-12-06,Man Utd,15,31
+395,Spurs,0,Man Utd,0,2008-12-13,Man Utd,16,32
+396,Stoke,0,Man Utd,1,2008-12-26,Man Utd,17,35
+397,Man Utd,1,Middlesbrough,0,2008-12-29,Man Utd,18,38
+398,Man Utd,3,Chelsea,0,2009-01-11,Man Utd,19,41
+399,Man Utd,1,Wigan,0,2009-01-14,Man Utd,20,44
+400,Bolton,0,Man Utd,1,2009-01-17,Man Utd,21,47
+401,West Brom,0,Man Utd,5,2009-01-27,Man Utd,22,50
+402,Man Utd,1,Everton,0,2009-01-31,Man Utd,23,53
+403,West Ham,0,Man Utd,1,2009-02-08,Man Utd,24,56
+404,Man Utd,3,Fulham,0,2009-02-18,Man Utd,25,59
+405,Man Utd,2,Blackburn,1,2009-02-21,Man Utd,26,62
+406,Newcastle,1,Man Utd,2,2009-03-04,Man Utd,27,65
+407,Man Utd,1,Liverpool,4,2009-03-14,Man Utd,28,65
+408,Fulham,2,Man Utd,0,2009-03-21,Man Utd,29,65
+409,Man Utd,3,Aston Villa,2,2009-04-05,Man Utd,30,68
+410,Sunderland,1,Man Utd,2,2009-04-11,Man Utd,31,71
+411,Man Utd,2,Portsmouth,0,2009-04-22,Man Utd,32,74
+412,Man Utd,5,Spurs,2,2009-04-25,Man Utd,33,77
+413,Middlesbrough,0,Man Utd,2,2009-05-02,Man Utd,34,80
+414,Man Utd,2,Man City,0,2009-05-10,Man Utd,35,83
+415,Wigan,1,Man Utd,2,2009-05-13,Man Utd,36,86
+416,Man Utd,0,Arsenal,0,2009-05-16,Man Utd,37,87
+417,Hull,0,Man Utd,1,2009-05-24,Man Utd,38,90
+418,Middlesbrough,2,Spurs,1,2008-08-16,Middlesbrough,1,3
+419,Liverpool,2,Middlesbrough,1,2008-08-23,Middlesbrough,2,3
+420,Middlesbrough,2,Stoke,1,2008-08-30,Middlesbrough,3,6
+421,Portsmouth,2,Middlesbrough,1,2008-09-13,Middlesbrough,4,6
+422,Sunderland,2,Middlesbrough,0,2008-09-20,Middlesbrough,5,6
+423,Middlesbrough,0,West Brom,1,2008-09-27,Middlesbrough,6,6
+424,Wigan,0,Middlesbrough,1,2008-10-04,Middlesbrough,7,9
+425,Middlesbrough,0,Chelsea,5,2008-10-18,Middlesbrough,8,9
+426,Blackburn,1,Middlesbrough,1,2008-10-25,Middlesbrough,9,10
+427,Middlesbrough,2,Man City,0,2008-10-29,Middlesbrough,10,13
+428,Middlesbrough,1,West Ham,1,2008-11-01,Middlesbrough,11,14
+429,Aston Villa,1,Middlesbrough,2,2008-11-09,Middlesbrough,12,17
+430,Everton,1,Middlesbrough,1,2008-11-16,Middlesbrough,13,18
+431,Middlesbrough,1,Bolton,3,2008-11-22,Middlesbrough,14,18
+432,Middlesbrough,0,Newcastle,0,2008-11-29,Middlesbrough,15,19
+433,Hull,2,Middlesbrough,1,2008-12-06,Middlesbrough,16,19
+434,Middlesbrough,1,Arsenal,1,2008-12-13,Middlesbrough,17,20
+435,Fulham,3,Middlesbrough,0,2008-12-20,Middlesbrough,18,20
+436,Middlesbrough,0,Everton,1,2008-12-26,Middlesbrough,19,20
+437,Man Utd,1,Middlesbrough,0,2008-12-29,Middlesbrough,20,20
+438,Middlesbrough,1,Sunderland,1,2009-01-10,Middlesbrough,21,21
+439,West Brom,3,Middlesbrough,0,2009-01-17,Middlesbrough,22,21
+440,Chelsea,2,Middlesbrough,0,2009-01-28,Middlesbrough,23,21
+441,Middlesbrough,0,Blackburn,0,2009-01-31,Middlesbrough,24,22
+442,Man City,1,Middlesbrough,0,2009-02-07,Middlesbrough,25,22
+443,Middlesbrough,0,Wigan,0,2009-02-21,Middlesbrough,26,23
+444,Middlesbrough,2,Liverpool,0,2009-02-28,Middlesbrough,27,26
+445,Spurs,4,Middlesbrough,0,2009-03-04,Middlesbrough,28,26
+446,Middlesbrough,1,Portsmouth,1,2009-03-14,Middlesbrough,29,27
+447,Stoke,1,Middlesbrough,0,2009-03-21,Middlesbrough,30,27
+448,Bolton,4,Middlesbrough,1,2009-04-04,Middlesbrough,31,27
+449,Middlesbrough,3,Hull,1,2009-04-11,Middlesbrough,32,30
+450,Middlesbrough,0,Fulham,0,2009-04-18,Middlesbrough,33,31
+451,Arsenal,2,Middlesbrough,0,2009-04-26,Middlesbrough,34,31
+452,Middlesbrough,0,Man Utd,2,2009-05-02,Middlesbrough,35,31
+453,Newcastle,3,Middlesbrough,1,2009-05-11,Middlesbrough,36,31
+454,Middlesbrough,1,Aston Villa,1,2009-05-16,Middlesbrough,37,32
+455,West Ham,2,Middlesbrough,1,2009-05-24,Middlesbrough,38,32
+456,Man Utd,1,Newcastle,1,2008-08-17,Newcastle,1,1
+457,Newcastle,1,Bolton,0,2008-08-23,Newcastle,2,4
+458,Arsenal,3,Newcastle,0,2008-08-30,Newcastle,3,4
+459,Newcastle,1,Hull,2,2008-09-13,Newcastle,4,4
+460,West Ham,3,Newcastle,1,2008-09-20,Newcastle,5,4
+461,Newcastle,1,Blackburn,2,2008-09-27,Newcastle,6,4
+462,Everton,2,Newcastle,2,2008-10-05,Newcastle,7,5
+463,Newcastle,2,Man City,2,2008-10-20,Newcastle,8,6
+464,Sunderland,2,Newcastle,1,2008-10-25,Newcastle,9,6
+465,Newcastle,2,West Brom,1,2008-10-28,Newcastle,10,9
+466,Newcastle,2,Aston Villa,0,2008-11-03,Newcastle,11,12
+467,Fulham,2,Newcastle,1,2008-11-09,Newcastle,12,12
+468,Newcastle,2,Wigan,2,2008-11-15,Newcastle,13,13
+469,Chelsea,0,Newcastle,0,2008-11-22,Newcastle,14,14
+470,Middlesbrough,0,Newcastle,0,2008-11-29,Newcastle,15,15
+471,Newcastle,2,Stoke,2,2008-12-06,Newcastle,16,16
+472,Portsmouth,0,Newcastle,3,2008-12-14,Newcastle,17,19
+473,Newcastle,2,Spurs,1,2008-12-21,Newcastle,18,22
+474,Wigan,2,Newcastle,1,2008-12-26,Newcastle,19,22
+475,Newcastle,1,Liverpool,5,2008-12-28,Newcastle,20,22
+476,Newcastle,2,West Ham,2,2009-01-10,Newcastle,21,23
+477,Blackburn,3,Newcastle,0,2009-01-17,Newcastle,22,23
+478,Man City,2,Newcastle,1,2009-01-28,Newcastle,23,23
+479,Newcastle,1,Sunderland,1,2009-02-01,Newcastle,24,24
+480,West Brom,2,Newcastle,3,2009-02-07,Newcastle,25,27
+481,Newcastle,0,Everton,0,2009-02-22,Newcastle,26,28
+482,Bolton,1,Newcastle,0,2009-03-01,Newcastle,27,28
+483,Newcastle,1,Man Utd,2,2009-03-04,Newcastle,28,28
+484,Hull,1,Newcastle,1,2009-03-14,Newcastle,29,29
+485,Newcastle,1,Arsenal,3,2009-03-21,Newcastle,30,29
+486,Newcastle,0,Chelsea,2,2009-04-04,Newcastle,31,29
+487,Stoke,1,Newcastle,1,2009-04-11,Newcastle,32,30
+488,Spurs,1,Newcastle,0,2009-04-19,Newcastle,33,30
+489,Newcastle,0,Portsmouth,0,2009-04-27,Newcastle,34,31
+490,Liverpool,3,Newcastle,0,2009-05-03,Newcastle,35,31
+491,Newcastle,3,Middlesbrough,1,2009-05-11,Newcastle,36,34
+492,Newcastle,0,Fulham,1,2009-05-16,Newcastle,37,34
+493,Aston Villa,1,Newcastle,0,2009-05-24,Newcastle,38,34
+494,Chelsea,4,Portsmouth,0,2008-08-17,Portsmouth,1,0
+495,Portsmouth,0,Man Utd,1,2008-08-25,Portsmouth,2,0
+496,Everton,0,Portsmouth,3,2008-08-30,Portsmouth,3,3
+497,Portsmouth,2,Middlesbrough,1,2008-09-13,Portsmouth,4,6
+498,Man City,6,Portsmouth,0,2008-09-21,Portsmouth,5,6
+499,Portsmouth,2,Spurs,0,2008-09-28,Portsmouth,6,9
+500,Portsmouth,2,Stoke,1,2008-10-05,Portsmouth,7,12
+501,Aston Villa,0,Portsmouth,0,2008-10-18,Portsmouth,8,13
+502,Portsmouth,1,Fulham,1,2008-10-26,Portsmouth,9,14
+503,Liverpool,1,Portsmouth,0,2008-10-29,Portsmouth,10,14
+504,Portsmouth,1,Wigan,2,2008-11-01,Portsmouth,11,14
+505,Sunderland,1,Portsmouth,2,2008-11-08,Portsmouth,12,17
+506,West Ham,0,Portsmouth,0,2008-11-15,Portsmouth,13,18
+507,Portsmouth,2,Hull,2,2008-11-22,Portsmouth,14,19
+508,Portsmouth,3,Blackburn,2,2008-11-30,Portsmouth,15,22
+509,West Brom,1,Portsmouth,1,2008-12-07,Portsmouth,16,23
+510,Portsmouth,0,Newcastle,3,2008-12-14,Portsmouth,17,23
+511,Bolton,2,Portsmouth,1,2008-12-20,Portsmouth,18,23
+512,Portsmouth,1,West Ham,4,2008-12-26,Portsmouth,19,23
+513,Arsenal,1,Portsmouth,0,2008-12-28,Portsmouth,20,23
+514,Spurs,1,Portsmouth,1,2009-01-18,Portsmouth,21,24
+515,Portsmouth,0,Aston Villa,1,2009-01-27,Portsmouth,22,24
+516,Fulham,3,Portsmouth,1,2009-01-31,Portsmouth,23,24
+517,Portsmouth,2,Liverpool,3,2009-02-07,Portsmouth,24,24
+518,Portsmouth,2,Man City,0,2009-02-14,Portsmouth,25,27
+519,Stoke,2,Portsmouth,2,2009-02-21,Portsmouth,26,28
+520,Portsmouth,0,Chelsea,1,2009-03-03,Portsmouth,27,28
+521,Middlesbrough,1,Portsmouth,1,2009-03-14,Portsmouth,28,29
+522,Portsmouth,2,Everton,1,2009-03-21,Portsmouth,29,32
+523,Hull,0,Portsmouth,0,2009-04-04,Portsmouth,30,33
+524,Portsmouth,2,West Brom,2,2009-04-11,Portsmouth,31,34
+525,Portsmouth,1,Bolton,0,2009-04-18,Portsmouth,32,37
+526,Man Utd,2,Portsmouth,0,2009-04-22,Portsmouth,33,37
+527,Newcastle,0,Portsmouth,0,2009-04-27,Portsmouth,34,38
+528,Portsmouth,0,Arsenal,3,2009-05-02,Portsmouth,35,38
+529,Blackburn,2,Portsmouth,0,2009-05-09,Portsmouth,36,38
+530,Portsmouth,3,Sunderland,1,2009-05-18,Portsmouth,37,41
+531,Wigan,1,Portsmouth,0,2009-05-24,Portsmouth,38,41
+532,Middlesbrough,2,Spurs,1,2008-08-16,Spurs,1,0
+533,Spurs,1,Sunderland,2,2008-08-23,Spurs,2,0
+534,Chelsea,1,Spurs,1,2008-08-31,Spurs,3,1
+535,Spurs,1,Aston Villa,2,2008-09-15,Spurs,4,1
+536,Spurs,0,Wigan,0,2008-09-21,Spurs,5,2
+537,Portsmouth,2,Spurs,0,2008-09-28,Spurs,6,2
+538,Spurs,0,Hull,1,2008-10-05,Spurs,7,2
+539,Stoke,2,Spurs,1,2008-10-19,Spurs,8,2
+540,Spurs,2,Bolton,0,2008-10-26,Spurs,9,5
+541,Arsenal,4,Spurs,4,2008-10-29,Spurs,10,6
+542,Spurs,2,Liverpool,1,2008-11-01,Spurs,11,9
+543,Man City,1,Spurs,2,2008-11-09,Spurs,12,12
+544,Fulham,2,Spurs,1,2008-11-15,Spurs,13,12
+545,Spurs,1,Blackburn,0,2008-11-23,Spurs,14,15
+546,Spurs,0,Everton,1,2008-11-30,Spurs,15,15
+547,West Ham,0,Spurs,2,2008-12-08,Spurs,16,18
+548,Spurs,0,Man Utd,0,2008-12-13,Spurs,17,19
+549,Newcastle,2,Spurs,1,2008-12-21,Spurs,18,19
+550,Spurs,0,Fulham,0,2008-12-26,Spurs,19,20
+551,West Brom,2,Spurs,0,2008-12-28,Spurs,20,20
+552,Wigan,1,Spurs,0,2009-01-11,Spurs,21,20
+553,Spurs,1,Portsmouth,1,2009-01-18,Spurs,22,21
+554,Spurs,3,Stoke,1,2009-01-27,Spurs,23,24
+555,Bolton,3,Spurs,2,2009-01-31,Spurs,24,24
+556,Spurs,0,Arsenal,0,2009-02-08,Spurs,25,25
+557,Hull,1,Spurs,2,2009-02-23,Spurs,26,28
+558,Spurs,4,Middlesbrough,0,2009-03-04,Spurs,27,31
+559,Sunderland,1,Spurs,1,2009-03-07,Spurs,28,32
+560,Aston Villa,1,Spurs,2,2009-03-15,Spurs,29,35
+561,Spurs,1,Chelsea,0,2009-03-21,Spurs,30,38
+562,Blackburn,2,Spurs,1,2009-04-04,Spurs,31,38
+563,Spurs,1,West Ham,0,2009-04-11,Spurs,32,41
+564,Spurs,1,Newcastle,0,2009-04-19,Spurs,33,44
+565,Man Utd,5,Spurs,2,2009-04-25,Spurs,34,44
+566,Spurs,1,West Brom,0,2009-05-02,Spurs,35,47
+567,Everton,0,Spurs,0,2009-05-09,Spurs,36,48
+568,Spurs,2,Man City,1,2009-05-16,Spurs,37,51
+569,Liverpool,3,Spurs,1,2009-05-24,Spurs,38,51
+570,Bolton,3,Stoke,1,2008-08-16,Stoke,1,0
+571,Stoke,3,Aston Villa,2,2008-08-23,Stoke,2,3
+572,Middlesbrough,2,Stoke,1,2008-08-30,Stoke,3,3
+573,Stoke,2,Everton,3,2008-09-14,Stoke,4,3
+574,Liverpool,0,Stoke,0,2008-09-20,Stoke,5,4
+575,Stoke,0,Chelsea,2,2008-09-27,Stoke,6,4
+576,Portsmouth,2,Stoke,1,2008-10-05,Stoke,7,4
+577,Stoke,2,Spurs,1,2008-10-19,Stoke,8,7
+578,Man City,3,Stoke,0,2008-10-26,Stoke,9,7
+579,Stoke,1,Sunderland,0,2008-10-29,Stoke,10,10
+580,Stoke,2,Arsenal,1,2008-11-01,Stoke,11,13
+581,Wigan,0,Stoke,0,2008-11-08,Stoke,12,14
+582,Man Utd,5,Stoke,0,2008-11-15,Stoke,13,14
+583,Stoke,1,West Brom,0,2008-11-22,Stoke,14,17
+584,Stoke,1,Hull,1,2008-11-29,Stoke,15,18
+585,Newcastle,2,Stoke,2,2008-12-06,Stoke,16,19
+586,Stoke,0,Fulham,0,2008-12-13,Stoke,17,20
+587,Blackburn,3,Stoke,0,2008-12-20,Stoke,18,20
+588,Stoke,0,Man Utd,1,2008-12-26,Stoke,19,20
+589,West Ham,2,Stoke,1,2008-12-28,Stoke,20,20
+590,Stoke,0,Liverpool,0,2009-01-10,Stoke,21,21
+591,Chelsea,2,Stoke,1,2009-01-17,Stoke,22,21
+592,Spurs,3,Stoke,1,2009-01-27,Stoke,23,21
+593,Stoke,1,Man City,0,2009-01-31,Stoke,24,24
+594,Sunderland,2,Stoke,0,2009-02-07,Stoke,25,24
+595,Stoke,2,Portsmouth,2,2009-02-21,Stoke,26,25
+596,Aston Villa,2,Stoke,2,2009-03-01,Stoke,27,26
+597,Stoke,2,Bolton,0,2009-03-04,Stoke,28,29
+598,Everton,3,Stoke,1,2009-03-14,Stoke,29,29
+599,Stoke,1,Middlesbrough,0,2009-03-21,Stoke,30,32
+600,West Brom,0,Stoke,2,2009-04-04,Stoke,31,35
+601,Stoke,1,Newcastle,1,2009-04-11,Stoke,32,36
+602,Stoke,1,Blackburn,0,2009-04-18,Stoke,33,39
+603,Fulham,1,Stoke,0,2009-04-25,Stoke,34,39
+604,Stoke,0,West Ham,1,2009-05-02,Stoke,35,39
+605,Hull,1,Stoke,2,2009-05-09,Stoke,36,42
+606,Stoke,2,Wigan,0,2009-05-16,Stoke,37,45
+607,Arsenal,4,Stoke,1,2009-05-24,Stoke,38,45
+608,Sunderland,0,Liverpool,1,2008-08-16,Sunderland,1,0
+609,Spurs,1,Sunderland,2,2008-08-23,Sunderland,2,3
+610,Sunderland,0,Man City,3,2008-08-31,Sunderland,3,3
+611,Wigan,1,Sunderland,1,2008-09-13,Sunderland,4,4
+612,Sunderland,2,Middlesbrough,0,2008-09-20,Sunderland,5,7
+613,Aston Villa,2,Sunderland,1,2008-09-27,Sunderland,6,7
+614,Sunderland,1,Arsenal,1,2008-10-04,Sunderland,7,8
+615,Fulham,0,Sunderland,0,2008-10-18,Sunderland,8,9
+616,Sunderland,2,Newcastle,1,2008-10-25,Sunderland,9,12
+617,Stoke,1,Sunderland,0,2008-10-29,Sunderland,10,12
+618,Chelsea,5,Sunderland,0,2008-11-01,Sunderland,11,12
+619,Sunderland,1,Portsmouth,2,2008-11-08,Sunderland,12,12
+620,Blackburn,1,Sunderland,2,2008-11-15,Sunderland,13,15
+621,Sunderland,0,West Ham,1,2008-11-23,Sunderland,14,15
+622,Sunderland,1,Bolton,4,2008-11-29,Sunderland,15,15
+623,Man Utd,1,Sunderland,0,2008-12-06,Sunderland,16,15
+624,Sunderland,4,West Brom,0,2008-12-13,Sunderland,17,18
+625,Hull,1,Sunderland,4,2008-12-20,Sunderland,18,21
+626,Sunderland,0,Blackburn,0,2008-12-26,Sunderland,19,22
+627,Everton,3,Sunderland,0,2008-12-28,Sunderland,20,22
+628,Middlesbrough,1,Sunderland,1,2009-01-10,Sunderland,21,23
+629,Sunderland,1,Aston Villa,2,2009-01-17,Sunderland,22,23
+630,Sunderland,1,Fulham,0,2009-01-27,Sunderland,23,26
+631,Newcastle,1,Sunderland,1,2009-02-01,Sunderland,24,27
+632,Sunderland,2,Stoke,0,2009-02-07,Sunderland,25,30
+633,Arsenal,0,Sunderland,0,2009-02-21,Sunderland,26,31
+634,Liverpool,2,Sunderland,0,2009-03-03,Sunderland,27,31
+635,Sunderland,1,Spurs,1,2009-03-07,Sunderland,28,32
+636,Sunderland,1,Wigan,2,2009-03-14,Sunderland,29,32
+637,Man City,1,Sunderland,0,2009-03-22,Sunderland,30,32
+638,West Ham,2,Sunderland,0,2009-04-04,Sunderland,31,32
+639,Sunderland,1,Man Utd,2,2009-04-11,Sunderland,32,32
+640,Sunderland,1,Hull,0,2009-04-18,Sunderland,33,35
+641,West Brom,3,Sunderland,0,2009-04-25,Sunderland,34,35
+642,Sunderland,0,Everton,2,2009-05-03,Sunderland,35,35
+643,Bolton,0,Sunderland,0,2009-05-09,Sunderland,36,36
+644,Portsmouth,3,Sunderland,1,2009-05-18,Sunderland,37,36
+645,Sunderland,2,Chelsea,3,2009-05-24,Sunderland,38,36
+646,Arsenal,1,West Brom,0,2008-08-16,West Brom,1,0
+647,West Brom,1,Everton,2,2008-08-23,West Brom,2,0
+648,Bolton,0,West Brom,0,2008-08-30,West Brom,3,1
+649,West Brom,3,West Ham,2,2008-09-13,West Brom,4,4
+650,West Brom,1,Aston Villa,2,2008-09-21,West Brom,5,4
+651,Middlesbrough,0,West Brom,1,2008-09-27,West Brom,6,7
+652,West Brom,1,Fulham,0,2008-10-04,West Brom,7,10
+653,Man Utd,4,West Brom,0,2008-10-18,West Brom,8,10
+654,West Brom,0,Hull,3,2008-10-25,West Brom,9,10
+655,Newcastle,2,West Brom,1,2008-10-28,West Brom,10,10
+656,West Brom,2,Blackburn,2,2008-11-01,West Brom,11,11
+657,Liverpool,3,West Brom,0,2008-11-08,West Brom,12,11
+658,West Brom,0,Chelsea,3,2008-11-15,West Brom,13,11
+659,Stoke,1,West Brom,0,2008-11-22,West Brom,14,11
+660,Wigan,2,West Brom,1,2008-11-29,West Brom,15,11
+661,West Brom,1,Portsmouth,1,2008-12-07,West Brom,16,12
+662,Sunderland,4,West Brom,0,2008-12-13,West Brom,17,12
+663,West Brom,2,Man City,1,2008-12-21,West Brom,18,15
+664,Chelsea,2,West Brom,0,2008-12-26,West Brom,19,15
+665,West Brom,2,Spurs,0,2008-12-28,West Brom,20,18
+666,Aston Villa,2,West Brom,1,2009-01-10,West Brom,21,18
+667,West Brom,3,Middlesbrough,0,2009-01-17,West Brom,22,21
+668,West Brom,0,Man Utd,5,2009-01-27,West Brom,23,21
+669,Hull,2,West Brom,2,2009-01-31,West Brom,24,22
+670,West Brom,2,Newcastle,3,2009-02-07,West Brom,25,22
+671,Fulham,2,West Brom,0,2009-02-22,West Brom,26,22
+672,Everton,2,West Brom,0,2009-02-28,West Brom,27,22
+673,West Brom,1,Arsenal,3,2009-03-03,West Brom,28,22
+674,West Ham,0,West Brom,0,2009-03-16,West Brom,29,23
+675,West Brom,1,Bolton,1,2009-03-21,West Brom,30,24
+676,West Brom,0,Stoke,2,2009-04-04,West Brom,31,24
+677,Portsmouth,2,West Brom,2,2009-04-11,West Brom,32,25
+678,Man City,4,West Brom,2,2009-04-19,West Brom,33,25
+679,West Brom,3,Sunderland,0,2009-04-25,West Brom,34,28
+680,Spurs,1,West Brom,0,2009-05-02,West Brom,35,28
+681,West Brom,3,Wigan,1,2009-05-09,West Brom,36,31
+682,West Brom,0,Liverpool,2,2009-05-17,West Brom,37,31
+683,Blackburn,0,West Brom,0,2009-05-24,West Brom,38,32
+684,West Ham,2,Wigan,1,2008-08-16,West Ham,1,3
+685,Man City,3,West Ham,0,2008-08-24,West Ham,2,3
+686,West Ham,4,Blackburn,1,2008-08-30,West Ham,3,6
+687,West Brom,3,West Ham,2,2008-09-13,West Ham,4,6
+688,West Ham,3,Newcastle,1,2008-09-20,West Ham,5,9
+689,Fulham,1,West Ham,2,2008-09-27,West Ham,6,12
+690,West Ham,1,Bolton,3,2008-10-05,West Ham,7,12
+691,Hull,1,West Ham,0,2008-10-19,West Ham,8,12
+692,West Ham,0,Arsenal,2,2008-10-26,West Ham,9,12
+693,Man Utd,2,West Ham,0,2008-10-29,West Ham,10,12
+694,Middlesbrough,1,West Ham,1,2008-11-01,West Ham,11,13
+695,West Ham,1,Everton,3,2008-11-08,West Ham,12,13
+696,West Ham,0,Portsmouth,0,2008-11-15,West Ham,13,14
+697,Sunderland,0,West Ham,1,2008-11-23,West Ham,14,17
+698,Liverpool,0,West Ham,0,2008-12-01,West Ham,15,18
+699,West Ham,0,Spurs,2,2008-12-08,West Ham,16,18
+700,Chelsea,1,West Ham,1,2008-12-14,West Ham,17,19
+701,West Ham,0,Aston Villa,1,2008-12-20,West Ham,18,19
+702,Portsmouth,1,West Ham,4,2008-12-26,West Ham,19,22
+703,West Ham,2,Stoke,1,2008-12-28,West Ham,20,25
+704,Newcastle,2,West Ham,2,2009-01-10,West Ham,21,26
+705,West Ham,3,Fulham,1,2009-01-18,West Ham,22,29
+706,West Ham,2,Hull,0,2009-01-28,West Ham,23,32
+707,Arsenal,0,West Ham,0,2009-01-31,West Ham,24,33
+708,West Ham,0,Man Utd,1,2009-02-08,West Ham,25,33
+709,Bolton,2,West Ham,1,2009-02-21,West Ham,26,33
+710,West Ham,1,Man City,0,2009-03-01,West Ham,27,36
+711,Wigan,0,West Ham,1,2009-03-04,West Ham,28,39
+712,West Ham,0,West Brom,0,2009-03-16,West Ham,29,40
+713,Blackburn,1,West Ham,1,2009-03-21,West Ham,30,41
+714,West Ham,2,Sunderland,0,2009-04-04,West Ham,31,44
+715,Spurs,1,West Ham,0,2009-04-11,West Ham,32,44
+716,Aston Villa,1,West Ham,1,2009-04-18,West Ham,33,45
+717,West Ham,0,Chelsea,1,2009-04-25,West Ham,34,45
+718,Stoke,0,West Ham,1,2009-05-02,West Ham,35,48
+719,West Ham,0,Liverpool,3,2009-05-09,West Ham,36,48
+720,Everton,3,West Ham,1,2009-05-16,West Ham,37,48
+721,West Ham,2,Middlesbrough,1,2009-05-24,West Ham,38,51
+722,West Ham,2,Wigan,1,2008-08-16,Wigan,1,0
+723,Wigan,0,Chelsea,1,2008-08-24,Wigan,2,0
+724,Hull,0,Wigan,5,2008-08-30,Wigan,3,3
+725,Wigan,1,Sunderland,1,2008-09-13,Wigan,4,4
+726,Spurs,0,Wigan,0,2008-09-21,Wigan,5,5
+727,Wigan,2,Man City,1,2008-09-28,Wigan,6,8
+728,Wigan,0,Middlesbrough,1,2008-10-04,Wigan,7,8
+729,Liverpool,3,Wigan,2,2008-10-18,Wigan,8,8
+730,Wigan,0,Aston Villa,4,2008-10-26,Wigan,9,8
+731,Fulham,2,Wigan,0,2008-10-29,Wigan,10,8
+732,Portsmouth,1,Wigan,2,2008-11-01,Wigan,11,11
+733,Wigan,0,Stoke,0,2008-11-08,Wigan,12,12
+734,Newcastle,2,Wigan,2,2008-11-15,Wigan,13,13
+735,Wigan,1,Everton,0,2008-11-24,Wigan,14,16
+736,Wigan,2,West Brom,1,2008-11-29,Wigan,15,19
+737,Arsenal,1,Wigan,0,2008-12-06,Wigan,16,19
+738,Wigan,3,Blackburn,0,2008-12-13,Wigan,17,22
+739,Wigan,2,Newcastle,1,2008-12-26,Wigan,18,25
+740,Bolton,0,Wigan,1,2008-12-28,Wigan,19,28
+741,Wigan,1,Spurs,0,2009-01-11,Wigan,20,31
+742,Man Utd,1,Wigan,0,2009-01-14,Wigan,21,31
+743,Man City,1,Wigan,0,2009-01-17,Wigan,22,31
+744,Wigan,1,Liverpool,1,2009-01-28,Wigan,23,32
+745,Aston Villa,0,Wigan,0,2009-01-31,Wigan,24,33
+746,Wigan,0,Fulham,0,2009-02-07,Wigan,25,34
+747,Middlesbrough,0,Wigan,0,2009-02-21,Wigan,26,35
+748,Chelsea,2,Wigan,1,2009-02-28,Wigan,27,35
+749,Wigan,0,West Ham,1,2009-03-04,Wigan,28,35
+750,Sunderland,1,Wigan,2,2009-03-14,Wigan,29,38
+751,Wigan,1,Hull,0,2009-03-22,Wigan,30,41
+752,Everton,4,Wigan,0,2009-04-05,Wigan,31,41
+753,Wigan,1,Arsenal,4,2009-04-11,Wigan,32,41
+754,Blackburn,2,Wigan,0,2009-04-26,Wigan,33,41
+755,Wigan,0,Bolton,0,2009-05-02,Wigan,34,42
+756,West Brom,3,Wigan,1,2009-05-09,Wigan,35,42
+757,Wigan,1,Man Utd,2,2009-05-13,Wigan,36,42
+758,Stoke,2,Wigan,0,2009-05-16,Wigan,37,42
+759,Wigan,1,Portsmouth,0,2009-05-24,Wigan,38,45
