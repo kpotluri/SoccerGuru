@@ -2,8 +2,8 @@
 
 var holder = d3.select("#area2") // select the 'body' element
       .append("svg")           // append an SVG element to the body
-      .attr("width", 1000)      
-      .attr("height", 500);   
+      .attr("width", 1000)
+      .attr("height", 500);
 
 
 // draw a rectangle - pitch
@@ -14,7 +14,7 @@ holder.append("rect")        // attach a rectangle
     .attr("width", 1000)    // set the width
     .style("stroke-width", 5)    // set the stroke width
     .style("stroke", "#ffffff")    // set the line colour
-    .style("fill", "#9ed072");    // set the fill colour 
+    .style("fill", "#9ed072");    // set the fill colour
 
 
 // draw a rectangle - halves
@@ -25,7 +25,7 @@ holder.append("rect")        // attach a rectangle
     .attr("width", 500)    // set the width
     .style("stroke-width", 5)    // set the stroke width
     .style("stroke", "#ffffff")    // set the line colour
-    .style("fill", "#9ed072");    // set the fill colour 
+    .style("fill", "#9ed072");    // set the fill colour
 
 
 // draw a circle - center circle
@@ -46,7 +46,7 @@ holder.append("rect")        // attach a rectangle
     .attr("width", 170)    // set the width
     .style("stroke-width", 5)    // set the stroke width
     .style("stroke", "#ffffff")    // set the line colour
-    .style("fill", "#9ed072");    // set the fill colour 
+    .style("fill", "#9ed072");    // set the fill colour
 
 
 // draw a rectangle - penalty area 2
@@ -57,7 +57,7 @@ holder.append("rect")        // attach a rectangle
     .attr("width", 170)    // set the width
     .style("stroke-width", 5)    // set the stroke width
     .style("stroke", "#ffffff")    // set the line colour
-    .style("fill", "#9ed072");    // set the fill colour 
+    .style("fill", "#9ed072");    // set the fill colour
 
 // draw a rectangle - six yard box 1
 holder.append("rect")        // attach a rectangle
@@ -67,7 +67,7 @@ holder.append("rect")        // attach a rectangle
     .attr("width", 60)    // set the width
     .style("stroke-width", 5)    // set the stroke width
     .style("stroke", "#ffffff")    // set the line colour
-    .style("fill", "#9ed072");    // set the fill colour 
+    .style("fill", "#9ed072");    // set the fill colour
 
 // draw a rectangle - six yard box 2
 holder.append("rect")        // attach a rectangle
@@ -77,7 +77,7 @@ holder.append("rect")        // attach a rectangle
     .attr("width", 60)    // set the width
     .style("stroke-width", 5)    // set the stroke width
     .style("stroke", "#ffffff")    // set the line colour
-    .style("fill", "#9ed072");    // set the fill colour 
+    .style("fill", "#9ed072");    // set the fill colour
 
 
 // draw a circle - penalty spot 1
@@ -105,13 +105,13 @@ holder.append("circle")        // attach a circle
 // penalty box semi-circle 1
 // var vis = d3.select("body").append("svg")
 // var pi = Math.PI;
-    
+
 var arc = d3.svg.arc()
     .innerRadius(70)
     .outerRadius(75)
     .startAngle(0.75) //radians
     .endAngle(2.4) //just radians
-    
+
 var arc2 = d3.svg.arc()
     .innerRadius(70)
     .outerRadius(75)
@@ -157,11 +157,11 @@ var drag = d3.behavior.drag()
 //       .transition()
 //     .delay(100)
 //     .duration(1000);
-    
+
 // });
 
 function default1(){
-d3.csv("../data/dots.csv", dottype, function(error, dots) {
+d3.csv("dots.csv", dottype, function(error, dots) {
   dot = holder.append("g")
     .selectAll(".circle_players")
       .data(dots)
@@ -173,7 +173,7 @@ d3.csv("../data/dots.csv", dottype, function(error, dots) {
       .style("fill", function(d) { return color(d.team); })
       .style("stroke", function(d) { return color1(d.team); })
       .call(drag);
-    
+
 });
 
 }
@@ -185,13 +185,13 @@ default1();
 
 function formone(){
 
-d3.csv("../data/dots.csv", dottype, function(error, dots) {
+d3.csv("dots.csv", dottype, function(error, dots) {
   var dot = d3.selectAll(".circle_players").data(dots)
         .transition()
         .duration(1000)
         .attr("cx", function(d) { return d.x; })
         .attr("cy", function(d) { return d.y; });
-    
+
 });
 }
 
@@ -205,7 +205,7 @@ d3.csv("../data/dots1.csv", dottype, function(error, dots) {
         .duration(1000)
         .attr("cx", function(d) { return d.x; })
         .attr("cy", function(d) { return d.y; });
-    
+
 });
 }
 
@@ -217,7 +217,7 @@ d3.csv("../data/dots2.csv", dottype, function(error, dots) {
         .duration(1000)
         .attr("cx", function(d) { return d.x; })
         .attr("cy", function(d) { return d.y; });
-    
+
 });
 }
 
@@ -230,7 +230,7 @@ d3.csv("../data/dots3.csv", dottype, function(error, dots) {
         .duration(1000)
         .attr("cx", function(d) { return d.x; })
         .attr("cy", function(d) { return d.y; });
-    
+
 });
 }
 
@@ -267,7 +267,7 @@ function dragged(d) {
 
 function dragended(d) {
   d3.select(this)
-  .style("opacity", 1) 
+  .style("opacity", 1)
 //  .classed("dragging", false);
 ;
 }
