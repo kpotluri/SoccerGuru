@@ -199,7 +199,7 @@ d3.csv("dots.csv", dottype, function(error, dots) {
 
 function formtwo(){
 
-d3.csv("../data/dots1.csv", dottype, function(error, dots) {
+d3.csv("dots1.csv", dottype, function(error, dots) {
   var dot = d3.selectAll(".circle_players").data(dots)
         .transition()
         .duration(1000)
@@ -211,7 +211,7 @@ d3.csv("../data/dots1.csv", dottype, function(error, dots) {
 
 function formthree(){
 
-d3.csv("../data/dots2.csv", dottype, function(error, dots) {
+d3.csv("dots2.csv", dottype, function(error, dots) {
   var dot = d3.selectAll(".circle_players").data(dots)
         .transition()
         .duration(1000)
@@ -224,7 +224,7 @@ d3.csv("../data/dots2.csv", dottype, function(error, dots) {
 
 function formfour(){
 
-d3.csv("../data/dots3.csv", dottype, function(error, dots) {
+d3.csv("dots3.csv", dottype, function(error, dots) {
   var dot = d3.selectAll(".circle_players").data(dots)
         .transition()
         .duration(1000)
